@@ -12,16 +12,20 @@ class ConcreteEngineer extends AbstractEngineer {
     designation: string;
     base: string;
     
-    constructor(name: string, designation: string, base: string){
-     this.name = name; 
-     this.designation = designation; 
-     this.base = base; 
+    constructor(name: string, designation: string, base: string) {
+        super();
+        this.name = name; 
+        this.designation = designation; 
+        this.base = base; 
     }
     
     public me() {
-      console.log(`me : ${this.name} - ${this.designation} - ${this.base}.`)
+      console.log(`I'm ${this.name}, a ${this.designation} who's been living in ${this.base}.`)
     }
 
 }
+
+const engineer = new ConcreteEngineer('Maxime Golfier', 'Software Engineer', 'Paris, France');
+engineer.me();
 
 ```
