@@ -18,7 +18,7 @@ class ConcreteEngineer extends AbstractEngineer {
      this.base = base; 
     }
     
-    me() {
+    public me() {
       console.log(`me : ${this.name} - ${this.designation} - ${this.base}.`)
     }
 
