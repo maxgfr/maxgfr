@@ -1,4 +1,27 @@
-<div align="center">
-  <p>Hi there 🖖</p>
-  <img src="https://github.com/maxgfr/maxgfr/blob/master/coding.gif" style="width: 100%;height: auto;"/>
-</div>
+## Hi there 🖖
+
+```typescript
+
+abstract class AbstractEngineer {
+    protected coding(): void {}
+}
+
+
+class ConcreteEngineer extends AbstractEngineer {
+    name: string;
+    designation: string;
+    base: string;
+    
+    constructor(name: string, designation: string, base: string){
+     this.name = name; 
+     this.designation = designation; 
+     this.base = base; 
+    }
+    
+    me() {
+      console.log(`me : ${this.name} - ${this.designation} - ${this.base}.`)
+    }
+
+}
+
+```
