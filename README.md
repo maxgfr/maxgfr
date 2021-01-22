@@ -11,18 +11,18 @@ abstract class AbstractEngineer {
 
 
 class ConcreteEngineer extends AbstractEngineer {
-    name: string;
-    designation: string;
-    base: string;
+    _name: string;
+    _designation: string;
+    _base: string;
     
     constructor(name: string, designation: string, base: string) {
         super();
-        this.name = name; 
-        this.designation = designation; 
-        this.base = base; 
+        this._name = name; 
+        this._designation = designation; 
+        this._base = base; 
     }
     
-    public me() {
+    public me(): void {
       console.log(`I'm ${this.name}, a ${this.designation} who's been living in ${this.base}.`)
     }
 
