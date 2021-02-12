@@ -13,17 +13,17 @@ abstract class AbstractEngineer {
 class ConcreteEngineer extends AbstractEngineer {
     private name: string;
     private designation: string;
-    private base: string;
+    private location: string;
     
-    constructor(name: string, designation: string, base: string) {
+    constructor(name: string, designation: string, location: string) {
         super();
         this.name = name; 
         this.designation = designation; 
-        this.base = base; 
+        this.location = location; 
     }
     
     public me(): void {
-      console.log(`I'm ${this.name}, a ${this.designation} who's been living in ${this.base}.`)
+      console.log(`I'm ${this.name}, a ${this.designation} who's been living in ${this.location}.`)
     }
 
 }
