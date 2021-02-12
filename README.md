@@ -11,15 +11,15 @@ abstract class AbstractEngineer {
 
 
 class ConcreteEngineer extends AbstractEngineer {
-    _name: string;
-    _designation: string;
-    _base: string;
+    name: string;
+    designation: string;
+    base: string;
     
     constructor(name: string, designation: string, base: string) {
         super();
-        this._name = name; 
-        this._designation = designation; 
-        this._base = base; 
+        this.name = name; 
+        this.designation = designation; 
+        this.base = base; 
     }
     
     public me(): void {
