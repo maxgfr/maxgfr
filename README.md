@@ -11,9 +11,9 @@ abstract class AbstractEngineer {
 
 
 class ConcreteEngineer extends AbstractEngineer {
-    name: string;
-    designation: string;
-    base: string;
+    private name: string;
+    private designation: string;
+    private base: string;
     
     constructor(name: string, designation: string, base: string) {
         super();
