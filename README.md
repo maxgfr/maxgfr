@@ -32,5 +32,3 @@ const engineer = new ConcreteEngineer('Maxime Golfier', 'Software Engineer', 'Pa
 engineer.me();
 
 ```
-![Maxime's github stats](https://github-readme-stats.vercel.app/api?username=maxgfr&show_icons=true&theme=nightowl)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=maxgfr&theme=nightowl)
