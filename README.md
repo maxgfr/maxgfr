@@ -35,7 +35,6 @@ engineer.me();
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=maxgfr&show_icons=true&hide_border=true&theme=nightowl&include_all_commits=true&count_private=true", width="400"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=maxgfr&layout=compact&theme=nightowl&hide_border=true", width="325"/> <br>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=maxgfr&layout=compact&theme=nightowl&hide_border=true", width="400"/> <br>
 </p>
 
-![Maxime's github stats](https://github-readme-stats.vercel.app/api?username=maxgfr&show_icons=true&theme=nightowl&count_private=true)
