@@ -37,9 +37,3 @@ engineer.me();
   <img src="https://github-readme-stats.vercel.app/api?username=maxgfr&show_icons=true&hide_border=true&theme=nightowl&include_all_commits=true&count_private=true", width="400"/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=maxgfr&layout=compact&theme=nightowl&hide_border=true", width="335"/> <br>
 </p>
-
-  
-![](https://raw.githubusercontent.com/maxgfr/github-stats/master/generated/overview.svg)
-![](https://github.com/maxgfr/github-stats/blob/master/generated/languages.svg)
-
-
