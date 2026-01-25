@@ -1,9 +1,5 @@
 # Hi there 👋
 
-[![Website](https://img.shields.io/badge/-Website-4285F4?style=for-the-badge&logoColor=white&link=https://maxgfr.github.io/)](https://maxgfr.github.io/)
-[![Linkedin](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logoColor=white&link=https://www.linkedin.com/in/maxime-golfier/)](https://www.linkedin.com/in/maxime-golfier/)
-[![Stack Overflow](https://img.shields.io/badge/-Stack%20Overflow-F58025?style=for-the-badge&logoColor=white&link=https://stackoverflow.com/users/6491071/maxime)](https://stackoverflow.com/users/6491071/maxime)
-
 ```typescript
 
 abstract class AbstractEngineer {
