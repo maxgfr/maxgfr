@@ -31,7 +31,7 @@ class ConcreteEngineer extends AbstractEngineer {
     }
     
     public whatIDo(): void {
-        console.log('Building elegant solutions to complex problems...');
+        console.log('Trying to leave the codebase better than I found it.');
     }
 
 }
