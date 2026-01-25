@@ -1,4 +1,4 @@
-# Hi there, I'm Maxime Golfier
+# Hi there 👋
 
 [![Website](https://img.shields.io/badge/-Website-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white&link=https://maxgfr.github.io/)](https://maxgfr.github.io/)
 [![Linkedin](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/maxime-golfier/)](https://www.linkedin.com/in/maxime-golfier/)
