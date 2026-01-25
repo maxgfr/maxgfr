@@ -1,8 +1,10 @@
-# 👋 Hi there, I'm Maxime Golfier
+# Hi there, I'm Maxime Golfier
 
----
+[![Website](https://img.shields.io/badge/-Website-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white&link=https://maxgfr.github.io/)](https://maxgfr.github.io/)
+[![Linkedin](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/maxime-golfier/)](https://www.linkedin.com/in/maxime-golfier/)
+[![Stack Overflow](https://img.shields.io/badge/-Stack%20Overflow-F58025?style=for-the-badge&logo=stack-overflow&logoColor=white&link=https://stackoverflow.com/users/6491071/maxime)](https://stackoverflow.com/users/6491071/maxime)
 
-## 🚀 About Me
+## About Me
 
 ```typescript
 
@@ -47,18 +49,4 @@ engineer.whatIDo();
 
 ```
 
----
-
-## 🌐 Connect With Me
-
-[![Website](https://img.shields.io/badge/-Website-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white&link=https://maxgfr.github.io/)](https://maxgfr.github.io/)
-[![Linkedin](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/maxime-golfier/)](https://www.linkedin.com/in/maxime-golfier/)
-[![Stack Overflow](https://img.shields.io/badge/-Stack%20Overflow-F58025?style=for-the-badge&logo=stack-overflow&logoColor=white&link=https://stackoverflow.com/users/6491071/maxime)](https://stackoverflow.com/users/6491071/maxime)
-
----
-
-## 📊 GitHub Stats
-
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=maxgfr&show_icons=true&theme=default)
-
----
