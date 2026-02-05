@@ -42,5 +42,3 @@ engineer.me();
 engineer.whatIDo();
 
 ```
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=maxgfr&show_icons=true&theme=default)
