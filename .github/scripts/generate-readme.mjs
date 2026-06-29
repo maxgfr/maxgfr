@@ -45,7 +45,8 @@ function linkLabel(url) {
 }
 
 function bullet(repo) {
-  const desc = (CONFIG.descriptions || {})[repo.name] || repo.description || 'No description.';
+  const d = (CONFIG.descriptions || {})[repo.name];
+  const desc = (d && d.en) || repo.description || 'No description.';
   let line = `- **[${repo.name}](${repo.html_url})** — ${desc.trim()}`;
   const hp = (repo.homepage || '').trim();
   if (hp) line += ` · [${linkLabel(hp)}](${hp})`;
@@ -69,14 +70,14 @@ function renderProjects(repos) {
       used.add(name);
       lines.push(bullet(r));
     }
-    if (lines.length) out.push(details(cat.title, lines));
+    if (lines.length) out.push(details(cat.title_en, lines));
   }
   // any owned public repo not placed in a category → surfaced, never dropped
   const leftover = repos
     .filter((r) => !used.has(r.name))
     .sort((a, b) => b.stargazers_count - a.stargazers_count);
   if (leftover.length) {
-    out.push(details(CONFIG.fallbackTitle || '🆕 Uncategorized', leftover.map(bullet)));
+    out.push(details((CONFIG.fallback && CONFIG.fallback.en) || '🆕 Uncategorized', leftover.map(bullet)));
   }
   return { md: out.join('\n\n'), count: used.size + leftover.length };
 }
