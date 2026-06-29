@@ -10,6 +10,7 @@ abstract class AbstractEngineer {
     protected problemSolving(): void {}
 }
 
+
 class ConcreteEngineer extends AbstractEngineer {
     private name: string;
     private designation: string;
@@ -46,13 +47,26 @@ engineer.whatIDo();
 
 ## 📊 GitHub stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=maxgfr&show_icons=true&count_private=false&theme=default" alt="maxgfr's GitHub stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=maxgfr&layout=compact&theme=default" alt="maxgfr's top languages" height="165" />
-</p>
+<!-- STATS:START -->
+**📦 58 public repos** · **⭐ 286 stars** · **🧰 13 languages**
+
+| Language | | Share |
+|:--|:--|--:|
+| **TypeScript** | `████████░░░░░░░░░░░░` | 41.8% |
+| **JavaScript** | `██████░░░░░░░░░░░░░░` | 31.3% |
+| **HTML** | `██░░░░░░░░░░░░░░░░░░` | 10.2% |
+| **Shell** | `█░░░░░░░░░░░░░░░░░░░` | 6.2% |
+| **Rust** | `█░░░░░░░░░░░░░░░░░░░` | 5.7% |
+| **Go** | `█░░░░░░░░░░░░░░░░░░░` | 3.9% |
+| **CSS** | `█░░░░░░░░░░░░░░░░░░░` | 0.6% |
+| **Ruby** | `█░░░░░░░░░░░░░░░░░░░` | 0.1% |
+<!-- STATS:END -->
 
 ## 🚀 Projects
 
+<sub>Auto-generated daily from my public repositories — see [`.github/workflows/update-readme.yml`](.github/workflows/update-readme.yml).</sub>
+
+<!-- PROJECTS:START -->
 ### 🤖 AI & dev tooling
 
 - **[ultradoc](https://github.com/maxgfr/ultradoc)** — Grounded Q&A + citation-checked reference docs for any OSS project, from its real source, issues & PRs.
@@ -134,3 +148,4 @@ engineer.whatIDo();
 - **[homebrew-tap](https://github.com/maxgfr/homebrew-tap)** — Homebrew tap for my CLI tools (`brew install maxgfr/tap/…`).
 - **[michel-golfier](https://github.com/maxgfr/michel-golfier)** — Source of a writer's website. · [site](https://www.michelgolfier.fr)
 - **[maxgfr.github.io](https://github.com/maxgfr/maxgfr.github.io)** — Source of my personal website. · [demo](https://maxgfr.github.io/)
+<!-- PROJECTS:END -->

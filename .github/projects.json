@@ -1,0 +1,99 @@
+{
+  "_comment": "Curated categories + descriptions for the profile README. The generator (.github/scripts/generate-readme.mjs) fills the <!-- PROJECTS --> / <!-- STATS --> blocks in README.md from the live GitHub API. Add a new repo's name to a category here to place it; any owned public repo NOT listed appears automatically under '🆕 Uncategorized'. A description here overrides the repo's GitHub description.",
+  "fallbackTitle": "🆕 Uncategorized",
+  "exclude": ["maxgfr"],
+  "categories": [
+    {
+      "title": "🤖 AI & dev tooling",
+      "repos": ["ultradoc", "ultraindex", "ultrasearch", "ultrasec", "ultra11y", "construct", "reconstruct", "feelc", "conforme", "claudfeine", "claude-code-switch", "git-pilot", "git-recap", "llm-models"]
+    },
+    {
+      "title": "🛠️ CLIs & system tools",
+      "repos": ["andro", "brutifi", "rshc", "subtool", "snatch", "web-watcher", "package-checker.sh", "github-helpers", "copyable-pdf", "ratio-master", "unsleep"]
+    },
+    {
+      "title": "🌐 Web apps & PWAs",
+      "repos": ["csv-ai-analyzer", "db-schema-viewer", "real-estate-calculator", "loyalty-card-vault", "omnilingo", "feedreel"]
+    },
+    {
+      "title": "📈 Trading & finance",
+      "repos": ["binance-historical", "ai-strategy-backtester", "supertrend"]
+    },
+    {
+      "title": "📦 npm libraries & utilities",
+      "repos": ["regressio", "similarities", "condorcet-winner", "benford-law", "gaussian-helper", "node-simple-context", "react-essentials-functions", "ts-essentials-functions", "rn-date", "rn-simple-modal", "huge-async-storage", "insta-who-unfollowed-me", "release-notes-finder", "api-money-node-sdk"]
+    },
+    {
+      "title": "⚙️ GitHub Actions",
+      "repos": ["github-change-json", "github-commit-push-file", "github-multi-deployments"]
+    },
+    {
+      "title": "🚀 Starters & templates",
+      "repos": ["typescript-swc-starter", "typescript-react-lib-swc"]
+    },
+    {
+      "title": "🧩 Other",
+      "repos": ["leboncoin-cdp", "awesome-stars", "homebrew-tap", "michel-golfier", "maxgfr.github.io"]
+    }
+  ],
+  "descriptions": {
+    "ultradoc": "Grounded Q&A + citation-checked reference docs for any OSS project, from its real source, issues & PRs.",
+    "ultraindex": "Indexes a whole repo into an AI-navigable encyclopedia (map + per-module entries + link-graph) for huge codebases.",
+    "ultrasearch": "Keyless multi-backend web research → citation-checked, tiered Markdown/HTML report (5 modes + deep-research tier).",
+    "ultrasec": "Cross-file security-audit agent: source→sink taint + Trivy/Semgrep/gitleaks/osv, adversarially verified into a cited report.",
+    "ultra11y": "Audits HTML/CSS/JSX for RGAA 4.1.2 + WCAG 2.1/2.2 AA with a zero-dependency static engine + agent judgment.",
+    "construct": "Turns a product idea into a grounded, buildable SRD/PRD suite (skills.sh agent skill).",
+    "reconstruct": "Analyzes any repo and generates reconstruction PRDs to rebuild it from scratch.",
+    "feelc": "AI-native DMN/FEEL business-rules engine in Go: an LLM writes the rules, the engine proves & runs them deterministically (WASM playground).",
+    "conforme": "Syncs your AI coding config (rules, skills, agents, MCP servers) across Claude Code, Cursor & more (Rust).",
+    "claudfeine": "Runs Claude Code (and Codex) caffeinated — keeps the machine awake for exactly the session, cross-platform & zero-dep.",
+    "claude-code-switch": "Zero-dependency provider switching for Claude Code (Anthropic, OpenRouter, DeepSeek, Z.AI, Kimi, Qwen…).",
+    "git-pilot": "AI-powered git automation: smart commits, conflict resolution & auto-rebase (Claude/Codex/OpenAI/Gemini/Mistral). Pure Bash.",
+    "git-recap": "Monthly commit-recap generator with AI summaries, bullet points and commit lists.",
+    "llm-models": "Fetches the latest LLM models from the OpenRouter and models.dev APIs.",
+    "andro": "Run Android apps (phone & TV) from the macOS CLI on a disposable, self-contained emulator (Apple Silicon, HVF). (Rust)",
+    "brutifi": "High-performance WiFi security-testing tool in Rust for educational and authorized audits.",
+    "rshc": "Rust reimplementation of SHC: encrypts shell scripts into compiled binaries.",
+    "subtool": "All-in-one subtitle CLI: download, translate, convert, sync, clean, merge, fix, extract & embed.",
+    "snatch": "Universal video downloader: yt-dlp first, CDP browser extraction fallback for stubborn sites.",
+    "web-watcher": "Bash watcher for APIs & websites with diff detection, thresholds and instant notifications.",
+    "package-checker.sh": "Scans node/bun/deno projects for vulnerable npm packages via OSV/GHSA (JSON/CSV/PURL/SBOM/SARIF/TRIVY).",
+    "github-helpers": "GitHub maintenance toolkit: bulk unstar, org clone, fork cleanup, repo audit and more.",
+    "copyable-pdf": "Converts scanned PDFs into searchable, copyable PDFs with Tesseract OCR (parallel).",
+    "ratio-master": "Torrent ratio tool that sends real HTTP announce requests to BitTorrent trackers.",
+    "unsleep": "Tiny executable that prevents the machine from sleeping.",
+    "csv-ai-analyzer": "Self-hosted, browser-based AI CSV analyzer.",
+    "db-schema-viewer": "Client-side DB-schema visualizer with AI analysis — upload SQL, visualize, share, export, no backend.",
+    "real-estate-calculator": "Real-estate ROI calculator for rental-property profitability.",
+    "loyalty-card-vault": "Offline-first PWA for loyalty cards with encrypted storage and barcode scanning.",
+    "omnilingo": "Desktop language-learning app with multi-provider AI tutoring.",
+    "feedreel": "Local-first daily short-video generator (Remotion) with per-platform captions + opt-in Shorts/TikTok/Reels publishing.",
+    "binance-historical": "Fetch historical klines from the Binance API.",
+    "ai-strategy-backtester": "Describe a crypto strategy in plain English → JSON strategy, backtested over 50+ indicators with HTML reports.",
+    "supertrend": "Implementation of the SuperTrend indicator.",
+    "regressio": "Zero-dep TS regression/classification/stats (OLS, Ridge, Lasso, Logistic, KNN, NN) with a Rust/WASM engine.",
+    "similarities": "Functions to find similarities between arrays.",
+    "condorcet-winner": "Condorcet vote algorithm in TypeScript.",
+    "benford-law": "Check whether a dataset follows Benford's law.",
+    "gaussian-helper": "Helpers for Gaussian calculations.",
+    "node-simple-context": "Minimalist context for Node, inspired by the React Context API.",
+    "react-essentials-functions": "Useful hooks and components for React.",
+    "ts-essentials-functions": "Essential zero-dependency TypeScript helpers.",
+    "rn-date": "Zero-dependency fix for date-parsing issues in React Native on Android.",
+    "rn-simple-modal": "Lightweight, zero-dependency React Native modal (no animation).",
+    "huge-async-storage": "async-storage wrapper for storing huge data in React Native.",
+    "insta-who-unfollowed-me": "Track who unfollowed you on Instagram.",
+    "release-notes-finder": "Find npm-package versions with their GitHub release notes.",
+    "api-money-node-sdk": "Unofficial Node SDK for api-money.com.",
+    "github-change-json": "Action to change a value in a JSON file (e.g. package.json).",
+    "github-commit-push-file": "Action to commit and push a file to a repository.",
+    "github-multi-deployments": "Action to manage deployment statuses across multiple environments.",
+    "typescript-swc-starter": "Minimalist TypeScript + SWC starter emitting CJS and ESM packages.",
+    "typescript-react-lib-swc": "Minimalist TS + SWC starter for building React component libraries.",
+    "leboncoin-cdp": "Undetectable Leboncoin scraper via Chrome DevTools Protocol & Next.js data routes — no Puppeteer, zero bot detection.",
+    "awesome-stars": "Curated list of repositories I've liked on GitHub.",
+    "homebrew-tap": "Homebrew tap for my CLI tools (`brew install maxgfr/tap/…`).",
+    "michel-golfier": "Source of a writer's website.",
+    "maxgfr.github.io": "Source of my personal website."
+  }
+}
