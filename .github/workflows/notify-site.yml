@@ -1,0 +1,28 @@
+name: Notify site of project changes
+
+# When the canonical projects config changes here, ping maxgfr.github.io so its
+# "Update projects page" workflow runs immediately (instead of waiting for its
+# daily schedule). Requires a repo secret SITE_DISPATCH_TOKEN: a token with
+# write access to maxgfr/maxgfr.github.io (fine-grained PAT, Contents: RW, scoped
+# to that repo — or a classic PAT with the `repo` scope).
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - ".github/projects.json"
+  workflow_dispatch: {} # lets you trigger the ping manually too
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    env:
+      SITE_DISPATCH_TOKEN: ${{ secrets.SITE_DISPATCH_TOKEN }}
+    steps:
+      - name: Trigger website projects update
+        if: ${{ env.SITE_DISPATCH_TOKEN != '' }} # skip cleanly until the secret is set
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ env.SITE_DISPATCH_TOKEN }}
+          repository: maxgfr/maxgfr.github.io
+          event-type: projects-config-updated
