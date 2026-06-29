@@ -67,7 +67,8 @@ engineer.whatIDo();
 <sub>Auto-generated daily from my public repositories — see [`.github/workflows/update-readme.yml`](.github/workflows/update-readme.yml).</sub>
 
 <!-- PROJECTS:START -->
-### 🤖 AI & dev tooling
+<details>
+<summary><strong>🤖 AI & dev tooling</strong> · 14</summary>
 
 - **[ultradoc](https://github.com/maxgfr/ultradoc)** — Grounded Q&A + citation-checked reference docs for any OSS project, from its real source, issues & PRs.
 - **[ultraindex](https://github.com/maxgfr/ultraindex)** — Indexes a whole repo into an AI-navigable encyclopedia (map + per-module entries + link-graph) for huge codebases.
@@ -84,7 +85,10 @@ engineer.whatIDo();
 - **[git-recap](https://github.com/maxgfr/git-recap)** — Monthly commit-recap generator with AI summaries, bullet points and commit lists.
 - **[llm-models](https://github.com/maxgfr/llm-models)** — Fetches the latest LLM models from the OpenRouter and models.dev APIs. · [npm](https://www.npmjs.com/package/llm-models)
 
-### 🛠️ CLIs & system tools
+</details>
+
+<details>
+<summary><strong>🛠️ CLIs & system tools</strong> · 11</summary>
 
 - **[andro](https://github.com/maxgfr/andro)** — Run Android apps (phone & TV) from the macOS CLI on a disposable, self-contained emulator (Apple Silicon, HVF). (Rust)
 - **[brutifi](https://github.com/maxgfr/brutifi)** — High-performance WiFi security-testing tool in Rust for educational and authorized audits.
@@ -98,7 +102,10 @@ engineer.whatIDo();
 - **[ratio-master](https://github.com/maxgfr/ratio-master)** — Torrent ratio tool that sends real HTTP announce requests to BitTorrent trackers.
 - **[unsleep](https://github.com/maxgfr/unsleep)** — Tiny executable that prevents the machine from sleeping. · [npm](https://www.npmjs.com/package/unsleep)
 
-### 🌐 Web apps & PWAs
+</details>
+
+<details>
+<summary><strong>🌐 Web apps & PWAs</strong> · 6</summary>
 
 - **[csv-ai-analyzer](https://github.com/maxgfr/csv-ai-analyzer)** — Self-hosted, browser-based AI CSV analyzer. · [demo](https://maxgfr.github.io/csv-ai-analyzer)
 - **[db-schema-viewer](https://github.com/maxgfr/db-schema-viewer)** — Client-side DB-schema visualizer with AI analysis — upload SQL, visualize, share, export, no backend. · [demo](https://maxgfr.github.io/db-schema-viewer/)
@@ -107,13 +114,19 @@ engineer.whatIDo();
 - **[omnilingo](https://github.com/maxgfr/omnilingo)** — Desktop language-learning app with multi-provider AI tutoring.
 - **[feedreel](https://github.com/maxgfr/feedreel)** — Local-first daily short-video generator (Remotion) with per-platform captions + opt-in Shorts/TikTok/Reels publishing.
 
-### 📈 Trading & finance
+</details>
+
+<details>
+<summary><strong>📈 Trading & finance</strong> · 3</summary>
 
 - **[binance-historical](https://github.com/maxgfr/binance-historical)** — Fetch historical klines from the Binance API. · [npm](https://www.npmjs.com/package/binance-historical)
 - **[ai-strategy-backtester](https://github.com/maxgfr/ai-strategy-backtester)** — Describe a crypto strategy in plain English → JSON strategy, backtested over 50+ indicators with HTML reports.
 - **[supertrend](https://github.com/maxgfr/supertrend)** — Implementation of the SuperTrend indicator. · [npm](https://www.npmjs.com/package/supertrend)
 
-### 📦 npm libraries & utilities
+</details>
+
+<details>
+<summary><strong>📦 npm libraries & utilities</strong> · 14</summary>
 
 - **[regressio](https://github.com/maxgfr/regressio)** — Zero-dep TS regression/classification/stats (OLS, Ridge, Lasso, Logistic, KNN, NN) with a Rust/WASM engine. · [npm](https://www.npmjs.com/package/regressio)
 - **[similarities](https://github.com/maxgfr/similarities)** — Functions to find similarities between arrays. · [npm](https://www.npmjs.com/package/similarities)
@@ -130,22 +143,33 @@ engineer.whatIDo();
 - **[release-notes-finder](https://github.com/maxgfr/release-notes-finder)** — Find npm-package versions with their GitHub release notes. · [demo](https://maxgfr.github.io/release-notes-finder)
 - **[api-money-node-sdk](https://github.com/maxgfr/api-money-node-sdk)** — Unofficial Node SDK for api-money.com. · [npm](https://www.npmjs.com/package/api-money-node-sdk)
 
-### ⚙️ GitHub Actions
+</details>
+
+<details>
+<summary><strong>⚙️ GitHub Actions</strong> · 3</summary>
 
 - **[github-change-json](https://github.com/maxgfr/github-change-json)** — Action to change a value in a JSON file (e.g. package.json). · [marketplace](https://github.com/marketplace/actions/github-change-json)
 - **[github-commit-push-file](https://github.com/maxgfr/github-commit-push-file)** — Action to commit and push a file to a repository. · [marketplace](https://github.com/marketplace/actions/github-commit-push-file)
 - **[github-multi-deployments](https://github.com/maxgfr/github-multi-deployments)** — Action to manage deployment statuses across multiple environments. · [marketplace](https://github.com/marketplace/actions/github-multi-deployments)
 
-### 🚀 Starters & templates
+</details>
+
+<details>
+<summary><strong>🚀 Starters & templates</strong> · 2</summary>
 
 - **[typescript-swc-starter](https://github.com/maxgfr/typescript-swc-starter)** — Minimalist TypeScript + SWC starter emitting CJS and ESM packages. · [npm](https://www.npmjs.com/package/typescript-swc-starter)
 - **[typescript-react-lib-swc](https://github.com/maxgfr/typescript-react-lib-swc)** — Minimalist TS + SWC starter for building React component libraries. · [demo](https://maxgfr.github.io/typescript-react-lib-swc)
 
-### 🧩 Other
+</details>
+
+<details>
+<summary><strong>🧩 Other</strong> · 5</summary>
 
 - **[leboncoin-cdp](https://github.com/maxgfr/leboncoin-cdp)** — Undetectable Leboncoin scraper via Chrome DevTools Protocol & Next.js data routes — no Puppeteer, zero bot detection.
 - **[awesome-stars](https://github.com/maxgfr/awesome-stars)** — Curated list of repositories I've liked on GitHub.
 - **[homebrew-tap](https://github.com/maxgfr/homebrew-tap)** — Homebrew tap for my CLI tools (`brew install maxgfr/tap/…`).
 - **[michel-golfier](https://github.com/maxgfr/michel-golfier)** — Source of a writer's website. · [site](https://www.michelgolfier.fr)
 - **[maxgfr.github.io](https://github.com/maxgfr/maxgfr.github.io)** — Source of my personal website. · [demo](https://maxgfr.github.io/)
+
+</details>
 <!-- PROJECTS:END -->

@@ -52,6 +52,11 @@ function bullet(repo) {
   return line;
 }
 
+// Collapsed-by-default category so the README stays short; expand to browse.
+function details(title, lines) {
+  return `<details>\n<summary><strong>${title}</strong> · ${lines.length}</summary>\n\n${lines.join('\n')}\n\n</details>`;
+}
+
 function renderProjects(repos) {
   const byName = new Map(repos.map((r) => [r.name, r]));
   const used = new Set();
@@ -64,14 +69,14 @@ function renderProjects(repos) {
       used.add(name);
       lines.push(bullet(r));
     }
-    if (lines.length) out.push(`### ${cat.title}\n\n${lines.join('\n')}`);
+    if (lines.length) out.push(details(cat.title, lines));
   }
   // any owned public repo not placed in a category → surfaced, never dropped
   const leftover = repos
     .filter((r) => !used.has(r.name))
     .sort((a, b) => b.stargazers_count - a.stargazers_count);
   if (leftover.length) {
-    out.push(`### ${CONFIG.fallbackTitle || '🆕 Uncategorized'}\n\n${leftover.map(bullet).join('\n')}`);
+    out.push(details(CONFIG.fallbackTitle || '🆕 Uncategorized', leftover.map(bullet)));
   }
   return { md: out.join('\n\n'), count: used.size + leftover.length };
 }
