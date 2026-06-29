@@ -45,23 +45,6 @@ engineer.whatIDo();
 
 ```
 
-## 📊 GitHub stats
-
-<!-- STATS:START -->
-**📦 58 public repos** · **⭐ 286 stars** · **🧰 13 languages**
-
-| Language | | Share |
-|:--|:--|--:|
-| **TypeScript** | `████████░░░░░░░░░░░░` | 41.8% |
-| **JavaScript** | `██████░░░░░░░░░░░░░░` | 31.3% |
-| **HTML** | `██░░░░░░░░░░░░░░░░░░` | 10.2% |
-| **Shell** | `█░░░░░░░░░░░░░░░░░░░` | 6.2% |
-| **Rust** | `█░░░░░░░░░░░░░░░░░░░` | 5.7% |
-| **Go** | `█░░░░░░░░░░░░░░░░░░░` | 3.9% |
-| **CSS** | `█░░░░░░░░░░░░░░░░░░░` | 0.6% |
-| **Ruby** | `█░░░░░░░░░░░░░░░░░░░` | 0.1% |
-<!-- STATS:END -->
-
 ## 🚀 Projects
 
 <sub>Auto-generated daily from my public repositories — see [`.github/workflows/update-readme.yml`](.github/workflows/update-readme.yml).</sub>

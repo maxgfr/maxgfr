@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-// Regenerates the <!-- STATS --> and <!-- PROJECTS --> blocks in README.md from
-// the live GitHub API. Zero dependencies (Node 18+ global fetch). Driven by
+// Regenerates the <!-- PROJECTS --> block in README.md from the live GitHub
+// API. Zero dependencies (Node 18+ global fetch). Driven by
 // .github/projects.json. Run locally or from .github/workflows/update-readme.yml.
 import { readFileSync, writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
@@ -81,26 +81,6 @@ function renderProjects(repos) {
   return { md: out.join('\n\n'), count: used.size + leftover.length };
 }
 
-async function renderStats(repos) {
-  const totalStars = repos.reduce((a, r) => a + r.stargazers_count, 0);
-  const langBytes = {};
-  for (const r of repos) {
-    const langs = await gh(`/repos/${USER}/${r.name}/languages`);
-    for (const [k, v] of Object.entries(langs)) langBytes[k] = (langBytes[k] || 0) + v;
-  }
-  const total = Object.values(langBytes).reduce((a, v) => a + v, 0) || 1;
-  const top = Object.entries(langBytes).sort((a, b) => b[1] - a[1]).slice(0, 8);
-  const rows = top.map(([lang, bytes]) => {
-    const pct = (bytes / total) * 100;
-    const filled = Math.max(1, Math.round(pct / 5)); // 20-cell bar
-    const bar = '█'.repeat(filled) + '░'.repeat(20 - filled);
-    return `| **${lang}** | \`${bar}\` | ${pct.toFixed(1)}% |`;
-  });
-  const summary = `**📦 ${repos.length} public repos** · **⭐ ${totalStars} stars** · **🧰 ${Object.keys(langBytes).length} languages**`;
-  const table = ['| Language | | Share |', '|:--|:--|--:|', ...rows].join('\n');
-  return `${summary}\n\n${table}`;
-}
-
 function replaceBlock(text, name, content) {
   const re = new RegExp(`(<!-- ${name}:START -->)[\\s\\S]*?(<!-- ${name}:END -->)`);
   if (!re.test(text)) throw new Error(`Marker block "${name}" not found in README.md`);
@@ -110,10 +90,8 @@ function replaceBlock(text, name, content) {
 async function main() {
   const repos = await allOwnedRepos();
   const projects = renderProjects(repos);
-  const stats = await renderStats(repos);
 
   let readme = readFileSync(README_PATH, 'utf8');
-  readme = replaceBlock(readme, 'STATS', stats);
   readme = replaceBlock(readme, 'PROJECTS', projects.md);
   writeFileSync(README_PATH, readme);
 
