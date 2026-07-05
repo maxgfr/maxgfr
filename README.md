@@ -1,7 +1,5 @@
 # Hi there 👋
 
-> Software engineer — Rust & TypeScript. I build AI dev-tooling, CLIs, web apps and open-source libraries.
-
 ```typescript
 
 abstract class AbstractEngineer {
