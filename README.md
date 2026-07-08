@@ -153,4 +153,11 @@ engineer.whatIDo();
 - **[maxgfr.github.io](https://github.com/maxgfr/maxgfr.github.io)** — Source of my personal website. · [demo](https://maxgfr.github.io/)
 
 </details>
+
+<details>
+<summary><strong>🆕 Uncategorized</strong> · 1</summary>
+
+- **[ultraeval](https://github.com/maxgfr/ultraeval)** — Evaluate a skill or codebase with a multi-agent workflow, ground every finding in a real file:line, and generate an AI-exploitable TDD fix backlog. A skills.sh agent skill.
+
+</details>
 <!-- PROJECTS:END -->
