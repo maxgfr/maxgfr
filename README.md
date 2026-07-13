@@ -160,4 +160,11 @@ engineer.whatIDo();
 - **[maxgfr.github.io](https://github.com/maxgfr/maxgfr.github.io)** — Source of my personal website. · [demo](https://maxgfr.github.io/)
 
 </details>
+
+<details>
+<summary><strong>🆕 Uncategorized</strong> · 1</summary>
+
+- **[crible](https://github.com/maxgfr/crible)** — Self-hosted fundamental stock screener — 161k equities, zero API keys forever, transparent Piotroski/Altman/Beneish scores with full data provenance, DuckDB-fast (full-universe screens in <1s). · [demo](https://maxgfr.github.io/crible/)
+
+</details>
 <!-- PROJECTS:END -->
