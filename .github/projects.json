@@ -12,7 +12,7 @@
     {
       "title_fr": "🤖 IA & outils de dev",
       "title_en": "🤖 AI & dev tooling",
-      "repos": ["feelc", "conforme", "claudfeine", "claude-code-switch", "git-pilot", "git-recap", "llm-models"]
+      "repos": ["feelc", "conforme", "secretgate", "claudfeine", "claude-code-switch", "git-pilot", "git-recap", "llm-models"]
     },
     {
       "title_fr": "🛠️ CLIs & outils système",
@@ -22,17 +22,17 @@
     {
       "title_fr": "🌐 Applications web & PWA",
       "title_en": "🌐 Web apps & PWAs",
-      "repos": ["csv-ai-analyzer", "db-schema-viewer", "real-estate-calculator", "loyalty-card-vault", "omnilingo", "feedreel"]
+      "repos": ["csv-ai-analyzer", "db-schema-viewer", "real-estate-calculator", "loyalty-card-vault", "omnilingo", "feedreel", "leboncoin-cdp", "release-notes-finder"]
     },
     {
       "title_fr": "📈 Trading & finance",
       "title_en": "📈 Trading & finance",
-      "repos": ["binance-historical", "ai-strategy-backtester", "supertrend"]
+      "repos": ["crible", "binance-historical", "ai-strategy-backtester", "supertrend"]
     },
     {
       "title_fr": "📦 Bibliothèques npm & utilitaires",
       "title_en": "📦 npm libraries & utilities",
-      "repos": ["regressio", "similarities", "condorcet-winner", "benford-law", "gaussian-helper", "node-simple-context", "react-essentials-functions", "ts-essentials-functions", "rn-date", "rn-simple-modal", "huge-async-storage", "insta-who-unfollowed-me", "release-notes-finder", "api-money-node-sdk"]
+      "repos": ["regressio", "similarities", "condorcet-winner", "benford-law", "gaussian-helper", "node-simple-context", "react-essentials-functions", "ts-essentials-functions", "rn-date", "rn-simple-modal", "huge-async-storage", "insta-who-unfollowed-me", "api-money-node-sdk"]
     },
     {
       "title_fr": "⚙️ GitHub Actions",
@@ -47,7 +47,7 @@
     {
       "title_fr": "🧩 Autres",
       "title_en": "🧩 Other",
-      "repos": ["leboncoin-cdp", "awesome-stars", "homebrew-tap", "michel-golfier", "maxgfr.github.io"]
+      "repos": ["awesome-stars", "homebrew-tap", "michel-golfier", "maxgfr.github.io"]
     }
   ],
   "descriptions": {
@@ -66,6 +66,7 @@
     "git-pilot": { "fr": "Automatisation git par IA : commits intelligents, résolution de conflits et rebase auto (Claude/Codex/OpenAI/Gemini/Mistral). 100% Bash.", "en": "AI-powered git automation: smart commits, conflict resolution & auto-rebase (Claude/Codex/OpenAI/Gemini/Mistral). Pure Bash." },
     "git-recap": { "fr": "Générateur de récap mensuel des commits : résumés par IA, points clés et liste des commits.", "en": "Monthly commit-recap generator with AI summaries, bullet points and commit lists." },
     "llm-models": { "fr": "Récupère les derniers modèles LLM depuis les API OpenRouter et models.dev.", "en": "Fetches the latest LLM models from the OpenRouter and models.dev APIs." },
+    "secretgate": { "fr": "Pare-feu local anti-fuite de secrets pour agents de code — masque les identifiants dans les prompts, lectures de fichiers et sorties d'outils avant qu'ils n'atteignent le LLM (Claude Code, Codex, OpenCode). Hooks déterministes, sans proxy.", "en": "Local secrets firewall for coding agents — redacts credentials in prompts, file reads & tool output before they reach the LLM (Claude Code, Codex, OpenCode). Deterministic hooks, no proxy." },
     "andro": { "fr": "Lance des applis Android (mobile & TV) depuis le terminal macOS sur un émulateur jetable et autonome (Apple Silicon, HVF). (Rust)", "en": "Run Android apps (phone & TV) from the macOS CLI on a disposable, self-contained emulator (Apple Silicon, HVF). (Rust)" },
     "brutifi": { "fr": "Outil de test de sécurité WiFi haute performance en Rust, pour l'éducation et les audits autorisés.", "en": "High-performance WiFi security-testing tool in Rust for educational and authorized audits." },
     "rshc": { "fr": "Réimplémentation en Rust de SHC : chiffre des scripts shell en binaires compilés.", "en": "Rust reimplementation of SHC: encrypts shell scripts into compiled binaries." },
@@ -86,6 +87,7 @@
     "binance-historical": { "fr": "Récupère les bougies (klines) historiques depuis l'API Binance.", "en": "Fetch historical klines from the Binance API." },
     "ai-strategy-backtester": { "fr": "Décrivez une stratégie crypto en langage naturel → fichier de stratégie JSON, backtesté sur 50+ indicateurs avec rapports HTML.", "en": "Describe a crypto strategy in plain English → JSON strategy, backtested over 50+ indicators with HTML reports." },
     "supertrend": { "fr": "Implémentation de l'indicateur SuperTrend.", "en": "Implementation of the SuperTrend indicator." },
+    "crible": { "fr": "Screener fondamental d'actions auto-hébergé — 150k+ titres, zéro clé d'API, scores Piotroski/Altman/Beneish transparents avec traçabilité complète des données, rapide grâce à DuckDB.", "en": "Self-hosted fundamental stock screener — 150k+ equities, zero API keys, transparent Piotroski/Altman/Beneish scores with full data provenance, DuckDB-fast." },
     "regressio": { "fr": "Bibliothèque TS zéro-dépendance de régression/classification/stats (OLS, Ridge, Lasso, Logistique, KNN, réseau de neurones) avec moteur Rust/WASM.", "en": "Zero-dep TS regression/classification/stats (OLS, Ridge, Lasso, Logistic, KNN, NN) with a Rust/WASM engine." },
     "similarities": { "fr": "Fonctions pour trouver les similarités entre tableaux.", "en": "Functions to find similarities between arrays." },
     "condorcet-winner": { "fr": "Implémentation de l'algorithme de vote de Condorcet en TypeScript.", "en": "Condorcet vote algorithm in TypeScript." },
