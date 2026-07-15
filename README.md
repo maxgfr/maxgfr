@@ -63,10 +63,11 @@ engineer.whatIDo();
 </details>
 
 <details>
-<summary><strong>🤖 AI & dev tooling</strong> · 7</summary>
+<summary><strong>🤖 AI & dev tooling</strong> · 8</summary>
 
 - **[feelc](https://github.com/maxgfr/feelc)** — AI-native DMN/FEEL business-rules engine in Go: an LLM writes the rules, the engine proves & runs them deterministically (WASM playground). · [demo](https://maxgfr.github.io/feelc/)
 - **[conforme](https://github.com/maxgfr/conforme)** — Syncs your AI coding config (rules, skills, agents, MCP servers) across Claude Code, Cursor & more (Rust).
+- **[secretgate](https://github.com/maxgfr/secretgate)** — Local secrets firewall for coding agents — redacts credentials in prompts, file reads & tool output before they reach the LLM (Claude Code, Codex, OpenCode). Deterministic hooks, no proxy.
 - **[claudfeine](https://github.com/maxgfr/claudfeine)** — Runs Claude Code (and Codex) caffeinated — keeps the machine awake for exactly the session, cross-platform & zero-dep.
 - **[claude-code-switch](https://github.com/maxgfr/claude-code-switch)** — Zero-dependency provider switching for Claude Code (Anthropic, OpenRouter, DeepSeek, Z.AI, Kimi, Qwen…).
 - **[git-pilot](https://github.com/maxgfr/git-pilot)** — AI-powered git automation: smart commits, conflict resolution & auto-rebase (Claude/Codex/OpenAI/Gemini/Mistral). Pure Bash.
@@ -93,7 +94,7 @@ engineer.whatIDo();
 </details>
 
 <details>
-<summary><strong>🌐 Web apps & PWAs</strong> · 6</summary>
+<summary><strong>🌐 Web apps & PWAs</strong> · 8</summary>
 
 - **[csv-ai-analyzer](https://github.com/maxgfr/csv-ai-analyzer)** — Self-hosted, browser-based AI CSV analyzer. · [demo](https://maxgfr.github.io/csv-ai-analyzer)
 - **[db-schema-viewer](https://github.com/maxgfr/db-schema-viewer)** — Client-side DB-schema visualizer with AI analysis — upload SQL, visualize, share, export, no backend. · [demo](https://maxgfr.github.io/db-schema-viewer/)
@@ -101,12 +102,15 @@ engineer.whatIDo();
 - **[loyalty-card-vault](https://github.com/maxgfr/loyalty-card-vault)** — Offline-first PWA for loyalty cards with encrypted storage and barcode scanning. · [demo](https://maxgfr.github.io/loyalty-card-vault/)
 - **[omnilingo](https://github.com/maxgfr/omnilingo)** — Desktop language-learning app with multi-provider AI tutoring.
 - **[feedreel](https://github.com/maxgfr/feedreel)** — Local-first daily short-video generator (Remotion) with per-platform captions + opt-in Shorts/TikTok/Reels publishing.
+- **[leboncoin-cdp](https://github.com/maxgfr/leboncoin-cdp)** — Undetectable Leboncoin scraper via Chrome DevTools Protocol & Next.js data routes — no Puppeteer, zero bot detection.
+- **[release-notes-finder](https://github.com/maxgfr/release-notes-finder)** — Find npm-package versions with their GitHub release notes. · [demo](https://maxgfr.github.io/release-notes-finder)
 
 </details>
 
 <details>
-<summary><strong>📈 Trading & finance</strong> · 3</summary>
+<summary><strong>📈 Trading & finance</strong> · 4</summary>
 
+- **[crible](https://github.com/maxgfr/crible)** — Self-hosted fundamental stock screener — 150k+ equities, zero API keys, transparent Piotroski/Altman/Beneish scores with full data provenance, DuckDB-fast. · [demo](https://maxgfr.github.io/crible/)
 - **[binance-historical](https://github.com/maxgfr/binance-historical)** — Fetch historical klines from the Binance API. · [npm](https://www.npmjs.com/package/binance-historical)
 - **[ai-strategy-backtester](https://github.com/maxgfr/ai-strategy-backtester)** — Describe a crypto strategy in plain English → JSON strategy, backtested over 50+ indicators with HTML reports.
 - **[supertrend](https://github.com/maxgfr/supertrend)** — Implementation of the SuperTrend indicator. · [npm](https://www.npmjs.com/package/supertrend)
@@ -114,7 +118,7 @@ engineer.whatIDo();
 </details>
 
 <details>
-<summary><strong>📦 npm libraries & utilities</strong> · 14</summary>
+<summary><strong>📦 npm libraries & utilities</strong> · 13</summary>
 
 - **[regressio](https://github.com/maxgfr/regressio)** — Zero-dep TS regression/classification/stats (OLS, Ridge, Lasso, Logistic, KNN, NN) with a Rust/WASM engine. · [npm](https://www.npmjs.com/package/regressio)
 - **[similarities](https://github.com/maxgfr/similarities)** — Functions to find similarities between arrays. · [npm](https://www.npmjs.com/package/similarities)
@@ -128,7 +132,6 @@ engineer.whatIDo();
 - **[rn-simple-modal](https://github.com/maxgfr/rn-simple-modal)** — Lightweight, zero-dependency React Native modal (no animation). · [npm](https://www.npmjs.com/package/rn-simple-modal)
 - **[huge-async-storage](https://github.com/maxgfr/huge-async-storage)** — async-storage wrapper for storing huge data in React Native. · [npm](https://www.npmjs.com/package/huge-async-storage)
 - **[insta-who-unfollowed-me](https://github.com/maxgfr/insta-who-unfollowed-me)** — Track who unfollowed you on Instagram. · [npm](https://www.npmjs.com/package/insta-who-unfollowed-me)
-- **[release-notes-finder](https://github.com/maxgfr/release-notes-finder)** — Find npm-package versions with their GitHub release notes. · [demo](https://maxgfr.github.io/release-notes-finder)
 - **[api-money-node-sdk](https://github.com/maxgfr/api-money-node-sdk)** — Unofficial Node SDK for api-money.com. · [npm](https://www.npmjs.com/package/api-money-node-sdk)
 
 </details>
@@ -151,21 +154,12 @@ engineer.whatIDo();
 </details>
 
 <details>
-<summary><strong>🧩 Other</strong> · 5</summary>
+<summary><strong>🧩 Other</strong> · 4</summary>
 
-- **[leboncoin-cdp](https://github.com/maxgfr/leboncoin-cdp)** — Undetectable Leboncoin scraper via Chrome DevTools Protocol & Next.js data routes — no Puppeteer, zero bot detection.
 - **[awesome-stars](https://github.com/maxgfr/awesome-stars)** — Curated list of repositories I've liked on GitHub.
 - **[homebrew-tap](https://github.com/maxgfr/homebrew-tap)** — Homebrew tap for my CLI tools (`brew install maxgfr/tap/…`).
 - **[michel-golfier](https://github.com/maxgfr/michel-golfier)** — Source of a writer's website. · [site](https://www.michelgolfier.fr)
 - **[maxgfr.github.io](https://github.com/maxgfr/maxgfr.github.io)** — Source of my personal website. · [demo](https://maxgfr.github.io/)
-
-</details>
-
-<details>
-<summary><strong>🆕 Uncategorized</strong> · 2</summary>
-
-- **[crible](https://github.com/maxgfr/crible)** — Self-hosted fundamental stock screener — 150k+ equities, zero API keys forever, transparent Piotroski/Altman/Beneish scores with full data provenance, DuckDB-fast (full-universe screens in <1s). · [demo](https://maxgfr.github.io/crible/)
-- **[secretgate](https://github.com/maxgfr/secretgate)** — Local secrets firewall for coding agents — redacts credentials in prompts, file reads & tool output before they reach the LLM (Claude Code, Codex, OpenCode). No proxy, no npm, deterministic hooks.
 
 </details>
 <!-- PROJECTS:END -->
