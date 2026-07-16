@@ -22,7 +22,7 @@
     {
       "title_fr": "🌐 Applications web & PWA",
       "title_en": "🌐 Web apps & PWAs",
-      "repos": ["csv-ai-analyzer", "db-schema-viewer", "real-estate-calculator", "loyalty-card-vault", "omnilingo", "feedreel", "leboncoin-cdp", "release-notes-finder"]
+      "repos": ["csv-ai-analyzer", "db-schema-viewer", "real-estate-calculator", "genpass", "loyalty-card-vault", "omnilingo", "feedreel", "leboncoin-cdp", "release-notes-finder"]
     },
     {
       "title_fr": "📈 Trading & finance",
@@ -81,6 +81,7 @@
     "csv-ai-analyzer": { "fr": "Analyseur de CSV par IA, auto-hébergé et exécuté dans le navigateur.", "en": "Self-hosted, browser-based AI CSV analyzer." },
     "db-schema-viewer": { "fr": "Visualiseur de schéma de base de données côté client avec analyse par IA — importez du SQL, visualisez, partagez, exportez, sans backend.", "en": "Client-side DB-schema visualizer with AI analysis — upload SQL, visualize, share, export, no backend." },
     "real-estate-calculator": { "fr": "Calculateur de rentabilité (ROI) immobilière pour évaluer la rentabilité d'un bien locatif.", "en": "Real-estate ROI calculator for rental-property profitability." },
+    "genpass": { "fr": "Générateur de mots de passe et coffre-fort chiffré, 100% dans le navigateur : entropie exacte, phrases secrètes EFF, coffre AES-256-GCM (PBKDF2 600k) avec auto-verrouillage, liens de partage chiffrés et QR — PWA hors-ligne.", "en": "Client-side password generator + encrypted vault PWA: exact entropy, EFF passphrases, auto-locking AES-256-GCM vault (PBKDF2 600k), encrypted share links & QR — offline-first." },
     "loyalty-card-vault": { "fr": "PWA hors-ligne pour gérer ses cartes de fidélité avec stockage chiffré et scan de codes-barres.", "en": "Offline-first PWA for loyalty cards with encrypted storage and barcode scanning." },
     "omnilingo": { "fr": "Application de bureau d'apprentissage des langues avec tutorat IA multi-fournisseurs.", "en": "Desktop language-learning app with multi-provider AI tutoring." },
     "feedreel": { "fr": "Générateur local de courtes vidéos quotidiennes (Remotion) avec légendes par plateforme + publication optionnelle sur Shorts/TikTok/Reels.", "en": "Local-first daily short-video generator (Remotion) with per-platform captions + opt-in Shorts/TikTok/Reels publishing." },
