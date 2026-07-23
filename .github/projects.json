@@ -12,7 +12,7 @@
     {
       "title_fr": "🤖 IA & outils de dev",
       "title_en": "🤖 AI & dev tooling",
-      "repos": ["feelc", "conforme", "secretgate", "claudfeine", "claude-code-switch", "git-pilot", "git-recap", "llm-models"]
+      "repos": ["feelc", "codeindex", "conforme", "secretgate", "claudfeine", "claude-code-switch", "git-pilot", "git-recap", "llm-models"]
     },
     {
       "title_fr": "🛠️ CLIs & outils système",
@@ -59,6 +59,7 @@
     "construct": { "fr": "Transforme une idée produit en un cahier des charges (SRD/PRD) complet et réalisable (skill d'agent skills.sh).", "en": "Turns a product idea into a grounded, buildable SRD/PRD suite (skills.sh agent skill)." },
     "reconstruct": { "fr": "Analyse n'importe quel dépôt et génère des PRD de reconstruction pour le rebâtir de zéro.", "en": "Analyzes any repo and generates reconstruction PRDs to rebuild it from scratch." },
     "ultraeval": { "fr": "Évalue rigoureusement une skill ou un codebase → constats sourcés (file:line) + backlog de corrections en TDD ; moteur zéro-dépendance avec analyse (hotspots, cycles, churn) et brainstorm.", "en": "Rigorously evaluates a skill or codebase → grounded (file:line) findings + a TDD fix backlog; zero-dep engine with analysis (hotspots, cycles, churn) and brainstorm." },
+    "codeindex": { "fr": "Moteur d'indexation de dépôt zéro-dépendance : symboles, imports, graphe de liens inter-fichiers typé et analytics — un seul engine.mjs embarquable, CLI + serveur MCP inclus.", "en": "Zero-dependency repo-indexing engine: symbols, imports, typed cross-file link-graph & analytics — one vendorable engine.mjs, CLI + MCP server included." },
     "feelc": { "fr": "Moteur de règles métier DMN/FEEL natif IA compilé en Go : un LLM écrit les règles, le moteur les prouve et les exécute de façon déterministe (playground WASM).", "en": "AI-native DMN/FEEL business-rules engine in Go: an LLM writes the rules, the engine proves & runs them deterministically (WASM playground)." },
     "conforme": { "fr": "Synchronise ta config d'IA de code (règles, skills, agents, serveurs MCP) entre Claude Code, Cursor et d'autres outils (Rust).", "en": "Syncs your AI coding config (rules, skills, agents, MCP servers) across Claude Code, Cursor & more (Rust)." },
     "claudfeine": { "fr": "Lance Claude Code (et Codex) « sous caféine » — garde la machine éveillée le temps de la session, puis restaure la veille. Multi-plateforme, zéro-dépendance.", "en": "Runs Claude Code (and Codex) caffeinated — keeps the machine awake for exactly the session, cross-platform & zero-dep." },

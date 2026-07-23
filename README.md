@@ -63,9 +63,10 @@ engineer.whatIDo();
 </details>
 
 <details>
-<summary><strong>🤖 AI & dev tooling</strong> · 8</summary>
+<summary><strong>🤖 AI & dev tooling</strong> · 9</summary>
 
 - **[feelc](https://github.com/maxgfr/feelc)** — AI-native DMN/FEEL business-rules engine in Go: an LLM writes the rules, the engine proves & runs them deterministically (WASM playground). · [demo](https://maxgfr.github.io/feelc/)
+- **[codeindex](https://github.com/maxgfr/codeindex)** — Zero-dependency repo-indexing engine: symbols, imports, typed cross-file link-graph & analytics — one vendorable engine.mjs, CLI + MCP server included. · [npm](https://www.npmjs.com/package/@maxgfr/codeindex)
 - **[conforme](https://github.com/maxgfr/conforme)** — Syncs your AI coding config (rules, skills, agents, MCP servers) across Claude Code, Cursor & more (Rust).
 - **[secretgate](https://github.com/maxgfr/secretgate)** — Local secrets firewall for coding agents — redacts credentials in prompts, file reads & tool output before they reach the LLM (Claude Code, Codex, OpenCode). Deterministic hooks, no proxy.
 - **[claudfeine](https://github.com/maxgfr/claudfeine)** — Runs Claude Code (and Codex) caffeinated — keeps the machine awake for exactly the session, cross-platform & zero-dep.
@@ -161,13 +162,6 @@ engineer.whatIDo();
 - **[homebrew-tap](https://github.com/maxgfr/homebrew-tap)** — Homebrew tap for my CLI tools (`brew install maxgfr/tap/…`).
 - **[michel-golfier](https://github.com/maxgfr/michel-golfier)** — Source of a writer's website. · [site](https://www.michelgolfier.fr)
 - **[maxgfr.github.io](https://github.com/maxgfr/maxgfr.github.io)** — Source of my personal website. · [demo](https://maxgfr.github.io/)
-
-</details>
-
-<details>
-<summary><strong>🆕 Uncategorized</strong> · 1</summary>
-
-- **[codeindex](https://github.com/maxgfr/codeindex)** — Zero-dependency repo-indexing engine: deterministic walk + symbol/import extraction (tree-sitter AST with regex fallback) + typed cross-file link-graph + analytics. One vendorable engine.mjs, CLI + MCP server included.
 
 </details>
 <!-- PROJECTS:END -->
