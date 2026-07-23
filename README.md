@@ -163,4 +163,11 @@ engineer.whatIDo();
 - **[maxgfr.github.io](https://github.com/maxgfr/maxgfr.github.io)** — Source of my personal website. · [demo](https://maxgfr.github.io/)
 
 </details>
+
+<details>
+<summary><strong>🆕 Uncategorized</strong> · 1</summary>
+
+- **[codeindex](https://github.com/maxgfr/codeindex)** — Zero-dependency repo-indexing engine: deterministic walk + symbol/import extraction (tree-sitter AST with regex fallback) + typed cross-file link-graph + analytics. One vendorable engine.mjs, CLI + MCP server included.
+
+</details>
 <!-- PROJECTS:END -->
