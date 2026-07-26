@@ -22,7 +22,7 @@
     {
       "title_fr": "🌐 Applications web & PWA",
       "title_en": "🌐 Web apps & PWAs",
-      "repos": ["csv-ai-analyzer", "db-schema-viewer", "real-estate-calculator", "genpass", "loyalty-card-vault", "omnilingo", "feedreel", "leboncoin-cdp", "release-notes-finder"]
+      "repos": ["bracketeer", "csv-ai-analyzer", "db-schema-viewer", "real-estate-calculator", "genpass", "loyalty-card-vault", "omnilingo", "feedreel", "leboncoin-cdp", "release-notes-finder"]
     },
     {
       "title_fr": "📈 Trading & finance",
@@ -113,6 +113,7 @@
     "awesome-stars": { "fr": "Liste des dépôts que j'ai aimés sur GitHub.", "en": "Curated list of repositories I've liked on GitHub." },
     "homebrew-tap": { "fr": "Tap Homebrew pour mes outils CLI (`brew install maxgfr/tap/…`).", "en": "Homebrew tap for my CLI tools (`brew install maxgfr/tap/…`)." },
     "michel-golfier": { "fr": "Code source du site d'un écrivain.", "en": "Source of a writer's website." },
-    "maxgfr.github.io": { "fr": "Code source de mon site personnel.", "en": "Source of my personal website." }
+    "maxgfr.github.io": { "fr": "Code source de mon site personnel.", "en": "Source of my personal website." },
+    "bracketeer": { "fr": "Moteur de tournois agnostique : brackets, système suisse, ligues, poules et Elo composés depuis six axes — aucun sport codé en dur. 100 % navigateur, sans serveur ni compte : lien partageable, sync P2P, export ICS, impression et hors-ligne.", "en": "Sport-agnostic tournament engine: brackets, Swiss, leagues, groups and Elo composed from six axes — no sport hardcoded. Entirely in-browser, no server or account: shareable link, P2P live sync, ICS export, printing and offline." }
   }
 }
