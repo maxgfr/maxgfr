@@ -7,7 +7,7 @@
     {
       "title_fr": "🪄 Skills d'agent",
       "title_en": "🪄 Agent skills",
-      "repos": ["ultradoc", "ultraindex", "ultrasearch", "ultrasec", "ultra11y", "construct", "reconstruct", "ultraeval"]
+      "repos": ["ultradoc", "ultraindex", "ultrasearch", "ultrasec", "ultra11y", "ultrai18n", "construct", "reconstruct", "ultraeval"]
     },
     {
       "title_fr": "🤖 IA & outils de dev",
@@ -22,7 +22,7 @@
     {
       "title_fr": "🌐 Applications web & PWA",
       "title_en": "🌐 Web apps & PWAs",
-      "repos": ["bracketeer", "csv-ai-analyzer", "db-schema-viewer", "real-estate-calculator", "genpass", "loyalty-card-vault", "omnilingo", "feedreel", "leboncoin-cdp", "release-notes-finder"]
+      "repos": ["basilico", "bracketeer", "csv-ai-analyzer", "db-schema-viewer", "real-estate-calculator", "genpass", "loyalty-card-vault", "omnilingo", "feedreel", "leboncoin-cdp", "release-notes-finder"]
     },
     {
       "title_fr": "📈 Trading & finance",
@@ -58,6 +58,7 @@
     "ultra11y": { "fr": "Audite le HTML/CSS/JSX selon le RGAA 4.1.2 + WCAG 2.1/2.2 AA via un moteur statique zéro-dépendance + le jugement de l'IA.", "en": "Audits HTML/CSS/JSX for RGAA 4.1.2 + WCAG 2.1/2.2 AA with a zero-dependency static engine + agent judgment." },
     "construct": { "fr": "Transforme une idée produit en un cahier des charges (SRD/PRD) complet et réalisable (skill d'agent skills.sh).", "en": "Turns a product idea into a grounded, buildable SRD/PRD suite (skills.sh agent skill)." },
     "reconstruct": { "fr": "Analyse n'importe quel dépôt et génère des PRD de reconstruction pour le rebâtir de zéro.", "en": "Analyzes any repo and generates reconstruction PRDs to rebuild it from scratch." },
+    "ultrai18n": { "fr": "Trouve toutes les chaînes lisibles d'un dépôt, les classe, les traduit avec des modèles bon marché et prouve qu'aucune n'a été oubliée : moteur zéro-dépendance, le modèle n'ouvre jamais un fichier source.", "en": "Finds every human-readable string in a repo, classifies it, translates it with cheap models and proves nothing was missed: zero-dependency engine, the model never opens a source file." },
     "ultraeval": { "fr": "Évalue rigoureusement une skill ou un codebase → constats sourcés (file:line) + backlog de corrections en TDD ; moteur zéro-dépendance avec analyse (hotspots, cycles, churn) et brainstorm.", "en": "Rigorously evaluates a skill or codebase → grounded (file:line) findings + a TDD fix backlog; zero-dep engine with analysis (hotspots, cycles, churn) and brainstorm." },
     "codeindex": { "fr": "Moteur d'indexation de dépôt zéro-dépendance : symboles, imports, graphe de liens inter-fichiers typé et analytics — un seul engine.mjs embarquable, CLI + serveur MCP inclus.", "en": "Zero-dependency repo-indexing engine: symbols, imports, typed cross-file link-graph & analytics — one vendorable engine.mjs, CLI + MCP server included." },
     "feelc": { "fr": "Moteur de règles métier DMN/FEEL natif IA compilé en Go : un LLM écrit les règles, le moteur les prouve et les exécute de façon déterministe (playground WASM).", "en": "AI-native DMN/FEEL business-rules engine in Go: an LLM writes the rules, the engine proves & runs them deterministically (WASM playground)." },
@@ -114,6 +115,7 @@
     "homebrew-tap": { "fr": "Tap Homebrew pour mes outils CLI (`brew install maxgfr/tap/…`).", "en": "Homebrew tap for my CLI tools (`brew install maxgfr/tap/…`)." },
     "michel-golfier": { "fr": "Code source du site d'un écrivain.", "en": "Source of a writer's website." },
     "maxgfr.github.io": { "fr": "Code source de mon site personnel.", "en": "Source of my personal website." },
+    "basilico": { "fr": "Minuteur de concentration Pomodoro local-first (PWA + extension Chrome) : tâches, backlog et plan du jour, comptage des interruptions, overtime et Flowtime, heatmap annuelle, heures productives et précision des estimations, export JSON/CSV/Open Pomodoro — sans compte, sans serveur, sans tracking.", "en": "Local-first Pomodoro focus timer (PWA + Chrome extension): tasks, backlog & day plan, interruption counting, overtime and Flowtime, year heatmap, productive hours and estimate accuracy, JSON/CSV/Open Pomodoro export — no account, no server, no tracking." },
     "bracketeer": { "fr": "Moteur de tournois agnostique : brackets, système suisse, ligues, poules et Elo composés depuis six axes — aucun sport codé en dur. 100 % navigateur, sans serveur ni compte : lien partageable, sync P2P, export ICS, impression et hors-ligne.", "en": "Sport-agnostic tournament engine: brackets, Swiss, leagues, groups and Elo composed from six axes — no sport hardcoded. Entirely in-browser, no server or account: shareable link, P2P live sync, ICS export, printing and offline." }
   }
 }
