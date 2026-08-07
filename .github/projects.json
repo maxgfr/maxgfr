@@ -22,7 +22,12 @@
     {
       "title_fr": "🌐 Applications web & PWA",
       "title_en": "🌐 Web apps & PWAs",
-      "repos": ["today", "nook", "basilico", "bracketeer", "csv-ai-analyzer", "db-schema-viewer", "real-estate-calculator", "genpass", "loyalty-card-vault", "omnilingo", "feedreel", "leboncoin-cdp", "release-notes-finder"]
+      "repos": ["today", "nook", "basilico", "bracketeer", "csv-ai-analyzer", "db-schema-viewer", "real-estate-calculator", "genpass", "loyalty-card-vault", "omnilingo", "feedreel", "leboncoin-cdp", "release-notes-finder", "kanbo"]
+    },
+    {
+      "title_fr": "🎮 Jeux",
+      "title_en": "🎮 Games",
+      "repos": ["terravia"]
     },
     {
       "title_fr": "📈 Trading & finance",
@@ -119,6 +124,8 @@
     "maxgfr.github.io": { "fr": "Code source de mon site personnel.", "en": "Source of my personal website." },
     "today": { "fr": "Todolist du jour, offline-first et privée : rien ne remonte tout seul — ce qui n'est pas fini attend une décision le lendemain, avec son ancienneté affichée. Aucun compte, aucun serveur, zéro requête réseau, prouvé par une CSP et un garde-fou qui casse la CI.", "en": "Offline-first, privacy-first daily to-do: nothing rolls over on its own — unfinished tasks wait for a decision the next morning, with their age shown. No account, no server, zero network requests, proven by a CSP and a build gate that fails CI." },
     "basilico": { "fr": "Minuteur de concentration Pomodoro local-first (PWA + extension Chrome) : tâches, backlog et plan du jour, comptage des interruptions, overtime et Flowtime, heatmap annuelle, heures productives et précision des estimations, export JSON/CSV/Open Pomodoro — sans compte, sans serveur, sans tracking.", "en": "Local-first Pomodoro focus timer (PWA + Chrome extension): tasks, backlog & day plan, interruption counting, overtime and Flowtime, year heatmap, productive hours and estimate accuracy, JSON/CSV/Open Pomodoro export — no account, no server, no tracking." },
-    "bracketeer": { "fr": "Moteur de tournois agnostique : brackets, système suisse, ligues, poules et Elo composés depuis six axes — aucun sport codé en dur. 100 % navigateur, sans serveur ni compte : lien partageable, sync P2P, export ICS, impression et hors-ligne.", "en": "Sport-agnostic tournament engine: brackets, Swiss, leagues, groups and Elo composed from six axes — no sport hardcoded. Entirely in-browser, no server or account: shareable link, P2P live sync, ICS export, printing and offline." }
+    "bracketeer": { "fr": "Moteur de tournois agnostique : brackets, système suisse, ligues, poules et Elo composés depuis six axes — aucun sport codé en dur. 100 % navigateur, sans serveur ni compte : lien partageable, sync P2P, export ICS, impression et hors-ligne.", "en": "Sport-agnostic tournament engine: brackets, Swiss, leagues, groups and Elo composed from six axes — no sport hardcoded. Entirely in-browser, no server or account: shareable link, P2P live sync, ICS export, printing and offline." },
+    "kanbo": { "fr": "Gestion de projet local-first : kanban, sprints et roadmap dans le navigateur, avec un dépôt git comme seul backend.", "en": "Local-first project management: kanban, sprints and roadmap in your browser, with a git repo as the only backend." },
+    "terravia": { "fr": "RPG de capture de créatures dans un monde généré procéduralement. Tourne entièrement dans le navigateur — sans serveur ni compte. Le monde se reconstruit depuis une graine, donc une sauvegarde tient en quelques kilo-octets de JSON exportables et réimportables.", "en": "Creature-collecting RPG in a procedurally generated world. Runs entirely in the browser — no server, no account. The whole world rebuilds from a seed, so a save file is a few kilobytes of JSON you can export and re-import." }
   }
 }
