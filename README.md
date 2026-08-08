@@ -178,4 +178,11 @@ engineer.whatIDo();
 - **[maxgfr.github.io](https://github.com/maxgfr/maxgfr.github.io)** — Source of my personal website. · [demo](https://maxgfr.github.io/)
 
 </details>
+
+<details>
+<summary><strong>🆕 Uncategorized</strong> · 1</summary>
+
+- **[webindex](https://github.com/maxgfr/webindex)** — Zero-dependency web-retrieval engine shared by the ultrasearch, ultradoc and construct skills: fetch any URL into clean text — HTML, PDFs through a 6-rung ladder ending in OCR, office documents. One vendorable engine.mjs. The web-side companion to codeindex.
+
+</details>
 <!-- PROJECTS:END -->
