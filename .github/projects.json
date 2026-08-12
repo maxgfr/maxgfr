@@ -1,133 +1,442 @@
 {
   "_comment": "SINGLE SOURCE OF TRUTH for both the profile README (maxgfr/maxgfr) and the website projects page (maxgfr.github.io). Edit ONLY this file. The README generator reads it locally; the website generator fetches it from this repo via the GitHub API. Bilingual: category titles have title_fr/title_en; each description is { fr, en }. 'exclude' is applied everywhere; 'excludeFromSite' is additionally removed from the website only. Any owned public repo not listed appears under the fallback category using its GitHub description.",
-  "exclude": ["maxgfr"],
-  "excludeFromSite": ["maxgfr.github.io"],
-  "fallback": { "fr": "🆕 Non classés", "en": "🆕 Uncategorized" },
+  "exclude": [
+    "maxgfr"
+  ],
+  "excludeFromSite": [
+    "maxgfr.github.io"
+  ],
+  "fallback": {
+    "fr": "🆕 Non classés",
+    "en": "🆕 Uncategorized"
+  },
   "categories": [
     {
       "title_fr": "🪄 Skills d'agent",
       "title_en": "🪄 Agent skills",
-      "repos": ["ultradoc", "ultraindex", "ultrasearch", "ultrasec", "ultra11y", "ultrai18n", "ultraprospect", "construct", "reconstruct", "ultraeval"]
+      "repos": [
+        "ultradoc",
+        "ultraindex",
+        "ultrasearch",
+        "ultrasec",
+        "ultra11y",
+        "ultrai18n",
+        "ultraprospect",
+        "construct",
+        "reconstruct",
+        "ultraeval"
+      ]
     },
     {
       "title_fr": "🤖 IA & outils de dev",
       "title_en": "🤖 AI & dev tooling",
-      "repos": ["feelc", "codeindex", "webindex", "conforme", "secretgate", "sift", "claudfeine", "claude-code-switch", "git-pilot", "git-recap", "llm-models"]
+      "repos": [
+        "feelc",
+        "codeindex",
+        "webindex",
+        "conforme",
+        "secretgate",
+        "sift",
+        "claudfeine",
+        "claude-code-switch",
+        "git-pilot",
+        "git-recap",
+        "llm-models"
+      ]
     },
     {
       "title_fr": "🛠️ CLIs & outils système",
       "title_en": "🛠️ CLIs & system tools",
-      "repos": ["andro", "brutifi", "rshc", "subtool", "snatch", "web-watcher", "package-checker.sh", "github-helpers", "copyable-pdf", "ratio-master", "unsleep"]
+      "repos": [
+        "andro",
+        "brutifi",
+        "rshc",
+        "subtool",
+        "snatch",
+        "web-watcher",
+        "package-checker.sh",
+        "github-helpers",
+        "copyable-pdf",
+        "ratio-master",
+        "unsleep"
+      ]
     },
     {
       "title_fr": "🌐 Applications web & PWA",
       "title_en": "🌐 Web apps & PWAs",
-      "repos": ["today", "nook", "basilico", "bracketeer", "csv-ai-analyzer", "db-schema-viewer", "real-estate-calculator", "genpass", "loyalty-card-vault", "omnilingo", "feedreel", "leboncoin-cdp", "release-notes-finder", "kanbo"]
+      "repos": [
+        "today",
+        "nook",
+        "basilico",
+        "bracketeer",
+        "csv-ai-analyzer",
+        "db-schema-viewer",
+        "real-estate-calculator",
+        "genpass",
+        "loyalty-card-vault",
+        "omnilingo",
+        "feedreel",
+        "leboncoin-cdp",
+        "release-notes-finder",
+        "kanbo"
+      ]
     },
     {
       "title_fr": "🎮 Jeux",
       "title_en": "🎮 Games",
-      "repos": ["terravia"]
+      "repos": [
+        "terravia"
+      ]
     },
     {
       "title_fr": "📈 Trading & finance",
       "title_en": "📈 Trading & finance",
-      "repos": ["crible", "binance-historical", "ai-strategy-backtester", "supertrend"]
+      "repos": [
+        "crible",
+        "binance-historical",
+        "ai-strategy-backtester",
+        "supertrend"
+      ]
     },
     {
       "title_fr": "📦 Bibliothèques npm & utilitaires",
       "title_en": "📦 npm libraries & utilities",
-      "repos": ["regressio", "similarities", "condorcet-winner", "benford-law", "gaussian-helper", "node-simple-context", "react-essentials-functions", "ts-essentials-functions", "rn-date", "rn-simple-modal", "huge-async-storage", "insta-who-unfollowed-me", "api-money-node-sdk"]
+      "repos": [
+        "regressio",
+        "similarities",
+        "condorcet-winner",
+        "benford-law",
+        "gaussian-helper",
+        "node-simple-context",
+        "react-essentials-functions",
+        "ts-essentials-functions",
+        "rn-date",
+        "rn-simple-modal",
+        "huge-async-storage",
+        "insta-who-unfollowed-me",
+        "api-money-node-sdk"
+      ]
     },
     {
       "title_fr": "⚙️ GitHub Actions",
       "title_en": "⚙️ GitHub Actions",
-      "repos": ["github-change-json", "github-commit-push-file", "github-multi-deployments"]
+      "repos": [
+        "github-change-json",
+        "github-commit-push-file",
+        "github-multi-deployments"
+      ]
     },
     {
       "title_fr": "🚀 Starters & templates",
       "title_en": "🚀 Starters & templates",
-      "repos": ["typescript-swc-starter", "typescript-react-lib-swc"]
+      "repos": [
+        "typescript-swc-starter",
+        "typescript-react-lib-swc"
+      ]
     },
     {
       "title_fr": "🧩 Autres",
       "title_en": "🧩 Other",
-      "repos": ["awesome-stars", "homebrew-tap", "michel-golfier", "maxgfr.github.io"]
+      "repos": [
+        "awesome-stars",
+        "homebrew-tap",
+        "michel-golfier",
+        "maxgfr.github.io"
+      ]
     }
   ],
   "descriptions": {
-    "ultradoc": { "fr": "Questions-réponses sourcées et docs de référence vérifiées pour n'importe quel projet open source, à partir de son vrai code, ses issues et PRs.", "en": "Grounded Q&A + citation-checked reference docs for any OSS project, from its real source, issues & PRs." },
-    "ultraindex": { "fr": "Indexe un dépôt entier en une encyclopédie navigable par l'IA (carte + fiches par module + graphe de liens) pour les très gros codebases.", "en": "Indexes a whole repo into an AI-navigable encyclopedia (map + per-module entries + link-graph) for huge codebases." },
-    "ultrasearch": { "fr": "Recherche web multi-moteurs sans clé → rapport Markdown/HTML à sources vérifiées et niveaux de détail (5 modes + recherche approfondie).", "en": "Keyless multi-backend web research → citation-checked, tiered Markdown/HTML report (5 modes + deep-research tier)." },
-    "ultrasec": { "fr": "Agent d'audit de sécurité multi-fichiers : analyse de teinte source→puits + Trivy/Semgrep/gitleaks/osv, vérifiée de façon adversariale en rapport sourcé.", "en": "Cross-file security-audit agent: source→sink taint + Trivy/Semgrep/gitleaks/osv, adversarially verified into a cited report." },
-    "ultra11y": { "fr": "Audite le HTML/CSS/JSX selon le RGAA 4.1.2 + WCAG 2.1/2.2 AA via un moteur statique zéro-dépendance + le jugement de l'IA.", "en": "Audits HTML/CSS/JSX for RGAA 4.1.2 + WCAG 2.1/2.2 AA with a zero-dependency static engine + agent judgment." },
-    "construct": { "fr": "Transforme une idée produit en un cahier des charges (SRD/PRD) complet et réalisable (skill d'agent skills.sh).", "en": "Turns a product idea into a grounded, buildable SRD/PRD suite (skills.sh agent skill)." },
-    "reconstruct": { "fr": "Analyse n'importe quel dépôt et génère des PRD de reconstruction pour le rebâtir de zéro.", "en": "Analyzes any repo and generates reconstruction PRDs to rebuild it from scratch." },
-    "ultrai18n": { "fr": "Trouve toutes les chaînes lisibles d'un dépôt, les classe, les traduit avec des modèles bon marché et prouve qu'aucune n'a été oubliée : moteur zéro-dépendance, le modèle n'ouvre jamais un fichier source.", "en": "Finds every human-readable string in a repo, classifies it, translates it with cheap models and proves nothing was missed: zero-dependency engine, the model never opens a source file." },
-    "ultraprospect": { "fr": "Transforme un lieu — ville, rue, rayon — en fichier de prospection défendable : balaie OpenStreetMap dans le monde entier et le registre français (SIRENE/RNE) sur le même territoire, fusionne les deux en une entité par entreprise, enrichit depuis le site de chacune (offres d'emploi lues via les API des ATS, sans navigateur) et refuse de deviner — lieu ambigu, appariement incertain, balayage partiel ou contact non observé font échouer le run. Zéro dépendance, aucune clé d'API.", "en": "Turns a place — a town, a street, a radius — into a prospect list you can defend: sweeps OpenStreetMap worldwide and the French register (SIRENE/RNE) over the same territory, fuses them into one entity per company, enriches from each company's own site (openings read straight from the ATS APIs, no browser) and refuses to guess — an ambiguous place, an uncertain match, a partial sweep or an unobserved contact all fail the run. Zero-dependency, no API keys." },
-    "ultraeval": { "fr": "Évalue rigoureusement une skill ou un codebase → constats sourcés (file:line) + backlog de corrections en TDD ; moteur zéro-dépendance avec analyse (hotspots, cycles, churn) et brainstorm.", "en": "Rigorously evaluates a skill or codebase → grounded (file:line) findings + a TDD fix backlog; zero-dep engine with analysis (hotspots, cycles, churn) and brainstorm." },
-    "codeindex": { "fr": "Moteur d'indexation de dépôt zéro-dépendance : symboles, imports, graphe de liens inter-fichiers typé et analytics — un seul engine.mjs embarquable, CLI + serveur MCP inclus.", "en": "Zero-dependency repo-indexing engine: symbols, imports, typed cross-file link-graph & analytics — one vendorable engine.mjs, CLI + MCP server included." },
-    "webindex": { "fr": "Moteur de récupération web zéro-dépendance : transforme une URL ou un fichier en texte propre et citable — HTML, PDF via une échelle à six barreaux finissant en OCR, documents bureautiques — et le sert en MCP. Un seul engine.mjs embarquable, CLI + serveur MCP inclus. Le pendant web de codeindex.", "en": "Zero-dependency web-retrieval engine: turns a URL or a file into clean, citable text — HTML, PDFs through a six-rung ladder ending in OCR, office documents — and serves it over MCP. One vendorable engine.mjs, CLI + MCP server included. The web-side companion to codeindex." },
-    "feelc": { "fr": "Moteur de règles métier DMN/FEEL natif IA compilé en Go : un LLM écrit les règles, le moteur les prouve et les exécute de façon déterministe (playground WASM).", "en": "AI-native DMN/FEEL business-rules engine in Go: an LLM writes the rules, the engine proves & runs them deterministically (WASM playground)." },
-    "conforme": { "fr": "Synchronise ta config d'IA de code (règles, skills, agents, serveurs MCP) entre Claude Code, Cursor et d'autres outils (Rust).", "en": "Syncs your AI coding config (rules, skills, agents, MCP servers) across Claude Code, Cursor & more (Rust)." },
-    "claudfeine": { "fr": "Lance Claude Code (et Codex) « sous caféine » — garde la machine éveillée le temps de la session, puis restaure la veille. Multi-plateforme, zéro-dépendance.", "en": "Runs Claude Code (and Codex) caffeinated — keeps the machine awake for exactly the session, cross-platform & zero-dep." },
-    "claude-code-switch": { "fr": "Bascule zéro-dépendance entre fournisseurs pour Claude Code (Anthropic, OpenRouter, DeepSeek, Z.AI, Kimi, Qwen…).", "en": "Zero-dependency provider switching for Claude Code (Anthropic, OpenRouter, DeepSeek, Z.AI, Kimi, Qwen…)." },
-    "git-pilot": { "fr": "Automatisation git par IA : commits intelligents, résolution de conflits et rebase auto (Claude/Codex/OpenAI/Gemini/Mistral). 100% Bash.", "en": "AI-powered git automation: smart commits, conflict resolution & auto-rebase (Claude/Codex/OpenAI/Gemini/Mistral). Pure Bash." },
-    "git-recap": { "fr": "Générateur de récap mensuel des commits : résumés par IA, points clés et liste des commits.", "en": "Monthly commit-recap generator with AI summaries, bullet points and commit lists." },
-    "llm-models": { "fr": "Récupère les derniers modèles LLM depuis les API OpenRouter et models.dev.", "en": "Fetches the latest LLM models from the OpenRouter and models.dev APIs." },
-    "sift": { "fr": "Dit quelle quantization d'un LLM tient en mémoire et à quelle vitesse elle tournera — avant de la télécharger. Lit les vrais en-têtes GGUF/safetensors par requêtes HTTP Range, mesure la machine et recommande un moteur. Aucune liste de modèles embarquée (Rust).", "en": "Tells you which quantization of an LLM fits and how fast it will run — before you download it. Reads real GGUF/safetensors headers over HTTP range requests, measures your machine and routes to an engine. No bundled model list (Rust)." },
-    "secretgate": { "fr": "Pare-feu local anti-fuite de secrets pour agents de code — masque les identifiants dans les prompts, lectures de fichiers et sorties d'outils avant qu'ils n'atteignent le LLM (Claude Code, Codex, OpenCode). Hooks déterministes, sans proxy.", "en": "Local secrets firewall for coding agents — redacts credentials in prompts, file reads & tool output before they reach the LLM (Claude Code, Codex, OpenCode). Deterministic hooks, no proxy." },
-    "andro": { "fr": "Lance des applis Android (mobile & TV) depuis le terminal macOS sur un émulateur jetable et autonome (Apple Silicon, HVF). (Rust)", "en": "Run Android apps (phone & TV) from the macOS CLI on a disposable, self-contained emulator (Apple Silicon, HVF). (Rust)" },
-    "brutifi": { "fr": "Outil de test de sécurité WiFi haute performance en Rust, pour l'éducation et les audits autorisés.", "en": "High-performance WiFi security-testing tool in Rust for educational and authorized audits." },
-    "rshc": { "fr": "Réimplémentation en Rust de SHC : chiffre des scripts shell en binaires compilés.", "en": "Rust reimplementation of SHC: encrypts shell scripts into compiled binaries." },
-    "subtool": { "fr": "CLI tout-en-un pour les sous-titres : télécharger, traduire, convertir, synchroniser, nettoyer, fusionner, corriger, extraire et intégrer.", "en": "All-in-one subtitle CLI: download, translate, convert, sync, clean, merge, fix, extract & embed." },
-    "snatch": { "fr": "Téléchargeur de vidéos universel : essaie yt-dlp d'abord, bascule sur l'extraction navigateur (CDP) pour les sites récalcitrants.", "en": "Universal video downloader: yt-dlp first, CDP browser extraction fallback for stubborn sites." },
-    "web-watcher": { "fr": "Script Bash qui surveille des API et sites web : détection de différences, seuils et notifications instantanées.", "en": "Bash watcher for APIs & websites with diff detection, thresholds and instant notifications." },
-    "package-checker.sh": { "fr": "Scanne les projets node/bun/deno à la recherche de paquets npm vulnérables via OSV/GHSA (JSON/CSV/PURL/SBOM/SARIF/TRIVY).", "en": "Scans node/bun/deno projects for vulnerable npm packages via OSV/GHSA (JSON/CSV/PURL/SBOM/SARIF/TRIVY)." },
-    "github-helpers": { "fr": "Boîte à outils de maintenance GitHub : unstar en masse, clone d'org, nettoyage des forks, audit de dépôts, etc.", "en": "GitHub maintenance toolkit: bulk unstar, org clone, fork cleanup, repo audit and more." },
-    "copyable-pdf": { "fr": "Convertit des PDF scannés en PDF cherchables et copiables grâce à l'OCR Tesseract (traitement parallèle).", "en": "Converts scanned PDFs into searchable, copyable PDFs with Tesseract OCR (parallel)." },
-    "ratio-master": { "fr": "Outil de ratio torrent qui envoie de vraies requêtes d'annonce HTTP aux trackers BitTorrent.", "en": "Torrent ratio tool that sends real HTTP announce requests to BitTorrent trackers." },
-    "unsleep": { "fr": "Petit exécutable qui empêche la machine de se mettre en veille.", "en": "Tiny executable that prevents the machine from sleeping." },
-    "csv-ai-analyzer": { "fr": "Analyseur de CSV par IA, auto-hébergé et exécuté dans le navigateur.", "en": "Self-hosted, browser-based AI CSV analyzer." },
-    "db-schema-viewer": { "fr": "Visualiseur de schéma de base de données côté client avec analyse par IA — importez du SQL, visualisez, partagez, exportez, sans backend.", "en": "Client-side DB-schema visualizer with AI analysis — upload SQL, visualize, share, export, no backend." },
-    "real-estate-calculator": { "fr": "Calculateur de rentabilité (ROI) immobilière pour évaluer la rentabilité d'un bien locatif.", "en": "Real-estate ROI calculator for rental-property profitability." },
-    "genpass": { "fr": "Générateur de mots de passe et coffre-fort chiffré, 100% dans le navigateur : entropie exacte, phrases secrètes EFF, coffre AES-256-GCM (PBKDF2 600k) avec auto-verrouillage, liens de partage chiffrés et QR — PWA hors-ligne.", "en": "Client-side password generator + encrypted vault PWA: exact entropy, EFF passphrases, auto-locking AES-256-GCM vault (PBKDF2 600k), encrypted share links & QR — offline-first." },
-    "nook": { "fr": "Notion local-first et chiffré, 100% dans le navigateur : éditeur à blocs, pages imbriquées, wikilinks et backlinks, tags, recherche ⌘K, bases de données (table/kanban/calendrier), historique de versions, carte des liens. Verrouillage par passphrase (Argon2id) avec rotation de clé, et effacement total vérifiable. Aucune requête réseau possible — CSP connect-src 'none', prouvée en CI. PWA hors-ligne.", "en": "Local-first, encrypted Notion in the browser: block editor, nested pages, wikilinks and backlinks, tags, ⌘K search, databases (table/board/calendar), version history, link map. Passphrase locking (Argon2id) that rotates the key, and a wipe you can verify. No network request is possible — CSP connect-src 'none', proven in CI. Offline PWA." },
-    "loyalty-card-vault": { "fr": "PWA hors-ligne pour gérer ses cartes de fidélité avec stockage chiffré et scan de codes-barres.", "en": "Offline-first PWA for loyalty cards with encrypted storage and barcode scanning." },
-    "omnilingo": { "fr": "Application de bureau d'apprentissage des langues avec tutorat IA multi-fournisseurs.", "en": "Desktop language-learning app with multi-provider AI tutoring." },
-    "feedreel": { "fr": "Générateur local de courtes vidéos quotidiennes (Remotion) avec légendes par plateforme + publication optionnelle sur Shorts/TikTok/Reels.", "en": "Local-first daily short-video generator (Remotion) with per-platform captions + opt-in Shorts/TikTok/Reels publishing." },
-    "binance-historical": { "fr": "Récupère les bougies (klines) historiques depuis l'API Binance.", "en": "Fetch historical klines from the Binance API." },
-    "ai-strategy-backtester": { "fr": "Décrivez une stratégie crypto en langage naturel → fichier de stratégie JSON, backtesté sur 50+ indicateurs avec rapports HTML.", "en": "Describe a crypto strategy in plain English → JSON strategy, backtested over 50+ indicators with HTML reports." },
-    "supertrend": { "fr": "Implémentation de l'indicateur SuperTrend.", "en": "Implementation of the SuperTrend indicator." },
-    "crible": { "fr": "Screener fondamental d'actions auto-hébergé — 150k+ titres, zéro clé d'API, scores Piotroski/Altman/Beneish transparents avec traçabilité complète des données, rapide grâce à DuckDB.", "en": "Self-hosted fundamental stock screener — 150k+ equities, zero API keys, transparent Piotroski/Altman/Beneish scores with full data provenance, DuckDB-fast." },
-    "regressio": { "fr": "Bibliothèque TS zéro-dépendance de régression/classification/stats (OLS, Ridge, Lasso, Logistique, KNN, réseau de neurones) avec moteur Rust/WASM.", "en": "Zero-dep TS regression/classification/stats (OLS, Ridge, Lasso, Logistic, KNN, NN) with a Rust/WASM engine." },
-    "similarities": { "fr": "Fonctions pour trouver les similarités entre tableaux.", "en": "Functions to find similarities between arrays." },
-    "condorcet-winner": { "fr": "Implémentation de l'algorithme de vote de Condorcet en TypeScript.", "en": "Condorcet vote algorithm in TypeScript." },
-    "benford-law": { "fr": "Vérifie si un jeu de données suit la loi de Benford.", "en": "Check whether a dataset follows Benford's law." },
-    "gaussian-helper": { "fr": "Utilitaires pour les calculs gaussiens.", "en": "Helpers for Gaussian calculations." },
-    "node-simple-context": { "fr": "Contexte minimaliste pour Node, inspiré de l'API Context de React.", "en": "Minimalist context for Node, inspired by the React Context API." },
-    "react-essentials-functions": { "fr": "Hooks et composants utiles pour React.", "en": "Useful hooks and components for React." },
-    "ts-essentials-functions": { "fr": "Fonctions TypeScript essentielles, zéro-dépendance.", "en": "Essential zero-dependency TypeScript helpers." },
-    "rn-date": { "fr": "Correctif zéro-dépendance des problèmes d'analyse de dates en React Native sur Android.", "en": "Zero-dependency fix for date-parsing issues in React Native on Android." },
-    "rn-simple-modal": { "fr": "Modale React Native légère et zéro-dépendance (sans animation).", "en": "Lightweight, zero-dependency React Native modal (no animation)." },
-    "huge-async-storage": { "fr": "Wrapper d'async-storage pour stocker de grandes quantités de données en React Native.", "en": "async-storage wrapper for storing huge data in React Native." },
-    "insta-who-unfollowed-me": { "fr": "Suivez qui vous a unfollow sur Instagram.", "en": "Track who unfollowed you on Instagram." },
-    "release-notes-finder": { "fr": "Trouve les versions d'un paquet npm avec leurs notes de version GitHub.", "en": "Find npm-package versions with their GitHub release notes." },
-    "api-money-node-sdk": { "fr": "SDK Node non-officiel pour api-money.com.", "en": "Unofficial Node SDK for api-money.com." },
-    "github-change-json": { "fr": "Action pour modifier une valeur dans un fichier JSON (ex. package.json).", "en": "Action to change a value in a JSON file (e.g. package.json)." },
-    "github-commit-push-file": { "fr": "Action pour committer et pousser un fichier dans un dépôt.", "en": "Action to commit and push a file to a repository." },
-    "github-multi-deployments": { "fr": "Action pour gérer les statuts de déploiement sur plusieurs environnements.", "en": "Action to manage deployment statuses across multiple environments." },
-    "typescript-swc-starter": { "fr": "Starter TypeScript + SWC minimaliste générant des paquets CJS et ESM.", "en": "Minimalist TypeScript + SWC starter emitting CJS and ESM packages." },
-    "typescript-react-lib-swc": { "fr": "Starter TypeScript + SWC minimaliste pour créer des bibliothèques de composants React.", "en": "Minimalist TS + SWC starter for building React component libraries." },
-    "leboncoin-cdp": { "fr": "Scraper Leboncoin indétectable via le Chrome DevTools Protocol et les data routes Next.js — sans Puppeteer, sans détection de bot.", "en": "Undetectable Leboncoin scraper via Chrome DevTools Protocol & Next.js data routes — no Puppeteer, zero bot detection." },
-    "awesome-stars": { "fr": "Liste des dépôts que j'ai aimés sur GitHub.", "en": "Curated list of repositories I've liked on GitHub." },
-    "homebrew-tap": { "fr": "Tap Homebrew pour mes outils CLI (`brew install maxgfr/tap/…`).", "en": "Homebrew tap for my CLI tools (`brew install maxgfr/tap/…`)." },
-    "michel-golfier": { "fr": "Code source du site d'un écrivain.", "en": "Source of a writer's website." },
-    "maxgfr.github.io": { "fr": "Code source de mon site personnel.", "en": "Source of my personal website." },
-    "today": { "fr": "Todolist du jour, offline-first et privée : rien ne remonte tout seul — ce qui n'est pas fini attend une décision le lendemain, avec son ancienneté affichée. Aucun compte, aucun serveur, zéro requête réseau, prouvé par une CSP et un garde-fou qui casse la CI.", "en": "Offline-first, privacy-first daily to-do: nothing rolls over on its own — unfinished tasks wait for a decision the next morning, with their age shown. No account, no server, zero network requests, proven by a CSP and a build gate that fails CI." },
-    "basilico": { "fr": "Minuteur de concentration Pomodoro local-first (PWA + extension Chrome) : tâches, backlog et plan du jour, comptage des interruptions, overtime et Flowtime, heatmap annuelle, heures productives et précision des estimations, export JSON/CSV/Open Pomodoro — sans compte, sans serveur, sans tracking.", "en": "Local-first Pomodoro focus timer (PWA + Chrome extension): tasks, backlog & day plan, interruption counting, overtime and Flowtime, year heatmap, productive hours and estimate accuracy, JSON/CSV/Open Pomodoro export — no account, no server, no tracking." },
-    "bracketeer": { "fr": "Moteur de tournois agnostique : brackets, système suisse, ligues, poules et Elo composés depuis six axes — aucun sport codé en dur. 100 % navigateur, sans serveur ni compte : lien partageable, sync P2P, export ICS, impression et hors-ligne.", "en": "Sport-agnostic tournament engine: brackets, Swiss, leagues, groups and Elo composed from six axes — no sport hardcoded. Entirely in-browser, no server or account: shareable link, P2P live sync, ICS export, printing and offline." },
-    "kanbo": { "fr": "Gestion de projet local-first : kanban, sprints et roadmap dans le navigateur, avec un dépôt git comme seul backend.", "en": "Local-first project management: kanban, sprints and roadmap in your browser, with a git repo as the only backend." },
-    "terravia": { "fr": "RPG de capture de créatures dans un monde généré procéduralement. Tourne entièrement dans le navigateur — sans serveur ni compte. Le monde se reconstruit depuis une graine, donc une sauvegarde tient en quelques kilo-octets de JSON exportables et réimportables.", "en": "Creature-collecting RPG in a procedurally generated world. Runs entirely in the browser — no server, no account. The whole world rebuilds from a seed, so a save file is a few kilobytes of JSON you can export and re-import." }
+    "ultradoc": {
+      "fr": "Questions-réponses sourcées et docs de référence vérifiées pour n'importe quel projet open source, à partir de son vrai code, ses issues et PRs.",
+      "en": "Grounded Q&A + citation-checked reference docs for any OSS project, from its real source, issues & PRs."
+    },
+    "ultraindex": {
+      "fr": "Indexe un dépôt entier en une encyclopédie navigable par l'IA (carte + fiches par module + graphe de liens) pour les très gros codebases.",
+      "en": "Indexes a whole repo into an AI-navigable encyclopedia (map + per-module entries + link-graph) for huge codebases."
+    },
+    "ultrasearch": {
+      "fr": "Recherche web multi-moteurs sans clé → rapport Markdown/HTML à sources vérifiées et niveaux de détail (5 modes + recherche approfondie).",
+      "en": "Keyless multi-backend web research → citation-checked, tiered Markdown/HTML report (5 modes + deep-research tier)."
+    },
+    "ultrasec": {
+      "fr": "Agent d'audit de sécurité multi-fichiers : analyse de teinte source→puits + Trivy/Semgrep/gitleaks/osv, vérifiée de façon adversariale en rapport sourcé.",
+      "en": "Cross-file security-audit agent: source→sink taint + Trivy/Semgrep/gitleaks/osv, adversarially verified into a cited report."
+    },
+    "ultra11y": {
+      "fr": "Audite le HTML/CSS/JSX selon le RGAA 4.1.2 + WCAG 2.1/2.2 AA via un moteur statique zéro-dépendance + le jugement de l'IA.",
+      "en": "Audits HTML/CSS/JSX for RGAA 4.1.2 + WCAG 2.1/2.2 AA with a zero-dependency static engine + agent judgment."
+    },
+    "construct": {
+      "fr": "Transforme une idée produit en un cahier des charges (SRD/PRD) complet et réalisable (skill d'agent skills.sh).",
+      "en": "Turns a product idea into a grounded, buildable SRD/PRD suite (skills.sh agent skill)."
+    },
+    "reconstruct": {
+      "fr": "Analyse n'importe quel dépôt et génère des PRD de reconstruction pour le rebâtir de zéro.",
+      "en": "Analyzes any repo and generates reconstruction PRDs to rebuild it from scratch."
+    },
+    "ultrai18n": {
+      "fr": "Trouve toutes les chaînes lisibles d'un dépôt, les classe, les traduit avec des modèles bon marché et prouve qu'aucune n'a été oubliée : moteur zéro-dépendance, le modèle n'ouvre jamais un fichier source.",
+      "en": "Finds every human-readable string in a repo, classifies it, translates it with cheap models and proves nothing was missed: zero-dependency engine, the model never opens a source file."
+    },
+    "ultraprospect": {
+      "fr": "Transforme un lieu — ville, rue, rayon — en fichier de prospection défendable : balaie OpenStreetMap dans le monde entier et le registre d'entreprises que le pays possède réellement, fusionne les deux en une entité par entreprise, enrichit depuis le site de chacune (offres d'emploi lues via les API des ATS, sans navigateur) et refuse de deviner. La France, le Royaume-Uni et l'Estonie sont énumérables sans aucune clé — le UK depuis l'open data mensuel de Companies House, l'Estonie depuis un registre reconstruit chaque jour ; l'export allemand nomme le titulaire d'un HRB que VIES refuse de divulguer. Ailleurs, chaque entreprise est confirmée depuis l'immatriculation que son propre site doit publier par la loi. Lieu ambigu, appariement incertain, balayage partiel, enregistrement d'archive non daté ou contact non observé font échouer le run. Zéro dépendance, aucune clé d'API.",
+      "en": "Turns a place — a town, a street, a radius — into a prospect list you can defend: sweeps OpenStreetMap worldwide and whichever company register a country actually has, fuses them into one entity per company, enriches from each company's own site (openings read straight from the ATS APIs, no browser) and refuses to guess. France, the UK and Estonia are enumerated without any key — the UK from Companies House's monthly open data, Estonia from a register rebuilt daily; Germany's export names the HRB holder VIES will not disclose. Elsewhere each company is confirmed from the registration its own site must publish by law. An ambiguous place, an uncertain match, a partial sweep, an undated snapshot record or an unobserved contact all fail the run. Zero-dependency, no API keys."
+    },
+    "ultraeval": {
+      "fr": "Évalue rigoureusement une skill ou un codebase → constats sourcés (file:line) + backlog de corrections en TDD ; moteur zéro-dépendance avec analyse (hotspots, cycles, churn) et brainstorm.",
+      "en": "Rigorously evaluates a skill or codebase → grounded (file:line) findings + a TDD fix backlog; zero-dep engine with analysis (hotspots, cycles, churn) and brainstorm."
+    },
+    "codeindex": {
+      "fr": "Moteur d'indexation de dépôt zéro-dépendance : symboles, imports, graphe de liens inter-fichiers typé et analytics — un seul engine.mjs embarquable, CLI + serveur MCP inclus.",
+      "en": "Zero-dependency repo-indexing engine: symbols, imports, typed cross-file link-graph & analytics — one vendorable engine.mjs, CLI + MCP server included."
+    },
+    "webindex": {
+      "fr": "Moteur de récupération web zéro-dépendance : transforme une URL ou un fichier en texte propre et citable — HTML, PDF via une échelle à six barreaux finissant en OCR, documents bureautiques — et le sert en MCP. Un seul engine.mjs embarquable, CLI + serveur MCP inclus. Le pendant web de codeindex.",
+      "en": "Zero-dependency web-retrieval engine: turns a URL or a file into clean, citable text — HTML, PDFs through a six-rung ladder ending in OCR, office documents — and serves it over MCP. One vendorable engine.mjs, CLI + MCP server included. The web-side companion to codeindex."
+    },
+    "feelc": {
+      "fr": "Moteur de règles métier DMN/FEEL natif IA compilé en Go : un LLM écrit les règles, le moteur les prouve et les exécute de façon déterministe (playground WASM).",
+      "en": "AI-native DMN/FEEL business-rules engine in Go: an LLM writes the rules, the engine proves & runs them deterministically (WASM playground)."
+    },
+    "conforme": {
+      "fr": "Synchronise ta config d'IA de code (règles, skills, agents, serveurs MCP) entre Claude Code, Cursor et d'autres outils (Rust).",
+      "en": "Syncs your AI coding config (rules, skills, agents, MCP servers) across Claude Code, Cursor & more (Rust)."
+    },
+    "claudfeine": {
+      "fr": "Lance Claude Code (et Codex) « sous caféine » — garde la machine éveillée le temps de la session, puis restaure la veille. Multi-plateforme, zéro-dépendance.",
+      "en": "Runs Claude Code (and Codex) caffeinated — keeps the machine awake for exactly the session, cross-platform & zero-dep."
+    },
+    "claude-code-switch": {
+      "fr": "Bascule zéro-dépendance entre fournisseurs pour Claude Code (Anthropic, OpenRouter, DeepSeek, Z.AI, Kimi, Qwen…).",
+      "en": "Zero-dependency provider switching for Claude Code (Anthropic, OpenRouter, DeepSeek, Z.AI, Kimi, Qwen…)."
+    },
+    "git-pilot": {
+      "fr": "Automatisation git par IA : commits intelligents, résolution de conflits et rebase auto (Claude/Codex/OpenAI/Gemini/Mistral). 100% Bash.",
+      "en": "AI-powered git automation: smart commits, conflict resolution & auto-rebase (Claude/Codex/OpenAI/Gemini/Mistral). Pure Bash."
+    },
+    "git-recap": {
+      "fr": "Générateur de récap mensuel des commits : résumés par IA, points clés et liste des commits.",
+      "en": "Monthly commit-recap generator with AI summaries, bullet points and commit lists."
+    },
+    "llm-models": {
+      "fr": "Récupère les derniers modèles LLM depuis les API OpenRouter et models.dev.",
+      "en": "Fetches the latest LLM models from the OpenRouter and models.dev APIs."
+    },
+    "sift": {
+      "fr": "Dit quelle quantization d'un LLM tient en mémoire et à quelle vitesse elle tournera — avant de la télécharger. Lit les vrais en-têtes GGUF/safetensors par requêtes HTTP Range, mesure la machine et recommande un moteur. Aucune liste de modèles embarquée (Rust).",
+      "en": "Tells you which quantization of an LLM fits and how fast it will run — before you download it. Reads real GGUF/safetensors headers over HTTP range requests, measures your machine and routes to an engine. No bundled model list (Rust)."
+    },
+    "secretgate": {
+      "fr": "Pare-feu local anti-fuite de secrets pour agents de code — masque les identifiants dans les prompts, lectures de fichiers et sorties d'outils avant qu'ils n'atteignent le LLM (Claude Code, Codex, OpenCode). Hooks déterministes, sans proxy.",
+      "en": "Local secrets firewall for coding agents — redacts credentials in prompts, file reads & tool output before they reach the LLM (Claude Code, Codex, OpenCode). Deterministic hooks, no proxy."
+    },
+    "andro": {
+      "fr": "Lance des applis Android (mobile & TV) depuis le terminal macOS sur un émulateur jetable et autonome (Apple Silicon, HVF). (Rust)",
+      "en": "Run Android apps (phone & TV) from the macOS CLI on a disposable, self-contained emulator (Apple Silicon, HVF). (Rust)"
+    },
+    "brutifi": {
+      "fr": "Outil de test de sécurité WiFi haute performance en Rust, pour l'éducation et les audits autorisés.",
+      "en": "High-performance WiFi security-testing tool in Rust for educational and authorized audits."
+    },
+    "rshc": {
+      "fr": "Réimplémentation en Rust de SHC : chiffre des scripts shell en binaires compilés.",
+      "en": "Rust reimplementation of SHC: encrypts shell scripts into compiled binaries."
+    },
+    "subtool": {
+      "fr": "CLI tout-en-un pour les sous-titres : télécharger, traduire, convertir, synchroniser, nettoyer, fusionner, corriger, extraire et intégrer.",
+      "en": "All-in-one subtitle CLI: download, translate, convert, sync, clean, merge, fix, extract & embed."
+    },
+    "snatch": {
+      "fr": "Téléchargeur de vidéos universel : essaie yt-dlp d'abord, bascule sur l'extraction navigateur (CDP) pour les sites récalcitrants.",
+      "en": "Universal video downloader: yt-dlp first, CDP browser extraction fallback for stubborn sites."
+    },
+    "web-watcher": {
+      "fr": "Script Bash qui surveille des API et sites web : détection de différences, seuils et notifications instantanées.",
+      "en": "Bash watcher for APIs & websites with diff detection, thresholds and instant notifications."
+    },
+    "package-checker.sh": {
+      "fr": "Scanne les projets node/bun/deno à la recherche de paquets npm vulnérables via OSV/GHSA (JSON/CSV/PURL/SBOM/SARIF/TRIVY).",
+      "en": "Scans node/bun/deno projects for vulnerable npm packages via OSV/GHSA (JSON/CSV/PURL/SBOM/SARIF/TRIVY)."
+    },
+    "github-helpers": {
+      "fr": "Boîte à outils de maintenance GitHub : unstar en masse, clone d'org, nettoyage des forks, audit de dépôts, etc.",
+      "en": "GitHub maintenance toolkit: bulk unstar, org clone, fork cleanup, repo audit and more."
+    },
+    "copyable-pdf": {
+      "fr": "Convertit des PDF scannés en PDF cherchables et copiables grâce à l'OCR Tesseract (traitement parallèle).",
+      "en": "Converts scanned PDFs into searchable, copyable PDFs with Tesseract OCR (parallel)."
+    },
+    "ratio-master": {
+      "fr": "Outil de ratio torrent qui envoie de vraies requêtes d'annonce HTTP aux trackers BitTorrent.",
+      "en": "Torrent ratio tool that sends real HTTP announce requests to BitTorrent trackers."
+    },
+    "unsleep": {
+      "fr": "Petit exécutable qui empêche la machine de se mettre en veille.",
+      "en": "Tiny executable that prevents the machine from sleeping."
+    },
+    "csv-ai-analyzer": {
+      "fr": "Analyseur de CSV par IA, auto-hébergé et exécuté dans le navigateur.",
+      "en": "Self-hosted, browser-based AI CSV analyzer."
+    },
+    "db-schema-viewer": {
+      "fr": "Visualiseur de schéma de base de données côté client avec analyse par IA — importez du SQL, visualisez, partagez, exportez, sans backend.",
+      "en": "Client-side DB-schema visualizer with AI analysis — upload SQL, visualize, share, export, no backend."
+    },
+    "real-estate-calculator": {
+      "fr": "Calculateur de rentabilité (ROI) immobilière pour évaluer la rentabilité d'un bien locatif.",
+      "en": "Real-estate ROI calculator for rental-property profitability."
+    },
+    "genpass": {
+      "fr": "Générateur de mots de passe et coffre-fort chiffré, 100% dans le navigateur : entropie exacte, phrases secrètes EFF, coffre AES-256-GCM (PBKDF2 600k) avec auto-verrouillage, liens de partage chiffrés et QR — PWA hors-ligne.",
+      "en": "Client-side password generator + encrypted vault PWA: exact entropy, EFF passphrases, auto-locking AES-256-GCM vault (PBKDF2 600k), encrypted share links & QR — offline-first."
+    },
+    "nook": {
+      "fr": "Notion local-first et chiffré, 100% dans le navigateur : éditeur à blocs, pages imbriquées, wikilinks et backlinks, tags, recherche ⌘K, bases de données (table/kanban/calendrier), historique de versions, carte des liens. Verrouillage par passphrase (Argon2id) avec rotation de clé, et effacement total vérifiable. Aucune requête réseau possible — CSP connect-src 'none', prouvée en CI. PWA hors-ligne.",
+      "en": "Local-first, encrypted Notion in the browser: block editor, nested pages, wikilinks and backlinks, tags, ⌘K search, databases (table/board/calendar), version history, link map. Passphrase locking (Argon2id) that rotates the key, and a wipe you can verify. No network request is possible — CSP connect-src 'none', proven in CI. Offline PWA."
+    },
+    "loyalty-card-vault": {
+      "fr": "PWA hors-ligne pour gérer ses cartes de fidélité avec stockage chiffré et scan de codes-barres.",
+      "en": "Offline-first PWA for loyalty cards with encrypted storage and barcode scanning."
+    },
+    "omnilingo": {
+      "fr": "Application de bureau d'apprentissage des langues avec tutorat IA multi-fournisseurs.",
+      "en": "Desktop language-learning app with multi-provider AI tutoring."
+    },
+    "feedreel": {
+      "fr": "Générateur local de courtes vidéos quotidiennes (Remotion) avec légendes par plateforme + publication optionnelle sur Shorts/TikTok/Reels.",
+      "en": "Local-first daily short-video generator (Remotion) with per-platform captions + opt-in Shorts/TikTok/Reels publishing."
+    },
+    "binance-historical": {
+      "fr": "Récupère les bougies (klines) historiques depuis l'API Binance.",
+      "en": "Fetch historical klines from the Binance API."
+    },
+    "ai-strategy-backtester": {
+      "fr": "Décrivez une stratégie crypto en langage naturel → fichier de stratégie JSON, backtesté sur 50+ indicateurs avec rapports HTML.",
+      "en": "Describe a crypto strategy in plain English → JSON strategy, backtested over 50+ indicators with HTML reports."
+    },
+    "supertrend": {
+      "fr": "Implémentation de l'indicateur SuperTrend.",
+      "en": "Implementation of the SuperTrend indicator."
+    },
+    "crible": {
+      "fr": "Screener fondamental d'actions auto-hébergé — 150k+ titres, zéro clé d'API, scores Piotroski/Altman/Beneish transparents avec traçabilité complète des données, rapide grâce à DuckDB.",
+      "en": "Self-hosted fundamental stock screener — 150k+ equities, zero API keys, transparent Piotroski/Altman/Beneish scores with full data provenance, DuckDB-fast."
+    },
+    "regressio": {
+      "fr": "Bibliothèque TS zéro-dépendance de régression/classification/stats (OLS, Ridge, Lasso, Logistique, KNN, réseau de neurones) avec moteur Rust/WASM.",
+      "en": "Zero-dep TS regression/classification/stats (OLS, Ridge, Lasso, Logistic, KNN, NN) with a Rust/WASM engine."
+    },
+    "similarities": {
+      "fr": "Fonctions pour trouver les similarités entre tableaux.",
+      "en": "Functions to find similarities between arrays."
+    },
+    "condorcet-winner": {
+      "fr": "Implémentation de l'algorithme de vote de Condorcet en TypeScript.",
+      "en": "Condorcet vote algorithm in TypeScript."
+    },
+    "benford-law": {
+      "fr": "Vérifie si un jeu de données suit la loi de Benford.",
+      "en": "Check whether a dataset follows Benford's law."
+    },
+    "gaussian-helper": {
+      "fr": "Utilitaires pour les calculs gaussiens.",
+      "en": "Helpers for Gaussian calculations."
+    },
+    "node-simple-context": {
+      "fr": "Contexte minimaliste pour Node, inspiré de l'API Context de React.",
+      "en": "Minimalist context for Node, inspired by the React Context API."
+    },
+    "react-essentials-functions": {
+      "fr": "Hooks et composants utiles pour React.",
+      "en": "Useful hooks and components for React."
+    },
+    "ts-essentials-functions": {
+      "fr": "Fonctions TypeScript essentielles, zéro-dépendance.",
+      "en": "Essential zero-dependency TypeScript helpers."
+    },
+    "rn-date": {
+      "fr": "Correctif zéro-dépendance des problèmes d'analyse de dates en React Native sur Android.",
+      "en": "Zero-dependency fix for date-parsing issues in React Native on Android."
+    },
+    "rn-simple-modal": {
+      "fr": "Modale React Native légère et zéro-dépendance (sans animation).",
+      "en": "Lightweight, zero-dependency React Native modal (no animation)."
+    },
+    "huge-async-storage": {
+      "fr": "Wrapper d'async-storage pour stocker de grandes quantités de données en React Native.",
+      "en": "async-storage wrapper for storing huge data in React Native."
+    },
+    "insta-who-unfollowed-me": {
+      "fr": "Suivez qui vous a unfollow sur Instagram.",
+      "en": "Track who unfollowed you on Instagram."
+    },
+    "release-notes-finder": {
+      "fr": "Trouve les versions d'un paquet npm avec leurs notes de version GitHub.",
+      "en": "Find npm-package versions with their GitHub release notes."
+    },
+    "api-money-node-sdk": {
+      "fr": "SDK Node non-officiel pour api-money.com.",
+      "en": "Unofficial Node SDK for api-money.com."
+    },
+    "github-change-json": {
+      "fr": "Action pour modifier une valeur dans un fichier JSON (ex. package.json).",
+      "en": "Action to change a value in a JSON file (e.g. package.json)."
+    },
+    "github-commit-push-file": {
+      "fr": "Action pour committer et pousser un fichier dans un dépôt.",
+      "en": "Action to commit and push a file to a repository."
+    },
+    "github-multi-deployments": {
+      "fr": "Action pour gérer les statuts de déploiement sur plusieurs environnements.",
+      "en": "Action to manage deployment statuses across multiple environments."
+    },
+    "typescript-swc-starter": {
+      "fr": "Starter TypeScript + SWC minimaliste générant des paquets CJS et ESM.",
+      "en": "Minimalist TypeScript + SWC starter emitting CJS and ESM packages."
+    },
+    "typescript-react-lib-swc": {
+      "fr": "Starter TypeScript + SWC minimaliste pour créer des bibliothèques de composants React.",
+      "en": "Minimalist TS + SWC starter for building React component libraries."
+    },
+    "leboncoin-cdp": {
+      "fr": "Scraper Leboncoin indétectable via le Chrome DevTools Protocol et les data routes Next.js — sans Puppeteer, sans détection de bot.",
+      "en": "Undetectable Leboncoin scraper via Chrome DevTools Protocol & Next.js data routes — no Puppeteer, zero bot detection."
+    },
+    "awesome-stars": {
+      "fr": "Liste des dépôts que j'ai aimés sur GitHub.",
+      "en": "Curated list of repositories I've liked on GitHub."
+    },
+    "homebrew-tap": {
+      "fr": "Tap Homebrew pour mes outils CLI (`brew install maxgfr/tap/…`).",
+      "en": "Homebrew tap for my CLI tools (`brew install maxgfr/tap/…`)."
+    },
+    "michel-golfier": {
+      "fr": "Code source du site d'un écrivain.",
+      "en": "Source of a writer's website."
+    },
+    "maxgfr.github.io": {
+      "fr": "Code source de mon site personnel.",
+      "en": "Source of my personal website."
+    },
+    "today": {
+      "fr": "Todolist du jour, offline-first et privée : rien ne remonte tout seul — ce qui n'est pas fini attend une décision le lendemain, avec son ancienneté affichée. Aucun compte, aucun serveur, zéro requête réseau, prouvé par une CSP et un garde-fou qui casse la CI.",
+      "en": "Offline-first, privacy-first daily to-do: nothing rolls over on its own — unfinished tasks wait for a decision the next morning, with their age shown. No account, no server, zero network requests, proven by a CSP and a build gate that fails CI."
+    },
+    "basilico": {
+      "fr": "Minuteur de concentration Pomodoro local-first (PWA + extension Chrome) : tâches, backlog et plan du jour, comptage des interruptions, overtime et Flowtime, heatmap annuelle, heures productives et précision des estimations, export JSON/CSV/Open Pomodoro — sans compte, sans serveur, sans tracking.",
+      "en": "Local-first Pomodoro focus timer (PWA + Chrome extension): tasks, backlog & day plan, interruption counting, overtime and Flowtime, year heatmap, productive hours and estimate accuracy, JSON/CSV/Open Pomodoro export — no account, no server, no tracking."
+    },
+    "bracketeer": {
+      "fr": "Moteur de tournois agnostique : brackets, système suisse, ligues, poules et Elo composés depuis six axes — aucun sport codé en dur. 100 % navigateur, sans serveur ni compte : lien partageable, sync P2P, export ICS, impression et hors-ligne.",
+      "en": "Sport-agnostic tournament engine: brackets, Swiss, leagues, groups and Elo composed from six axes — no sport hardcoded. Entirely in-browser, no server or account: shareable link, P2P live sync, ICS export, printing and offline."
+    },
+    "kanbo": {
+      "fr": "Gestion de projet local-first : kanban, sprints et roadmap dans le navigateur, avec un dépôt git comme seul backend.",
+      "en": "Local-first project management: kanban, sprints and roadmap in your browser, with a git repo as the only backend."
+    },
+    "terravia": {
+      "fr": "RPG de capture de créatures dans un monde généré procéduralement. Tourne entièrement dans le navigateur — sans serveur ni compte. Le monde se reconstruit depuis une graine, donc une sauvegarde tient en quelques kilo-octets de JSON exportables et réimportables.",
+      "en": "Creature-collecting RPG in a procedurally generated world. Runs entirely in the browser — no server, no account. The whole world rebuilds from a seed, so a save file is a few kilobytes of JSON you can export and re-import."
+    }
   }
 }
