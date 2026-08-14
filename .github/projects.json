@@ -78,7 +78,8 @@
         "feedreel",
         "leboncoin-cdp",
         "release-notes-finder",
-        "kanbo"
+        "kanbo",
+        "unmark"
       ]
     },
     {
@@ -437,6 +438,10 @@
     "terravia": {
       "fr": "RPG de capture de créatures dans un monde généré procéduralement. Tourne entièrement dans le navigateur — sans serveur ni compte. Le monde se reconstruit depuis une graine, donc une sauvegarde tient en quelques kilo-octets de JSON exportables et réimportables.",
       "en": "Creature-collecting RPG in a procedurally generated world. Runs entirely in the browser — no server, no account. The whole world rebuilds from a seed, so a save file is a few kilobytes of JSON you can export and re-import."
+    },
+    "unmark": {
+      "fr": "Retire les watermarks dans le navigateur : caractères Unicode invisibles et stéganographie dans le texte (le payload est décodé, pas seulement supprimé), métadonnées C2PA/EXIF/XMP sur 11 formats, et watermarks visibles sur les images — un overlay plat est inversé exactement plutôt que repeint, sinon inpainting Telea ou MI-GAN. Rien n'est uploadé : connect-src 'self' seul, prouvé par un gate CI.",
+      "en": "Strips watermarks in the browser: invisible Unicode and steganography in text (the payload is decoded, not just deleted), C2PA/EXIF/XMP metadata across 11 formats, and visible image watermarks — a flat overlay is inverted exactly rather than painted over, with Telea or MI-GAN inpainting otherwise. Nothing is uploaded: connect-src 'self' alone, proven by a CI gate."
     }
   }
 }
