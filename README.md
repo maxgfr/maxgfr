@@ -99,7 +99,7 @@ engineer.whatIDo();
 </details>
 
 <details>
-<summary><strong>🌐 Web apps & PWAs</strong> · 14</summary>
+<summary><strong>🌐 Web apps & PWAs</strong> · 15</summary>
 
 - **[today](https://github.com/maxgfr/today)** — Offline-first, privacy-first daily to-do: nothing rolls over on its own — unfinished tasks wait for a decision the next morning, with their age shown. No account, no server, zero network requests, proven by a CSP and a build gate that fails CI. · [demo](https://maxgfr.github.io/today)
 - **[nook](https://github.com/maxgfr/nook)** — Local-first, encrypted Notion in the browser: block editor, nested pages, wikilinks and backlinks, tags, ⌘K search, databases (table/board/calendar), version history, link map. Passphrase locking (Argon2id) that rotates the key, and a wipe you can verify. No network request is possible — CSP connect-src 'none', proven in CI. Offline PWA. · [demo](https://maxgfr.github.io/nook/)
@@ -115,6 +115,7 @@ engineer.whatIDo();
 - **[leboncoin-cdp](https://github.com/maxgfr/leboncoin-cdp)** — Undetectable Leboncoin scraper via Chrome DevTools Protocol & Next.js data routes — no Puppeteer, zero bot detection.
 - **[release-notes-finder](https://github.com/maxgfr/release-notes-finder)** — Find npm-package versions with their GitHub release notes. · [demo](https://maxgfr.github.io/release-notes-finder)
 - **[kanbo](https://github.com/maxgfr/kanbo)** — Local-first project management: kanban, sprints and roadmap in your browser, with a git repo as the only backend. · [demo](https://maxgfr.github.io/kanbo/)
+- **[unmark](https://github.com/maxgfr/unmark)** — Strips watermarks in the browser: invisible Unicode and steganography in text (the payload is decoded, not just deleted), C2PA/EXIF/XMP metadata across 11 formats, and visible image watermarks — a flat overlay is inverted exactly rather than painted over, with Telea or MI-GAN inpainting otherwise. Nothing is uploaded: connect-src 'self' alone, proven by a CI gate. · [demo](https://maxgfr.github.io/unmark/)
 
 </details>
 
