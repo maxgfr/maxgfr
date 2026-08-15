@@ -51,7 +51,7 @@ engineer.whatIDo();
 <details>
 <summary><strong>🪄 Agent skills</strong> · 11</summary>
 
-- **[skills](https://github.com/maxgfr/skills)** — The home for my agent skills — process skills, which change how an agent works rather than what it knows. First of the set: verify, which proves that what an agent just built actually works — real gates, plan conformance, adversarial defect hunting and behaviour proof — instead of taking its word for it.
+- **[skills](https://github.com/maxgfr/skills)** — The home for my agent skills — process skills, which change how an agent works rather than what it knows. Installable with one `npx skills add maxgfr/skills`, or as a Claude Code plugin.
 - **[ultradoc](https://github.com/maxgfr/ultradoc)** — Grounded Q&A + citation-checked reference docs for any OSS project, from its real source, issues & PRs.
 - **[ultraindex](https://github.com/maxgfr/ultraindex)** — Indexes a whole repo into an AI-navigable encyclopedia (map + per-module entries + link-graph) for huge codebases.
 - **[ultrasearch](https://github.com/maxgfr/ultrasearch)** — Keyless multi-backend web research → citation-checked, tiered Markdown/HTML report (5 modes + deep-research tier).
