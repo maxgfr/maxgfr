@@ -66,7 +66,7 @@ engineer.whatIDo();
 </details>
 
 <details>
-<summary><strong>🤖 AI & dev tooling</strong> · 11</summary>
+<summary><strong>🤖 AI & dev tooling</strong> · 12</summary>
 
 - **[feelc](https://github.com/maxgfr/feelc)** — AI-native DMN/FEEL business-rules engine in Go: an LLM writes the rules, the engine proves & runs them deterministically (WASM playground). · [demo](https://maxgfr.github.io/feelc/)
 - **[codeindex](https://github.com/maxgfr/codeindex)** — Zero-dependency repo-indexing engine: symbols, imports, typed cross-file link-graph & analytics — one vendorable engine.mjs, CLI + MCP server included. · [demo](https://maxgfr.github.io/codeindex/)
@@ -76,6 +76,7 @@ engineer.whatIDo();
 - **[sift](https://github.com/maxgfr/sift)** — Tells you which quantization of an LLM fits and how fast it will run — before you download it. Reads real GGUF/safetensors headers over HTTP range requests, measures your machine and routes to an engine. No bundled model list (Rust).
 - **[claudfeine](https://github.com/maxgfr/claudfeine)** — Runs Claude Code (and Codex) caffeinated — keeps the machine awake for exactly the session, cross-platform & zero-dep.
 - **[claude-code-switch](https://github.com/maxgfr/claude-code-switch)** — Zero-dependency provider switching for Claude Code (Anthropic, OpenRouter, DeepSeek, Z.AI, Kimi, Qwen…).
+- **[codexify](https://github.com/maxgfr/codexify)** — Codex sidecar toolbelt: model profiles, reliable Action Required notifications, config backup, keep-awake, and diagnostics (Rust).
 - **[git-pilot](https://github.com/maxgfr/git-pilot)** — AI-powered git automation: smart commits, conflict resolution & auto-rebase (Claude/Codex/OpenAI/Gemini/Mistral). Pure Bash.
 - **[git-recap](https://github.com/maxgfr/git-recap)** — Monthly commit-recap generator with AI summaries, bullet points and commit lists.
 - **[llm-models](https://github.com/maxgfr/llm-models)** — Fetches the latest LLM models from the OpenRouter and models.dev APIs. · [npm](https://www.npmjs.com/package/llm-models)

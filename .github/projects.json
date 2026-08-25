@@ -40,6 +40,7 @@
         "sift",
         "claudfeine",
         "claude-code-switch",
+        "codexify",
         "git-pilot",
         "git-recap",
         "llm-models"
@@ -216,6 +217,10 @@
     "claude-code-switch": {
       "fr": "Bascule zéro-dépendance entre fournisseurs pour Claude Code (Anthropic, OpenRouter, DeepSeek, Z.AI, Kimi, Qwen…).",
       "en": "Zero-dependency provider switching for Claude Code (Anthropic, OpenRouter, DeepSeek, Z.AI, Kimi, Qwen…)."
+    },
+    "codexify": {
+      "fr": "Boîte à outils sidecar pour Codex : profils de modèles, notifications Action Required fiables, sauvegarde de configuration, maintien en éveil et diagnostics (Rust).",
+      "en": "Codex sidecar toolbelt: model profiles, reliable Action Required notifications, config backup, keep-awake, and diagnostics (Rust)."
     },
     "git-pilot": {
       "fr": "Automatisation git par IA : commits intelligents, résolution de conflits et rebase auto (Claude/Codex/OpenAI/Gemini/Mistral). 100% Bash.",
