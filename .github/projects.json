@@ -1,7 +1,8 @@
 {
   "_comment": "SINGLE SOURCE OF TRUTH for both the profile README (maxgfr/maxgfr) and the website projects page (maxgfr.github.io). Edit ONLY this file. The README generator reads it locally; the website generator fetches it from this repo via the GitHub API. Bilingual: category titles have title_fr/title_en; each description is { fr, en }. 'exclude' is applied everywhere; 'excludeFromSite' is additionally removed from the website only. Any owned public repo not listed appears under the fallback category using its GitHub description.",
   "exclude": [
-    "maxgfr"
+    "maxgfr",
+    "ultra11y"
   ],
   "excludeFromSite": [
     "maxgfr.github.io"
@@ -20,7 +21,6 @@
         "ultraindex",
         "ultrasearch",
         "ultrasec",
-        "ultra11y",
         "ultrai18n",
         "ultraprospect",
         "construct",
@@ -169,10 +169,6 @@
     "ultrasec": {
       "fr": "Agent d'audit de sécurité multi-fichiers : analyse de teinte source→puits + Trivy/Semgrep/gitleaks/osv, vérifiée de façon adversariale en rapport sourcé.",
       "en": "Cross-file security-audit agent: source→sink taint + Trivy/Semgrep/gitleaks/osv, adversarially verified into a cited report."
-    },
-    "ultra11y": {
-      "fr": "Audite le HTML/CSS/JSX selon le RGAA 4.1.2 + WCAG 2.1/2.2 AA via un moteur statique zéro-dépendance + le jugement de l'IA.",
-      "en": "Audits HTML/CSS/JSX for RGAA 4.1.2 + WCAG 2.1/2.2 AA with a zero-dependency static engine + agent judgment."
     },
     "construct": {
       "fr": "Transforme une idée produit en un cahier des charges (SRD/PRD) complet et réalisable (skill d'agent skills.sh).",

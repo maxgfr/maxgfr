@@ -29,9 +29,16 @@ async function allOwnedRepos() {
     out.push(...batch);
     if (batch.length < 100) break;
   }
-  // public, non-fork, non-archived, not explicitly excluded
+  // public, still owned by this account, non-fork, non-archived, not explicitly excluded.
+  // GitHub can keep transferred repositories in this endpoint temporarily, even
+  // with type=owner, so verify the owner returned by the API as well.
   return out.filter(
-    (r) => !r.private && !r.fork && !r.archived && !(CONFIG.exclude || []).includes(r.name)
+    (r) =>
+      r.owner?.login.toLowerCase() === USER.toLowerCase() &&
+      !r.private &&
+      !r.fork &&
+      !r.archived &&
+      !(CONFIG.exclude || []).includes(r.name)
   );
 }
 
