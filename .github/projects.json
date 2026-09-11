@@ -17,7 +17,6 @@
       "title_en": "🪄 Agent skills",
       "repos": [
         "skills",
-        "scopelet",
         "ultradoc",
         "ultraindex",
         "ultrasearch",
@@ -38,6 +37,7 @@
         "webindex",
         "conforme",
         "secretgate",
+        "scopelet",
         "sift",
         "claudfeine",
         "claude-code-switch",
