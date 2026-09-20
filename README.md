@@ -185,4 +185,11 @@ engineer.whatIDo();
 - **[maxgfr.github.io](https://github.com/maxgfr/maxgfr.github.io)** — Source of my personal website. · [demo](https://maxgfr.github.io/)
 
 </details>
+
+<details>
+<summary><strong>🆕 Uncategorized</strong> · 1</summary>
+
+- **[phone-torrent](https://github.com/maxgfr/phone-torrent)** — No description.
+
+</details>
 <!-- PROJECTS:END -->
