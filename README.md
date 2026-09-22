@@ -101,7 +101,7 @@ engineer.whatIDo();
 </details>
 
 <details>
-<summary><strong>🌐 Web apps & PWAs</strong> · 17</summary>
+<summary><strong>🌐 Web apps & PWAs</strong> · 18</summary>
 
 - **[today](https://github.com/maxgfr/today)** — Offline-first, privacy-first daily to-do: nothing rolls over on its own — unfinished tasks wait for a decision the next morning, with their age shown. No account, no server, zero network requests, proven by a CSP and a build gate that fails CI. · [demo](https://maxgfr.github.io/today)
 - **[nook](https://github.com/maxgfr/nook)** — Local-first, encrypted Notion in the browser: block editor, nested pages, wikilinks and backlinks, tags, ⌘K search, databases (table/board/calendar), version history, link map. Passphrase locking (Argon2id) that rotates the key, and a wipe you can verify. No network request is possible — CSP connect-src 'none', proven in CI. Offline PWA. · [demo](https://maxgfr.github.io/nook/)
@@ -120,6 +120,7 @@ engineer.whatIDo();
 - **[kanbo](https://github.com/maxgfr/kanbo)** — Local-first project management: kanban, sprints and roadmap in your browser, with a git repo as the only backend. · [demo](https://maxgfr.github.io/kanbo/)
 - **[unmark](https://github.com/maxgfr/unmark)** — Strips watermarks in the browser: invisible Unicode and steganography in text (the payload is decoded, not just deleted), C2PA/EXIF/XMP metadata across 11 formats, and visible image watermarks — a flat overlay is inverted exactly rather than painted over, with Telea or MI-GAN inpainting otherwise. Nothing is uploaded: connect-src 'self' alone, proven by a CI gate. · [demo](https://maxgfr.github.io/unmark/)
 - **[siphon](https://github.com/maxgfr/siphon)** — Browser-first video downloader: paste a link, pick a quality, get the file — fetching, merging and converting happen on the device (ffmpeg.wasm, OPFS), nothing is uploaded. For sites a page cannot read, YouTube above all, point it at one thing: an Invidious/Piped/cobalt instance, a one-click Cloudflare relay, a userscript bridge, or your own yt-dlp server (Docker, with cookies, SponsorBlock, clips). Public instances are measured daily and only the ones that answer are offered. Offline PWA and share target.
+- **[phone-torrent](https://github.com/maxgfr/phone-torrent)** — Torrents on a phone, from a web page: add a .torrent or a magnet, watch it arrive, save the files to the device (one by one or as a .zip) — WebTorrent in the browser, pieces in OPFS, seed and share from the phone. When the swarm is one a browser cannot reach (private trackers, TCP/UDP-only peers), the same torrent goes to a real client: your own server (one docker compose, or one click on Render/Fly/Cloudflare) or a service you already pay for (TorBox, put.io, Real-Debrid, AllDebrid). Offline, installable PWA and share target.
 
 </details>
 
@@ -183,13 +184,6 @@ engineer.whatIDo();
 - **[homebrew-tap](https://github.com/maxgfr/homebrew-tap)** — Homebrew tap for my CLI tools (`brew install maxgfr/tap/…`).
 - **[michel-golfier](https://github.com/maxgfr/michel-golfier)** — Source of a writer's website. · [site](https://www.michelgolfier.fr)
 - **[maxgfr.github.io](https://github.com/maxgfr/maxgfr.github.io)** — Source of my personal website. · [demo](https://maxgfr.github.io/)
-
-</details>
-
-<details>
-<summary><strong>🆕 Uncategorized</strong> · 1</summary>
-
-- **[phone-torrent](https://github.com/maxgfr/phone-torrent)** — No description.
 
 </details>
 <!-- PROJECTS:END -->
