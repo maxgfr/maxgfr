@@ -23,6 +23,7 @@
         "ultrasec",
         "ultrai18n",
         "ultraprospect",
+        "ultrawatch",
         "construct",
         "reconstruct",
         "ultraeval"
@@ -202,8 +203,8 @@
       "en": "Zero-dependency repo-indexing engine: symbols, imports, typed cross-file link-graph & analytics — one vendorable engine.mjs, CLI + MCP server included."
     },
     "webindex": {
-      "fr": "Moteur de récupération web zéro-dépendance : transforme une URL ou un fichier en texte propre et citable — HTML, PDF via une échelle à six barreaux finissant en OCR, documents bureautiques — et le sert en MCP. Un seul engine.mjs embarquable, CLI + serveur MCP inclus. Le pendant web de codeindex.",
-      "en": "Zero-dependency web-retrieval engine: turns a URL or a file into clean, citable text — HTML, PDFs through a six-rung ladder ending in OCR, office documents — and serves it over MCP. One vendorable engine.mjs, CLI + MCP server included. The web-side companion to codeindex."
+      "fr": "Moteur de récupération web zéro-dépendance : transforme une URL ou un fichier en texte propre et citable — HTML, PDF via une échelle à six barreaux finissant en OCR, documents bureautiques, vidéos YouTube en transcriptions horodatées — et le sert en MCP. Un seul engine.mjs embarquable, CLI + serveur MCP inclus. Le pendant web de codeindex.",
+      "en": "Zero-dependency web-retrieval engine: turns a URL or a file into clean, citable text — HTML, PDFs through a six-rung ladder ending in OCR, office documents, YouTube videos as timestamped transcripts — and serves it over MCP. One vendorable engine.mjs, CLI + MCP server included. The web-side companion to codeindex."
     },
     "feelc": {
       "fr": "Moteur de règles métier DMN/FEEL natif IA compilé en Go : un LLM écrit les règles, le moteur les prouve et les exécute de façon déterministe (playground WASM).",
@@ -468,6 +469,10 @@
     "phone-torrent": {
       "fr": "Des torrents sur un téléphone, depuis une page web : ajoutez un .torrent ou un magnet, suivez le téléchargement, enregistrez les fichiers sur l'appareil (fichier par fichier ou en .zip) — WebTorrent dans le navigateur, pièces dans l'OPFS, seed et partage depuis le téléphone. Quand l'essaim est hors de portée d'un navigateur (trackers privés, pairs TCP/UDP seulement), le même torrent part vers un vrai client : votre propre serveur (un docker compose, ou Render/Fly/Cloudflare en un clic) ou un service que vous payez déjà (TorBox, put.io, Real-Debrid, AllDebrid). PWA hors-ligne, installable, cible de partage.",
       "en": "Torrents on a phone, from a web page: add a .torrent or a magnet, watch it arrive, save the files to the device (one by one or as a .zip) — WebTorrent in the browser, pieces in OPFS, seed and share from the phone. When the swarm is one a browser cannot reach (private trackers, TCP/UDP-only peers), the same torrent goes to a real client: your own server (one docker compose, or one click on Render/Fly/Cloudflare) or a service you already pay for (TorBox, put.io, Real-Debrid, AllDebrid). Offline, installable PWA and share target."
+    },
+    "ultrawatch": {
+      "fr": "Regarde YouTube pour l'agent : une vidéo, une playlist ou une chaîne devient une transcription horodatée et chapitrée, plus les images de ce qui est à l'écran, gardées sur disque et interrogeables ; chaque affirmation cite un [V# mm:ss] vérifié. Local et sans clé : yt-dlp, les sous-titres de la vidéo, whisper en local.",
+      "en": "Watches YouTube for the agent: a video, a playlist or a channel becomes a timestamped, chaptered transcript plus frames of what is on screen, kept on disk and searchable; every claim cites a checked [V# mm:ss] stamp. Local and keyless: yt-dlp, the video's own subtitles, local whisper."
     }
   }
 }
