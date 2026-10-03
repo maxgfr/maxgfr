@@ -74,6 +74,7 @@
         "basilico",
         "tick",
         "bracketeer",
+        "ephemeral",
         "csv-ai-analyzer",
         "db-schema-viewer",
         "real-estate-calculator",
@@ -473,6 +474,10 @@
     "ultrawatch": {
       "fr": "Regarde les vidéos pour l'agent — YouTube, Vimeo, Dailymotion et tout ce que lit yt-dlp : une vidéo, une playlist ou une chaîne devient une transcription horodatée et chapitrée, plus les images de ce qui est à l'écran, gardées sur disque et interrogeables ; chaque affirmation cite un [V# mm:ss] vérifié. Local et sans clé : yt-dlp, les sous-titres de la vidéo, whisper en local.",
       "en": "Watches videos for the agent — YouTube, Vimeo, Dailymotion and anything yt-dlp reads: a video, a playlist or a channel becomes a timestamped, chaptered transcript plus frames of what is on screen, kept on disk and searchable; every claim cites a checked [V# mm:ss] stamp. Local and keyless: yt-dlp, the video's own subtitles, local whisper."
+    },
+    "ephemeral": {
+      "fr": "Présence en temps réel en WebRTC, sans backend : des salles pour les talks (réactions, sondages et questions, avec une clé de présentateur qui signe chaque résultat) et un widget d'une ligne qui affiche lecteurs, réactions et positions de lecture sur n'importe quel site statique. Pair à pair via Trystero et des relais Nostr ; rien n'est stocké.",
+      "en": "Real-time presence over WebRTC with no backend: live rooms for talks (reactions, polls and Q&A, with a presenter key that signs every result) and a one-line widget that shows readers, reactions and reading positions on any static site. Peer to peer through Trystero and Nostr relays; nothing is stored."
     }
   }
 }
