@@ -73,6 +73,7 @@
         "nook",
         "basilico",
         "tick",
+        "tok",
         "bracketeer",
         "ephemeral",
         "csv-ai-analyzer",
@@ -447,6 +448,10 @@
     "tick": {
       "fr": "Suite de minuteurs local-first, 100 % dans le navigateur : multi-minuteurs simultanés avec préréglages (œuf, thé, réunion…), chronomètre avec tours, intervalles HIIT/Tabata/EMOM, métronome, horloge mondiale, calculateur de durées, alarmes et grand affichage plein écran — bips Web Audio, notifications, anti-dérive par horloge système, raccourcis clavier, PWA hors-ligne. Sans compte, sans serveur, sans tracking.",
       "en": "Local-first timer suite, entirely in the browser: multiple simultaneous countdowns with presets (egg, tea, laundry…), stopwatch with laps, HIIT/Tabata/EMOM intervals, metronome, world clock, duration calculator, alarms and a big fullscreen display — Web Audio beeps, notifications, drift-free system-clock math, keyboard shortcuts, offline PWA. No account, no server, no tracking."
+    },
+    "tok": {
+      "fr": "Compteur d'échanges et de score local-first pour le ping-pong, les raquettes de plage, le volley et plus : chaque frappe est comptée au son (AudioWorklet), au mouvement et à la caméra (MediaPipe auto-hébergé, sans télémétrie), les échanges démarrent et finissent seuls, les matchs suivent les règles de chaque sport (tie-breaks compris). Vidéos avec le score incrusté, chapitrées par échange, records et objectifs, Lab de calibration, PWA hors-ligne. Sans compte, sans serveur : rien ne quitte le téléphone.",
+      "en": "Local-first rally and score counter for table tennis, beach rackets, volleyball and more: every hit counted from sound (AudioWorklet), motion and camera (self-hosted MediaPipe, telemetry stripped), rallies start and end on their own, matches follow each sport's rules down to tie-breaks. Recordings with the score burned in, chaptered by rally, records and goals, a calibration Lab, offline PWA. No account, no server: nothing leaves the phone."
     },
     "bracketeer": {
       "fr": "Moteur de tournois agnostique : brackets, système suisse, ligues, poules et Elo composés depuis six axes — aucun sport codé en dur. 100 % navigateur, sans serveur ni compte : lien partageable, sync P2P, export ICS, impression et hors-ligne.",
