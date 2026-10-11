@@ -66,8 +66,9 @@ engineer.whatIDo();
 </details>
 
 <details>
-<summary><strong>🤖 AI & dev tooling</strong> · 13</summary>
+<summary><strong>🤖 AI & dev tooling</strong> · 14</summary>
 
+- **[skycmd](https://github.com/maxgfr/skycmd)** — Tiny System One decision models (0.2M–6.6M parameters) trained from scratch in Rust with MLX on a Mac: state + typed questions in, calibrated probabilities out, in one forward pass. They play drone games live in the browser through a Rust WebAssembly engine in under a millisecond per decision; the same GGUF runs in llama.cpp `/v1/systemone`. Step-by-step tutorial included. · [demo](https://maxgfr.github.io/skycmd/)
 - **[feelc](https://github.com/maxgfr/feelc)** — AI-native DMN/FEEL business-rules engine in Go: an LLM writes the rules, the engine proves & runs them deterministically (WASM playground). · [demo](https://maxgfr.github.io/feelc/)
 - **[codeindex](https://github.com/maxgfr/codeindex)** — Zero-dependency repo-indexing engine: symbols, imports, typed cross-file link-graph & analytics — one vendorable engine.mjs, CLI + MCP server included. · [demo](https://maxgfr.github.io/codeindex/)
 - **[webindex](https://github.com/maxgfr/webindex)** — Zero-dependency web-retrieval engine: turns a URL or a file into clean, citable text — HTML, PDFs through a six-rung ladder ending in OCR, office documents, videos (YouTube, Vimeo and anything yt-dlp reads) as timestamped transcripts — and serves it over MCP. One vendorable engine.mjs, CLI + MCP server included. The web-side companion to codeindex.
