@@ -74,6 +74,7 @@
         "basilico",
         "tick",
         "tok",
+        "lastdone",
         "bracketeer",
         "ephemeral",
         "csv-ai-analyzer",
@@ -452,6 +453,10 @@
     "tok": {
       "fr": "Compteur d'échanges et de score local-first pour le ping-pong, les raquettes de plage, le volley et plus : chaque frappe est comptée au son (AudioWorklet), au mouvement et à la caméra (MediaPipe auto-hébergé, sans télémétrie), les échanges démarrent et finissent seuls, les matchs suivent les règles de chaque sport (tie-breaks compris). Vidéos avec le score incrusté, chapitrées par échange, records et objectifs, Lab de calibration, PWA hors-ligne. Sans compte, sans serveur : rien ne quitte le téléphone.",
       "en": "Local-first rally and score counter for table tennis, beach rackets, volleyball and more: every hit counted from sound (AudioWorklet), motion and camera (self-hosted MediaPipe, telemetry stripped), rallies start and end on their own, matches follow each sport's rules down to tie-breaks. Recordings with the score burned in, chaptered by rally, records and goals, a calibration Lab, offline PWA. No account, no server: nothing leaves the phone."
+    },
+    "lastdone": {
+      "fr": "Rappels récurrents local-first qu'on pilote en parlant : « j'ai arrosé les plantes », « c'est quand la dernière fois que j'ai détartré la bouilloire ? », « rappelle-moi d'arroser tous les 5 jours ». Un LLM qui tourne dans le navigateur (WebLLM sur WebGPU, Qwen2.5) traduit la phrase en intention JSON contrainte, l'app l'exécute ; parseur FR/EN de secours et bouton « Fait » en un tap. Tableau façon horaire de départs trié par urgence, historique, notifications, export .ics, PWA hors-ligne. Sans compte, sans serveur, sans clé d'API : rien ne quitte l'appareil.",
+      "en": "Local-first recurring reminders you talk to: \"I watered the plants\", \"when did I last descale the kettle?\", \"remind me to water every 5 days\". An in-browser LLM (WebLLM on WebGPU, Qwen2.5) turns the sentence into a schema-constrained JSON intent the app executes; FR/EN rule-parser fallback and a one-tap Done button. Departure-board view ranked by urgency, history, notifications, .ics export, offline PWA. No account, no server, no API key: nothing leaves the device."
     },
     "bracketeer": {
       "fr": "Moteur de tournois agnostique : brackets, système suisse, ligues, poules et Elo composés depuis six axes — aucun sport codé en dur. 100 % navigateur, sans serveur ni compte : lien partageable, sync P2P, export ICS, impression et hors-ligne.",
