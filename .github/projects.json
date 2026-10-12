@@ -79,6 +79,7 @@
         "bracketeer",
         "ephemeral",
         "veil",
+        "slotmatch",
         "csv-ai-analyzer",
         "db-schema-viewer",
         "real-estate-calculator",
@@ -499,6 +500,10 @@
     "veil": {
       "fr": "Salles privées entre navigateurs : chat, fichiers sans limite de taille et appels audio/vidéo, pair à pair et chiffrés de bout en bout. La clé de la salle vit dans le #fragment du lien ; les pairs se trouvent via relais Nostr, trackers WebTorrent ou codes QR hors-ligne, ne voient passer que du chiffré, puis tout circule dans un maillage P2P (sender keys renouvelées à chaque départ, 4 emojis pour vérifier, média chiffré image par image). Fichiers streamés disque à disque, vérifiés en SHA-256, reprise après coupure, avec une salle « fichiers » sans caméra ni micro. PWA installable, CLI Rust (brew install maxgfr/tap/veil) compatible. Sans compte, sans serveur, rien n'est stocké.",
       "en": "Private rooms between browsers: chat, files of any size and audio/video calls, peer to peer and end-to-end encrypted. The room key lives in the link's #fragment; peers meet through Nostr relays, WebTorrent trackers or offline QR codes that only ever see ciphertext, then everything flows through a P2P mesh (sender keys rotated whenever someone leaves, 4 emojis to verify, media encrypted frame by frame). Files streamed disk to disk, SHA-256 verified, resumable, with a files-only room (no camera or microphone). Installable PWA, plus a compatible Rust CLI (brew install maxgfr/tap/veil). No account, no server, nothing stored."
+    },
+    "slotmatch": {
+      "fr": "Trouver un créneau commun entre plusieurs personnes, fuseaux horaires et règles de panel (« le candidat + 1 ingé + 1 RH », « 2 parmi 4 »). Dispos hebdo peintes sur une grille, exceptions, import .ics (récurrences, fuseaux Outlook) ; créneaux classés avec un score explicable (préférences, équité entre recruteurs, précocité). Heatmap de couverture d'équipe, planificateur de journée d'entretiens sans double réservation, export .ics. Les candidats répondent via un lien : dispos peintes dans leur fuseau, renvoyées dans un lien compressé. Sans compte, sans serveur, tout reste dans le navigateur.",
+      "en": "Find a time that works across people, time zones and panel rules (\"the candidate + 1 engineer + 1 HR\", \"2 out of 4\"). Weekly availability painted on a grid, exceptions, .ics import (recurrences, Outlook zones); slots ranked with an explainable score (preferences, fairness across interviewers, earliness). Team coverage heatmap, interview-day planner with no double-booking, .ics export. Candidates answer through a link: they paint their time in their own zone and send it back in a compressed link. No account, no server, everything stays in the browser."
     },
     "troupe": {
       "fr": "Studio auto-hébergé de courtes vidéos IA : un acteur, un script avec une émotion par ligne, un modèle — Veo, Kling ou Seedance avec vos clés, ou votre propre GPU via ComfyUI (LTX-2, Wan 2.2) ou n'importe quel serveur HTTP. Les choix proposés suivent ce que chaque modèle sait faire, les clés sont chiffrées, et tout démarre avec un docker compose up.",
