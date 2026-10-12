@@ -45,7 +45,8 @@
         "codexify",
         "git-pilot",
         "git-recap",
-        "llm-models"
+        "llm-models",
+        "skycmd"
       ]
     },
     {
@@ -453,6 +454,10 @@
     "tok": {
       "fr": "Compteur d'échanges et de score local-first pour le ping-pong, les raquettes de plage, le volley et plus : chaque frappe est comptée au son (AudioWorklet), au mouvement et à la caméra (MediaPipe auto-hébergé, sans télémétrie), les échanges démarrent et finissent seuls, les matchs suivent les règles de chaque sport (tie-breaks compris). Vidéos avec le score incrusté, chapitrées par échange, records et objectifs, Lab de calibration, PWA hors-ligne. Sans compte, sans serveur : rien ne quitte le téléphone.",
       "en": "Local-first rally and score counter for table tennis, beach rackets, volleyball and more: every hit counted from sound (AudioWorklet), motion and camera (self-hosted MediaPipe, telemetry stripped), rallies start and end on their own, matches follow each sport's rules down to tie-breaks. Recordings with the score burned in, chaptered by rally, records and goals, a calibration Lab, offline PWA. No account, no server: nothing leaves the phone."
+    },
+    "skycmd": {
+      "fr": "Modèles de décision « System One » ultra-compacts entraînés de zéro en Rust avec MLX sur Mac : un état et des questions typées en entrée, des probabilités calibrées en sortie, en une seule passe. s3-pico (445k paramètres, 251 Ko ternaire) boucle un bloc partagé avec sorties anticipées calibrées en boucle fermée et joue à quatre jeux, dont un Doom-like, au niveau de l'oracle en direct dans le navigateur via un moteur Rust WebAssembly, en ~50 µs par frame. Installable partout (CLI avec /v1/systemone, npm, wheel Python, llama.cpp/wllama pour s1), avec un tutoriel pas à pas.",
+      "en": "Ultra-small System One decision models trained from scratch in Rust with MLX on a Mac: state + typed questions in, calibrated probabilities out, in one forward pass. s3-pico (445k params, 251 KB ternary) loops one shared block with closed-loop-calibrated early exits and plays four games, including a Doom-like, at oracle level live in the browser through a Rust WebAssembly engine, in about 50 µs per frame. Installable everywhere (CLI with /v1/systemone, npm, Python wheel, llama.cpp/wllama for s1), with a step-by-step tutorial."
     },
     "lastdone": {
       "fr": "Rappels récurrents local-first qu'on pilote en parlant : « j'ai arrosé les plantes », « c'est quand la dernière fois que j'ai détartré la bouilloire ? », « rappelle-moi d'arroser tous les 5 jours ». Un LLM qui tourne dans le navigateur (WebLLM sur WebGPU, Qwen2.5) traduit la phrase en intention JSON contrainte, l'app l'exécute ; parseur FR/EN de secours et bouton « Fait » en un tap. Tableau façon horaire de départs trié par urgence, historique, notifications, export .ics, PWA hors-ligne. Sans compte, sans serveur, sans clé d'API : rien ne quitte l'appareil.",
