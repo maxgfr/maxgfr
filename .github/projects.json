@@ -81,6 +81,7 @@
         "veil",
         "slotmatch",
         "pdfvault",
+        "sealoffice",
         "csv-ai-analyzer",
         "db-schema-viewer",
         "real-estate-calculator",
@@ -505,6 +506,10 @@
     "slotmatch": {
       "fr": "Trouver un créneau commun entre plusieurs personnes, fuseaux horaires et règles de panel (« le candidat + 1 ingé + 1 RH », « 2 parmi 4 »). Dispos hebdo peintes sur une grille, exceptions, import .ics (récurrences, fuseaux Outlook) ; créneaux classés avec un score explicable (préférences, équité entre recruteurs, précocité). Heatmap de couverture d'équipe, planificateur de journée d'entretiens sans double réservation, export .ics. Les candidats répondent via un lien : dispos peintes dans leur fuseau, renvoyées dans un lien compressé. Sans compte, sans serveur, tout reste dans le navigateur.",
       "en": "Find a time that works across people, time zones and panel rules (\"the candidate + 1 engineer + 1 HR\", \"2 out of 4\"). Weekly availability painted on a grid, exceptions, .ics import (recurrences, Outlook zones); slots ranked with an explainable score (preferences, fairness across interviewers, earliness). Team coverage heatmap, interview-day planner with no double-booking, .ics export. Candidates answer through a link: they paint their time in their own zone and send it back in a compressed link. No account, no server, everything stays in the browser."
+    },
+    "sealoffice": {
+      "fr": "Éditeur Word, Excel et PowerPoint chiffré qui tourne entièrement dans le navigateur : l'éditeur ibisOffice (Rust/WebAssembly, WebGPU) branché sur un coffre local chiffré avec age (clé X25519 protégée par phrase de passe scrypt). Import et export en .age ou en fichiers Office protégés par mot de passe, aucun serveur, CSP stricte, zéro requête externe, marche hors ligne.",
+      "en": "Encrypted Word, Excel and PowerPoint editor that runs entirely in the browser: the ibisOffice editor (Rust/WebAssembly, WebGPU) on top of a local vault encrypted with age (X25519 key wrapped by an scrypt passphrase). Import and export as .age or password-protected Office files, no server, strict CSP, zero external requests, works offline."
     },
     "pdfvault": {
       "fr": "Boîte à outils PDF et images qui n'envoie jamais vos fichiers : compresser (sans perte, équilibré, fort ou extrême, jamais plus gros que l'original), fusionner, découper, réordonner, pivoter, filigrane, numéros de page, signature visuelle, mot de passe AES-256, OCR vers PDF cherchable, PDF vers Markdown, texte ou EPUB, et compression, conversion ou nettoyage EXIF des images. Un seul moteur Rust compilé en WebAssembly sert le site et la CLI (brew install maxgfr/tap/pdfvault, binaire autonome avec l'OCR intégré), avec une skill d'agent. CSP stricte, zéro requête externe, marche hors ligne, coffre chiffré optionnel (Argon2id + AES-GCM).",
