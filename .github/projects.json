@@ -79,6 +79,7 @@
         "bracketeer",
         "ephemeral",
         "veil",
+        "sealbin",
         "slotmatch",
         "pdfvault",
         "sealoffice",
@@ -518,6 +519,10 @@
     "troupe": {
       "fr": "Studio auto-hébergé de courtes vidéos IA : un acteur, un script avec une émotion par ligne, un modèle — Veo, Kling ou Seedance avec vos clés, ou votre propre GPU via ComfyUI (LTX-2, Wan 2.2) ou n'importe quel serveur HTTP. Les choix proposés suivent ce que chaque modèle sait faire, les clés sont chiffrées, et tout démarre avec un docker compose up.",
       "en": "Self-hosted studio for short AI videos: an actor, a script with an emotion per line, a model — Veo, Kling or Seedance with your own keys, or your own GPU through ComfyUI (LTX-2, Wan 2.2) or any HTTP server. Pickers only offer what each model can do, keys are encrypted at rest, and it all starts with one docker compose up."
+    },
+    "sealbin": {
+      "fr": "Pastebin chiffré qui tourne entièrement dans le navigateur, dans l'esprit de wastebin. Le texte est compressé puis chiffré en AES-256-GCM avant de quitter la page : le partage se fait soit par un lien autonome (tout le paste vit dans le #fragment, jamais envoyé au serveur), soit par un lien court stocké chiffré sur des relais Nostr, qui appliquent l'expiration et permettent la destruction après lecture. Mot de passe optionnel (argon2id), coloration de plus de 200 langages (Shiki), rendu Markdown assaini, vue brute, téléchargement, QR code, plage de lignes dans l'URL, raccourcis clavier, thèmes clair/sombre. CSP stricte, aucune requête réseau en mode lien, PWA utilisable hors-ligne. Sans compte, sans serveur, hébergé sur GitHub Pages.",
+      "en": "Encrypted pastebin that runs entirely in the browser, in the spirit of wastebin. Text is compressed then encrypted with AES-256-GCM before it leaves the page, and shared either as a self-contained link (the whole paste lives in the #fragment, never sent to the server) or as a short link stored encrypted on Nostr relays, which enforce expiry and allow burn after reading. Optional password (argon2id), highlighting for 200+ languages (Shiki), sanitised Markdown rendering, raw view, download, QR code, line ranges in the URL, keyboard shortcuts, light/dark themes. Strict CSP, zero network requests in link mode, offline-capable PWA. No account, no server, hosted on GitHub Pages."
     }
   }
 }
