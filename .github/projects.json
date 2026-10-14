@@ -34,6 +34,7 @@
       "title_en": "🤖 AI & dev tooling",
       "repos": [
         "feelc",
+        "nuee",
         "codeindex",
         "webindex",
         "conforme",
@@ -164,6 +165,10 @@
     }
   ],
   "descriptions": {
+    "nuee": {
+      "fr": "Transforme les portables et téléphones d’un groupe de confiance en nuage privé et éphémère à partir d’un seul lien : calcul vérifié, tâches GPU, fichiers chiffrés, entraînement distribué et hébergement.",
+      "en": "Turns a trusted group’s laptops and phones into a private, short-lived cloud from one link: verified compute, GPU tasks, encrypted files, distributed training and hosting."
+    },
     "scopelet": {
       "fr": "Skill pour Codex et Claude Code avec CLI Rust : filtre et agrège les données localement avant de les envoyer au modèle, avec récupération des originaux et omissions explicites.",
       "en": "Skill for Codex and Claude Code with a Rust CLI: filters and aggregates evidence locally before sending it to the model, with original recovery and explicit omissions."
