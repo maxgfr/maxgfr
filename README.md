@@ -66,9 +66,10 @@ engineer.whatIDo();
 </details>
 
 <details>
-<summary><strong>🤖 AI & dev tooling</strong> · 14</summary>
+<summary><strong>🤖 AI & dev tooling</strong> · 15</summary>
 
 - **[feelc](https://github.com/maxgfr/feelc)** — AI-native DMN/FEEL business-rules engine in Go: an LLM writes the rules, the engine proves & runs them deterministically (WASM playground). · [demo](https://maxgfr.github.io/feelc/)
+- **[nuee](https://github.com/maxgfr/nuee)** — Turns a trusted group’s laptops and phones into a private, short-lived cloud from one link: verified compute, GPU tasks, encrypted files, distributed training and hosting. · [demo](https://maxgfr.github.io/nuee/)
 - **[codeindex](https://github.com/maxgfr/codeindex)** — Zero-dependency repo-indexing engine: symbols, imports, typed cross-file link-graph & analytics — one vendorable engine.mjs, CLI + MCP server included. · [demo](https://maxgfr.github.io/codeindex/)
 - **[webindex](https://github.com/maxgfr/webindex)** — Zero-dependency web-retrieval engine: turns a URL or a file into clean, citable text — HTML, PDFs through a six-rung ladder ending in OCR, office documents, videos (YouTube, Vimeo and anything yt-dlp reads) as timestamped transcripts — and serves it over MCP. One vendorable engine.mjs, CLI + MCP server included. The web-side companion to codeindex.
 - **[conforme](https://github.com/maxgfr/conforme)** — Syncs your AI coding config (rules, skills, agents, MCP servers) across Claude Code, Cursor & more (Rust).
