@@ -81,6 +81,7 @@
         "ephemeral",
         "veil",
         "sealbin",
+        "cursus",
         "slotmatch",
         "pdfvault",
         "sealoffice",
@@ -528,6 +529,10 @@
     "sealbin": {
       "fr": "Pastebin chiffré qui tourne entièrement dans le navigateur, dans l'esprit de wastebin. Le texte est compressé puis chiffré en AES-256-GCM avant de quitter la page : le partage se fait soit par un lien autonome (tout le paste vit dans le #fragment, jamais envoyé au serveur), soit par un lien court stocké chiffré sur des relais Nostr, qui appliquent l'expiration et permettent la destruction après lecture. Mot de passe optionnel (argon2id), coloration de plus de 200 langages (Shiki), rendu Markdown assaini, vue brute, téléchargement, QR code, plage de lignes dans l'URL, raccourcis clavier, thèmes clair/sombre. CSP stricte, aucune requête réseau en mode lien, PWA utilisable hors-ligne. Sans compte, sans serveur, hébergé sur GitHub Pages.",
       "en": "Encrypted pastebin that runs entirely in the browser, in the spirit of wastebin. Text is compressed then encrypted with AES-256-GCM before it leaves the page, and shared either as a self-contained link (the whole paste lives in the #fragment, never sent to the server) or as a short link stored encrypted on Nostr relays, which enforce expiry and allow burn after reading. Optional password (argon2id), highlighting for 200+ languages (Shiki), sanitised Markdown rendering, raw view, download, QR code, line ranges in the URL, keyboard shortcuts, light/dark themes. Strict CSP, zero network requests in link mode, offline-capable PWA. No account, no server, hosted on GitHub Pages."
+    },
+    "cursus": {
+      "fr": "Application d'étude local-first pour les étudiants, en PWA sur iPhone, iPad et Mac. On range sa matière par cours (notes Markdown avec maths, PDF, photos), l'IA explique un sujet à partir de ses propres sources avec des citations vérifiées, puis on retient avec des cartes FSRS, des textes à trous, des quiz et « réponds avec tes mots » corrigé par l'IA. Modèle au choix dans le catalogue llm-models, avec sa propre clé, appelé directement depuis le navigateur. Rien ne se perd : un journal immuable se réplique sans conflit vers plusieurs destinations à la fois (S3, Google Drive, Dropbox, CloudKit, dossier local ou iCloud Drive, fichiers .cursus, appareil à proximité en WebRTC), avec chiffrement optionnel par destination et un exercice de restauration qui le prouve. Import et export Anki (.apkg, historique compris). Interface en anglais, allemand et français. Sans compte, sans serveur, hébergée sur GitHub Pages.",
+      "en": "Local-first study app for students, a PWA for iPhone, iPad and Mac. Course material is organised by course (Markdown notes with maths, PDFs, photos); the AI explains a topic from your own sources with checked citations, then you retain it with FSRS flashcards, cloze cards, quizzes and AI-graded “answer in your own words”. Any model from the llm-models catalog, with your own key, called straight from the browser. Nothing gets lost: an immutable log replicates conflict-free to several destinations at once (S3, Google Drive, Dropbox, CloudKit, a local or iCloud Drive folder, .cursus files, a nearby device over WebRTC), with optional per-destination encryption and a restore drill that proves it. Anki import and export (.apkg, review history included). English, German and French UI. No account, no server, hosted on GitHub Pages."
     }
   }
 }
