@@ -200,4 +200,11 @@ engineer.whatIDo();
 - **[maxgfr.github.io](https://github.com/maxgfr/maxgfr.github.io)** — Source of my personal website. · [demo](https://maxgfr.github.io/)
 
 </details>
+
+<details>
+<summary><strong>🆕 Uncategorized</strong> · 1</summary>
+
+- **[aparte](https://github.com/maxgfr/aparte)** — Private AI chat that runs entirely in your browser: your own keys or on-device models (WebLLM, Ollama), MCP tools, skills, Python sandbox, local RAG, voice. Encrypted at rest and synced end-to-end to your own Git repo. PWA + Rust CLI. · [demo](https://maxgfr.github.io/aparte/)
+
+</details>
 <!-- PROJECTS:END -->
