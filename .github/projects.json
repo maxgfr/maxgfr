@@ -108,7 +108,8 @@
       "title_fr": "🎮 Jeux",
       "title_en": "🎮 Games",
       "repos": [
-        "terravia"
+        "terravia",
+        "versus"
       ]
     },
     {
@@ -488,6 +489,10 @@
     "terravia": {
       "fr": "RPG de capture de créatures dans un monde généré procéduralement. Tourne entièrement dans le navigateur — sans serveur ni compte. Le monde se reconstruit depuis une graine, donc une sauvegarde tient en quelques kilo-octets de JSON exportables et réimportables.",
       "en": "Creature-collecting RPG in a procedurally generated world. Runs entirely in the browser — no server, no account. The whole world rebuilds from a seed, so a save file is a few kilobytes of JSON you can export and re-import."
+    },
+    "versus": {
+      "fr": "114 mini-jeux à deux sur un seul téléphone, face à face : le téléphone à plat sur la table, rouge joue en bas, bleu en haut (moitié retournée). Classiques de plateau, dés, cartes, jeux de balle, visée, réflexes, arènes, runners, physique et courses de puzzles, tous originaux. Aussi contre l'ordinateur (3 niveaux) ou en ligne entre deux téléphones en pair-à-pair (WebRTC, code de salle ou QR). Longueur de match réglable, tournois, 2 contre 2. PWA hors ligne en TypeScript et Canvas 2D, sans compte, sans pub, sans tracking.",
+      "en": "114 two-player mini-games for one phone, played face to face: the phone lies flat on the table, red plays from the bottom, blue from the top (upside-down half). Board classics, dice, cards, ball games, aiming, reflex duels, arenas, runners, physics and puzzle races, all original. Also against the computer (3 levels) or online between two phones, peer to peer (WebRTC, room code or QR). Adjustable match length, tournaments, 2 vs 2. Offline PWA in TypeScript and Canvas 2D; no account, no ads, no tracking."
     },
     "unmark": {
       "fr": "Retire les watermarks dans le navigateur : caractères Unicode invisibles et stéganographie dans le texte (le payload est décodé, pas seulement supprimé), métadonnées C2PA/EXIF/XMP sur 11 formats, et watermarks visibles sur les images — un overlay plat est inversé exactement plutôt que repeint, sinon inpainting Telea ou MI-GAN. Rien n'est uploadé : connect-src 'self' seul, prouvé par un gate CI.",
