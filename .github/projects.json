@@ -24,6 +24,7 @@
         "ultrai18n",
         "ultraprospect",
         "ultrawatch",
+        "ultrastock",
         "construct",
         "reconstruct",
         "ultraeval"
@@ -511,6 +512,10 @@
     "ultrawatch": {
       "fr": "Regarde les vidéos pour l'agent — YouTube, Vimeo, Dailymotion et tout ce que lit yt-dlp : une vidéo, une playlist ou une chaîne devient une transcription horodatée et chapitrée, plus les images de ce qui est à l'écran, gardées sur disque et interrogeables ; chaque affirmation cite un [V# mm:ss] vérifié. Local et sans clé : yt-dlp, les sous-titres de la vidéo, whisper en local.",
       "en": "Watches videos for the agent — YouTube, Vimeo, Dailymotion and anything yt-dlp reads: a video, a playlist or a channel becomes a timestamped, chaptered transcript plus frames of what is on screen, kept on disk and searchable; every claim cites a checked [V# mm:ss] stamp. Local and keyless: yt-dlp, the video's own subtitles, local whisper."
+    },
+    "ultrastock": {
+      "fr": "Copilote d'investissement pour l'agent, pensé pour de l'argent réel — actions et ETF US/Europe (PEA, CTO, assurance-vie), crypto, marchés prédictifs : analyse multi-rôles (analystes, débat haussier/baissier, juge, gestion du risque), screening, valorisation, régime de marché, portefeuille, paper trading, journal des décisions réglées face au marché, backtests sans look-ahead et fiscalité FR/US ; chaque chiffre est une preuve [E#] sourcée, vérifiée avant la réponse. Données publiques sans clé ; ordres réels seulement derrière un risk gate déterministe, des limites à cliquet et un code hors bande que seul l'humain lit.",
+      "en": "Investing copilot for the agent, built for real money — US/European stocks and ETFs (PEA, CTO, assurance-vie), crypto, prediction markets: a multi-role analysis (analysts, bull/bear debate, judge, risk team), screening, valuation, market regime, portfolio, paper trading, a decision journal settled against the market, look-ahead-free backtests and FR/US tax; every figure is a sourced [E#] evidence, checked before the answer. Keyless public data; real orders only behind a deterministic risk gate, ratcheted limits and an out-of-band code only the human reads."
     },
     "ephemeral": {
       "fr": "Présence en temps réel en WebRTC, sans backend : des salles pour les talks (réactions, sondages et questions, avec une clé de présentateur qui signe chaque résultat) et un widget d'une ligne qui affiche lecteurs, réactions et positions de lecture sur n'importe quel site statique. Pair à pair via Trystero et des relais Nostr ; rien n'est stocké.",
