@@ -49,7 +49,7 @@ engineer.whatIDo();
 
 <!-- PROJECTS:START -->
 <details>
-<summary><strong>🪄 Agent skills</strong> · 11</summary>
+<summary><strong>🪄 Agent skills</strong> · 12</summary>
 
 - **[skills](https://github.com/maxgfr/skills)** — The home for my agent skills — process skills, which change how an agent works rather than what it knows. Installable with one `npx skills add maxgfr/skills`, or as a Claude Code plugin. · [site](https://www.skills.sh/maxgfr/skills)
 - **[ultradoc](https://github.com/maxgfr/ultradoc)** — Grounded Q&A + citation-checked reference docs for any OSS project, from its real source, issues & PRs.
@@ -59,6 +59,7 @@ engineer.whatIDo();
 - **[ultrai18n](https://github.com/maxgfr/ultrai18n)** — Finds every human-readable string in a repo, classifies it, translates it with cheap models and proves nothing was missed: zero-dependency engine, the model never opens a source file.
 - **[ultraprospect](https://github.com/maxgfr/ultraprospect)** — Turn a location into a sourced prospect list using OpenStreetMap, company registers and business websites. No API keys.
 - **[ultrawatch](https://github.com/maxgfr/ultrawatch)** — Watches videos for the agent — YouTube, Vimeo, Dailymotion and anything yt-dlp reads: a video, a playlist or a channel becomes a timestamped, chaptered transcript plus frames of what is on screen, kept on disk and searchable; every claim cites a checked [V# mm:ss] stamp. Local and keyless: yt-dlp, the video's own subtitles, local whisper.
+- **[ultrastock](https://github.com/maxgfr/ultrastock)** — Investing copilot for the agent, built for real money — US/European stocks and ETFs (PEA, CTO, assurance-vie), crypto, prediction markets: a multi-role analysis (analysts, bull/bear debate, judge, risk team), screening, valuation, market regime, portfolio, paper trading, a decision journal settled against the market, look-ahead-free backtests and FR/US tax; every figure is a sourced [E#] evidence, checked before the answer. Keyless public data; real orders only behind a deterministic risk gate, ratcheted limits and an out-of-band code only the human reads.
 - **[construct](https://github.com/maxgfr/construct)** — Turns a product idea into a grounded, buildable SRD/PRD suite (skills.sh agent skill).
 - **[reconstruct](https://github.com/maxgfr/reconstruct)** — Analyzes any repo and generates reconstruction PRDs to rebuild it from scratch.
 - **[ultraeval](https://github.com/maxgfr/ultraeval)** — Rigorously evaluates a skill or codebase → grounded (file:line) findings + a TDD fix backlog; zero-dep engine with analysis (hotspots, cycles, churn) and brainstorm.
@@ -203,13 +204,6 @@ engineer.whatIDo();
 - **[homebrew-tap](https://github.com/maxgfr/homebrew-tap)** — Homebrew tap for my CLI tools (`brew install maxgfr/tap/…`).
 - **[michel-golfier](https://github.com/maxgfr/michel-golfier)** — Source of a writer's website. · [site](https://www.michelgolfier.fr)
 - **[maxgfr.github.io](https://github.com/maxgfr/maxgfr.github.io)** — Source of my personal website. · [demo](https://maxgfr.github.io/)
-
-</details>
-
-<details>
-<summary><strong>🆕 Uncategorized</strong> · 1</summary>
-
-- **[ultrastock](https://github.com/maxgfr/ultrastock)** — Investing copilot for real money: US/EU stocks & ETFs (PEA), crypto and prediction markets — keyless public data, cited evidence, deterministic risk gate, paper trading and guarded opt-in brokers, FR/US tax. A skills.sh agent skill.
 
 </details>
 <!-- PROJECTS:END -->
