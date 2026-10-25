@@ -67,7 +67,7 @@ engineer.whatIDo();
 </details>
 
 <details>
-<summary><strong>🤖 AI & dev tooling</strong> · 15</summary>
+<summary><strong>🤖 AI & dev tooling</strong> · 16</summary>
 
 - **[feelc](https://github.com/maxgfr/feelc)** — AI-native DMN/FEEL business-rules engine in Go: an LLM writes the rules, the engine proves & runs them deterministically (WASM playground). · [demo](https://maxgfr.github.io/feelc/)
 - **[nuee](https://github.com/maxgfr/nuee)** — Turns a trusted group’s laptops and phones into a private, short-lived cloud from one link: verified compute, GPU tasks, encrypted files, distributed training and hosting. · [demo](https://maxgfr.github.io/nuee/)
@@ -78,6 +78,7 @@ engineer.whatIDo();
 - **[scopelet](https://github.com/maxgfr/scopelet)** — Skill for Codex and Claude Code with a Rust CLI: filters and aggregates evidence locally before sending it to the model, with original recovery and explicit omissions.
 - **[sift](https://github.com/maxgfr/sift)** — Tells you which quantization of an LLM fits and how fast it will run — before you download it. Reads real GGUF/safetensors headers over HTTP range requests, measures your machine and routes to an engine. No bundled model list (Rust).
 - **[claudfeine](https://github.com/maxgfr/claudfeine)** — Runs Claude Code (and Codex) caffeinated — keeps the machine awake for exactly the session, cross-platform & zero-dep.
+- **[termrevive](https://github.com/maxgfr/termrevive)** — Saves and restores your terminal sessions across reboots — windows, tabs, splits, working directories and running programs: every Claude Code session resumes its conversation. Ghostty on macOS. (Rust)
 - **[claude-code-switch](https://github.com/maxgfr/claude-code-switch)** — Zero-dependency provider switching for Claude Code (Anthropic, OpenRouter, DeepSeek, Z.AI, Kimi, Qwen…).
 - **[codexify](https://github.com/maxgfr/codexify)** — Codex sidecar toolbelt: model profiles, reliable Action Required notifications, config backup, keep-awake, and diagnostics (Rust).
 - **[git-pilot](https://github.com/maxgfr/git-pilot)** — AI-powered git automation: smart commits, conflict resolution & auto-rebase (Claude/Codex/OpenAI/Gemini/Mistral). Pure Bash.
