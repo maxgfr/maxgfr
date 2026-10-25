@@ -245,8 +245,8 @@
       "en": "Runs Claude Code (and Codex) caffeinated — keeps the machine awake for exactly the session, cross-platform & zero-dep."
     },
     "termrevive": {
-      "fr": "Sauvegarde et restaure vos sessions de terminal après un redémarrage — fenêtres, onglets, splits, dossiers et programmes en cours : chaque session Claude Code reprend sa conversation. Ghostty, iTerm2, kitty et Terminal.app sur macOS, terminaux ajoutables par la communauté. (Rust)",
-      "en": "Saves and restores your terminal sessions across reboots — windows, tabs, splits, working directories and running programs: every Claude Code session resumes its conversation. Ghostty, iTerm2, kitty and Terminal.app on macOS, with community-pluggable terminals. (Rust)"
+      "fr": "Sauvegarde et restaure vos sessions de terminal après un redémarrage — fenêtres, onglets, splits, dossiers et programmes en cours : Claude Code, Codex, Mistral Vibe, opencode et Kilo reprennent chacun leur session. Ghostty, iTerm2, kitty et Terminal.app sur macOS ; terminaux et agents ajoutables par la communauté. (Rust)",
+      "en": "Saves and restores your terminal sessions across reboots — windows, tabs, splits, working directories and running programs: Claude Code, Codex, Mistral Vibe, opencode and Kilo each resume their own session. Ghostty, iTerm2, kitty and Terminal.app on macOS, with community-pluggable terminals and agents. (Rust)"
     },
     "claude-code-switch": {
       "fr": "Bascule zéro-dépendance entre fournisseurs pour Claude Code (Anthropic, OpenRouter, DeepSeek, Z.AI, Kimi, Qwen…).",
