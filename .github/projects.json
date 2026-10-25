@@ -43,6 +43,7 @@
         "scopelet",
         "sift",
         "claudfeine",
+        "termrevive",
         "claude-code-switch",
         "codexify",
         "git-pilot",
@@ -242,6 +243,10 @@
     "claudfeine": {
       "fr": "Lance Claude Code (et Codex) « sous caféine » — garde la machine éveillée le temps de la session, puis restaure la veille. Multi-plateforme, zéro-dépendance.",
       "en": "Runs Claude Code (and Codex) caffeinated — keeps the machine awake for exactly the session, cross-platform & zero-dep."
+    },
+    "termrevive": {
+      "fr": "Sauvegarde et restaure vos sessions de terminal après un redémarrage — fenêtres, onglets, splits, dossiers et programmes en cours : chaque session Claude Code reprend sa conversation. Ghostty sur macOS. (Rust)",
+      "en": "Saves and restores your terminal sessions across reboots — windows, tabs, splits, working directories and running programs: every Claude Code session resumes its conversation. Ghostty on macOS. (Rust)"
     },
     "claude-code-switch": {
       "fr": "Bascule zéro-dépendance entre fournisseurs pour Claude Code (Anthropic, OpenRouter, DeepSeek, Z.AI, Kimi, Qwen…).",
