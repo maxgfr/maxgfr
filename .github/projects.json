@@ -88,6 +88,7 @@
         "stepcast",
         "takeone",
         "toolbelt",
+        "calorie-ai-tracker",
         "sealbin",
         "cursus",
         "aparte",
@@ -319,6 +320,10 @@
     "unsleep": {
       "fr": "Petit exécutable qui empêche la machine de se mettre en veille.",
       "en": "Tiny executable that prevents the machine from sleeping."
+    },
+    "calorie-ai-tracker": {
+      "fr": "Suivi de calories par IA dans le navigateur : décris un repas, prends-le en photo ou dicte-le, et un modèle de ton choix estime aliments, portions, calories et macros (sortie structurée, corrigeable à la main ou en langage naturel). Anneau du jour, graphique de la semaine avec moyenne, jours dans l'objectif et série, objectifs proposés par l'IA à partir d'un calcul Mifflin–St Jeor, et un coach qui connaît ta semaine. Ta propre clé via llm-connect (OpenAI, Anthropic, Gemini, Mistral, Ollama…), dictée par le fournisseur ou Whisper sur l'appareil ; données dans IndexedDB, sans compte ni serveur.",
+      "en": "AI calorie tracker in the browser: describe a meal, snap it or say it, and a model of your choice estimates foods, portions, calories and macros (structured output, fixable by hand or in plain words). A daily ring, a weekly chart with average, days on target and streak, goals proposed by the AI from a Mifflin–St Jeor baseline, and a coach that knows your week. Your own key through llm-connect (OpenAI, Anthropic, Gemini, Mistral, Ollama…), voice through your provider or on-device Whisper; data in IndexedDB, no account, no server."
     },
     "csv-ai-analyzer": {
       "fr": "Analyseur de CSV par IA, auto-hébergé et exécuté dans le navigateur.",
