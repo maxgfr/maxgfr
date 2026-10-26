@@ -310,8 +310,8 @@
       "en": "GitHub maintenance toolkit: bulk unstar, org clone, fork cleanup, repo audit and more."
     },
     "copyable-pdf": {
-      "fr": "Convertit des PDF scannés en PDF cherchables et copiables grâce à l'OCR Tesseract (traitement parallèle).",
-      "en": "Converts scanned PDFs into searchable, copyable PDFs with Tesseract OCR (parallel)."
+      "fr": "Rend les PDF scannés et photos de documents cherchables et copiables, avec un OCR local (modèles PaddleOCR via RapidOCR).",
+      "en": "Turns scanned PDFs and phone photos into searchable, copyable PDFs with local OCR (PaddleOCR models via RapidOCR)."
     },
     "ratio-master": {
       "fr": "Outil de ratio torrent qui envoie de vraies requêtes d'annonce HTTP aux trackers BitTorrent.",
