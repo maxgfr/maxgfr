@@ -90,6 +90,7 @@
         "takeone",
         "toolbelt",
         "calorie-ai-tracker",
+        "medoc-ai",
         "spots",
         "sealbin",
         "cursus",
@@ -327,6 +328,10 @@
     "calorie-ai-tracker": {
       "fr": "Suivi de calories par IA dans le navigateur : décris un repas, prends-le en photo ou dicte-le, et un modèle de ton choix estime aliments, portions, calories et macros (sortie structurée, corrigeable à la main ou en langage naturel). Anneau du jour, graphique de la semaine avec moyenne, jours dans l'objectif et série, objectifs proposés par l'IA à partir d'un calcul Mifflin–St Jeor, et un coach qui connaît ta semaine. Ta propre clé via llm-connect (OpenAI, Anthropic, Gemini, Mistral, Ollama…), dictée par le fournisseur ou Whisper sur l'appareil ; données dans IndexedDB, sans compte ni serveur.",
       "en": "AI calorie tracker in the browser: describe a meal, snap it or say it, and a model of your choice estimates foods, portions, calories and macros (structured output, fixable by hand or in plain words). A daily ring, a weekly chart with average, days on target and streak, goals proposed by the AI from a Mifflin–St Jeor baseline, and a coach that knows your week. Your own key through llm-connect (OpenAI, Anthropic, Gemini, Mistral, Ollama…), voice through your provider or on-device Whisper; data in IndexedDB, no account, no server."
+    },
+    "medoc-ai": {
+      "fr": "Scanne une boîte de médicament (DataMatrix GS1, DataMatrix allemand IFA, codes-barres) et lis sa notice officielle, même hors ligne. Index par pays construit deux fois par jour par une GitHub Action à partir des données ouvertes : France (base publique des médicaments, ANSM, HAS, notices), Allemagne (BfArM, EMA), États-Unis (openFDA), Royaume-Uni (dm+d) ; recherche dans tous les pays ou un seul, ruptures de stock et alertes de sécurité. Armoire à pharmacie avec lot et péremption, traitements avec rappels et export agenda, profils famille. IA avec ta propre clé via llm-connect : résumé clair de la notice, questions avec citations des sections, interactions entre tes médicaments. Données sur l'appareil, pas de compte, pas de serveur.",
+      "en": "Scan a medicine box (GS1 DataMatrix, German IFA DataMatrix, barcodes) and read its official leaflet, offline too. A per-country index built twice a day by a GitHub Action from open data: France (public medicines database, ANSM, HAS, leaflets), Germany (BfArM, EMA), the US (openFDA), the UK (dm+d); search every country or one, shortages and safety alerts. Medicine cabinet with lot and expiry, treatments with reminders and calendar export, family profiles. AI with your own key through llm-connect: plain-language leaflet summary, questions answered with cited sections, interactions between your medicines. Data stays on the device, no account, no server."
     },
     "spots": {
       "fr": "Carnet de lieux sur carte, à la Mapstr, entièrement dans le navigateur : épingle un resto, un café, un bar ou le conseil d'un ami en cherchant, en collant un lien Google Maps, Apple Plans ou OpenStreetMap, ou par un appui long sur la carte. Chaque lieu devient une étiquette à la couleur de son tag, dont la forme dit si tu l'as testé ou mis en favori. Listes partagées par un lien qui contient la liste elle-même, import des lieux enregistrés Google Maps (zip Takeout), carte hors ligne (zones déjà vues ou gardées exprès), synchronisation optionnelle dans un gist secret de ton propre compte GitHub, et IA optionnelle avec ta clé via llm-connect : elle épingle les lieux cités dans un message ou un article, et répond à « un dîner pas cher près d'ici que je n'ai pas testé ? » à partir de tes lieux. OpenFreeMap et Photon, sans clé d'API ; aucun compte, aucun serveur, en français et en anglais.",
