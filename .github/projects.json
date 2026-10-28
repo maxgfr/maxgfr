@@ -96,6 +96,7 @@
         "aparte",
         "slotmatch",
         "pdfvault",
+        "pixvault",
         "sealoffice",
         "csv-ai-analyzer",
         "db-schema-viewer",
@@ -598,6 +599,10 @@
     "manga-anim": {
       "fr": "Transforme des planches de manga en vidéo, en local sur Apple Silicon : détection des cases et des bulles (Magi v2), OCR multilingue, voix de synthèse par personnage (Kokoro), sous-titres et mouvements de caméra, animation IA de cases choisies (Wan2.2 via MLX). Import CBZ/EPUB/PDF ou MangaDex, liseuse web pour corriger l'OCR, et une skill d'agent pour tout piloter. (Rust)",
       "en": "Turns manga pages into videos, locally on Apple Silicon: panel and bubble detection (Magi v2), multilingual OCR, per-character voices (Kokoro), captions and camera moves, AI animation of chosen panels (Wan2.2 via MLX). CBZ/EPUB/PDF or MangaDex import, a web reader to fix OCR, and an agent skill to drive it all. (Rust)"
+    },
+    "pixvault": {
+      "fr": "Boîte à outils photo qui n'envoie jamais vos photos : compresser (MozJPEG, OxiPNG, WebP, AVIF, JPEG XL, à une qualité, un poids cible ou sans perte, jamais plus lourd), convertir les HEIC d'iPhone et les RAW, redimensionner, recadrer, retoucher (réglages, filtres, LUT .cube), filigrane, flouter des zones, voir et retirer l'EXIF/GPS sans recompresser, renommer en lot, collages, planches contact, PDF, GIF, favicons, palette et doublons, et des recettes qui enchaînent les étapes. IA sur l'appareil : détourage (BiRefNet, MODNet), agrandissement ×2/×4 (Swin2SR), floutage auto des visages (YuNet), gomme à objets (MI-GAN), légendes et mots-clés (Florence-2, ou votre propre clé via llm-connect). Par lots dans des Web Workers, CSP stricte avec garde anti-réseau en CI, hors ligne, anglais et français.",
+      "en": "Photo toolbox that never uploads your photos: compress (MozJPEG, OxiPNG, WebP, AVIF, JPEG XL, to a quality, a target size or losslessly, never larger), convert iPhone HEIC and camera RAW, resize, crop, retouch (adjustments, filters, .cube LUTs), watermark, blur areas, inspect and strip EXIF/GPS without re-compressing, batch rename, collages, contact sheets, PDFs, GIFs, favicons, palettes and duplicate finding, plus recipes that chain steps. On-device AI: background removal (BiRefNet, MODNet), ×2/×4 upscaling (Swin2SR), automatic face blurring (YuNet), object eraser (MI-GAN), captions and keywords (Florence-2, or your own key through llm-connect). Batches in Web Workers, strict CSP with a no-network CI gate, offline, English and French."
     }
   }
 }
