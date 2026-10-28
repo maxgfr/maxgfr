@@ -100,6 +100,7 @@
         "slotmatch",
         "pdfvault",
         "pixvault",
+        "verbatim",
         "sealoffice",
         "csv-ai-analyzer",
         "db-schema-viewer",
@@ -614,6 +615,10 @@
     "manga-anim": {
       "fr": "Transforme des planches de manga en vidéo, en local sur Apple Silicon : détection des cases et des bulles (Magi v2), OCR multilingue, voix de synthèse par personnage (Kokoro), sous-titres et mouvements de caméra, animation IA de cases choisies (Wan2.2 via MLX). Import CBZ/EPUB/PDF ou MangaDex, liseuse web pour corriger l'OCR, et une skill d'agent pour tout piloter. (Rust)",
       "en": "Turns manga pages into videos, locally on Apple Silicon: panel and bubble detection (Magi v2), multilingual OCR, per-character voices (Kokoro), captions and camera moves, AI animation of chosen panels (Wan2.2 via MLX). CBZ/EPUB/PDF or MangaDex import, a web reader to fix OCR, and an agent skill to drive it all. (Rust)"
+    },
+    "verbatim": {
+      "fr": "Transcrire et monter vidéos et audios sans rien envoyer : NVIDIA Parakeet (25 langues, détectée seule, minutée au mot), Canary ou Whisper tournent dans l'onglet (WebGPU ou WebAssembly, via llm-connect). La transcription se lit comme une tracklist synchronisée au média : le mot joué est souligné, un clic y saute, on corrige sur place. Montage par sélection de mots, par segment, par phrase en français ou en anglais (« supprime de 15:39 à 15:43 et les 5:42 dernières minutes »), hésitations et silences ; aperçu sans les coupes et rendu MP4 exact à l'image dans la page (WebCodecs). Exports TXT, SRT, VTT, Markdown, JSON, CSV ou zip, traductions comprises ; résumé, chapitres, nettoyage et montage décrit par le contenu avec votre propre clé ou un modèle local. Même moteur Rust en CLI (brew install maxgfr/tap/verbatim : Parakeet via ONNX Runtime, coupes ffmpeg, plans IA) et skill pour agents. CSP stricte, hors ligne, anglais et français.",
+      "en": "Transcribe and edit video and audio without uploading anything: NVIDIA Parakeet (25 languages, found by the model, timed to the word), Canary or Whisper run in the tab (WebGPU or WebAssembly, through llm-connect). The transcript reads as a tracklist synced to the media: the playing word is underlined, a click seeks to it, corrections happen in place. Cuts by selected words, by segment, by a phrase in French or English (\"delete 15:39 to 15:43 and the last 5:42\"), hesitations and pauses; preview without the cuts and a frame-exact MP4 rendered in the page (WebCodecs). TXT, SRT, VTT, Markdown, JSON, CSV or zip exports, translations included; summary, chapters, cleanup and edits described by content with your own key or a local model. The same Rust engine as a CLI (brew install maxgfr/tap/verbatim: Parakeet through ONNX Runtime, ffmpeg cuts, AI plans) and an agent skill. Strict CSP, offline, English and French."
     },
     "pixvault": {
       "fr": "Boîte à outils photo qui n'envoie jamais vos photos : compresser (MozJPEG, OxiPNG, WebP, AVIF, JPEG XL, à une qualité, un poids cible ou sans perte, jamais plus lourd), convertir les HEIC d'iPhone et les RAW, redimensionner, recadrer, retoucher (réglages, filtres, LUT .cube), filigrane, flouter des zones, voir et retirer l'EXIF/GPS sans recompresser, renommer en lot, collages, planches contact, PDF, GIF, favicons, palette et doublons, et des recettes qui enchaînent les étapes. IA sur l'appareil : détourage (BiRefNet, MODNet), agrandissement ×2/×4 (Swin2SR), floutage auto des visages (YuNet), gomme à objets (MI-GAN), légendes et mots-clés (Florence-2, ou votre propre clé via llm-connect). Par lots dans des Web Workers, CSP stricte avec garde anti-réseau en CI, hors ligne, anglais et français.",
