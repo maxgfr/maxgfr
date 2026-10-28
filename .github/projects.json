@@ -90,6 +90,7 @@
         "takeone",
         "toolbelt",
         "calorie-ai-tracker",
+        "spots",
         "sealbin",
         "cursus",
         "aparte",
@@ -325,6 +326,10 @@
     "calorie-ai-tracker": {
       "fr": "Suivi de calories par IA dans le navigateur : décris un repas, prends-le en photo ou dicte-le, et un modèle de ton choix estime aliments, portions, calories et macros (sortie structurée, corrigeable à la main ou en langage naturel). Anneau du jour, graphique de la semaine avec moyenne, jours dans l'objectif et série, objectifs proposés par l'IA à partir d'un calcul Mifflin–St Jeor, et un coach qui connaît ta semaine. Ta propre clé via llm-connect (OpenAI, Anthropic, Gemini, Mistral, Ollama…), dictée par le fournisseur ou Whisper sur l'appareil ; données dans IndexedDB, sans compte ni serveur.",
       "en": "AI calorie tracker in the browser: describe a meal, snap it or say it, and a model of your choice estimates foods, portions, calories and macros (structured output, fixable by hand or in plain words). A daily ring, a weekly chart with average, days on target and streak, goals proposed by the AI from a Mifflin–St Jeor baseline, and a coach that knows your week. Your own key through llm-connect (OpenAI, Anthropic, Gemini, Mistral, Ollama…), voice through your provider or on-device Whisper; data in IndexedDB, no account, no server."
+    },
+    "spots": {
+      "fr": "Carnet de lieux sur carte, à la Mapstr, entièrement dans le navigateur : épingle un resto, un café, un bar ou le conseil d'un ami en cherchant, en collant un lien Google Maps, Apple Plans ou OpenStreetMap, ou par un appui long sur la carte. Chaque lieu devient une étiquette à la couleur de son tag, dont la forme dit si tu l'as testé ou mis en favori. Listes partagées par un lien qui contient la liste elle-même, import des lieux enregistrés Google Maps (zip Takeout), carte hors ligne (zones déjà vues ou gardées exprès), synchronisation optionnelle dans un gist secret de ton propre compte GitHub, et IA optionnelle avec ta clé via llm-connect : elle épingle les lieux cités dans un message ou un article, et répond à « un dîner pas cher près d'ici que je n'ai pas testé ? » à partir de tes lieux. OpenFreeMap et Photon, sans clé d'API ; aucun compte, aucun serveur, en français et en anglais.",
+      "en": "A Mapstr-style map notebook of places that lives entirely in the browser: pin a restaurant, a café, a bar or a friend's tip by searching, pasting a Google Maps, Apple Maps or OpenStreetMap link, or pressing and holding the map. Each place becomes a label in its tag's colour, shaped by whether you have tried it or made it a favourite. Lists shared through a link that carries the list itself, Google Maps saved places import (the Takeout zip), offline map (areas already seen or kept on purpose), optional sync to a secret gist on your own GitHub account, and optional AI with your own key through llm-connect: it pins the places a message or an article names, and answers \"a cheap dinner near me I haven't tried?\" from your own places. OpenFreeMap and Photon, no API key; no account, no server, in English and French."
     },
     "csv-ai-analyzer": {
       "fr": "Analyseur de CSV par IA, auto-hébergé et exécuté dans le navigateur.",
