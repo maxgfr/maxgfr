@@ -188,227 +188,227 @@
   ],
   "descriptions": {
     "nuee": {
-      "fr": "Transforme les portables et téléphones d’un groupe de confiance en nuage privé et éphémère à partir d’un seul lien : calcul vérifié, tâches GPU, fichiers chiffrés, entraînement distribué et hébergement.",
-      "en": "Turns a trusted group’s laptops and phones into a private, short-lived cloud from one link: verified compute, GPU tasks, encrypted files, distributed training and hosting."
+      "fr": "Transforme les appareils d'un groupe de confiance en cloud privé et éphémère, à partir d'un lien.",
+      "en": "Turns a group's laptops and phones into a private, short-lived cloud from one link."
     },
     "scopelet": {
-      "fr": "Skill pour Codex et Claude Code avec CLI Rust : filtre et agrège les données localement avant de les envoyer au modèle, avec récupération des originaux et omissions explicites.",
-      "en": "Skill for Codex and Claude Code with a Rust CLI: filters and aggregates evidence locally before sending it to the model, with original recovery and explicit omissions."
+      "fr": "Skill avec CLI Rust qui filtre les données en local avant de les envoyer au modèle (Codex, Claude Code).",
+      "en": "Rust CLI skill that filters evidence locally before it reaches the model (Codex, Claude Code)."
     },
     "skills": {
-      "fr": "Le dépôt de mes skills d'agent — des skills de process, qui changent la façon dont un agent travaille plutôt que ce qu'il sait. Installable d'un seul `npx skills add maxgfr/skills`, ou comme plugin Claude Code.",
-      "en": "The home for my agent skills — process skills, which change how an agent works rather than what it knows. Installable with one `npx skills add maxgfr/skills`, or as a Claude Code plugin."
+      "fr": "Mes skills d'agent, qui changent sa façon de travailler. Installation : `npx skills add maxgfr/skills`.",
+      "en": "My agent skills, which change how an agent works. Install with `npx skills add maxgfr/skills`."
     },
     "ultradoc": {
-      "fr": "Questions-réponses sourcées et docs de référence vérifiées pour n'importe quel projet open source, à partir de son vrai code, ses issues et PRs.",
-      "en": "Grounded Q&A + citation-checked reference docs for any OSS project, from its real source, issues & PRs."
+      "fr": "Questions-réponses sourcées et docs de référence pour tout projet open source, depuis son code, ses issues et PRs.",
+      "en": "Sourced Q&A and reference docs for any open source project, from its code, issues and PRs."
     },
     "ultraindex": {
-      "fr": "Indexe un dépôt entier en une encyclopédie navigable par l'IA (carte + fiches par module + graphe de liens) pour les très gros codebases.",
-      "en": "Indexes a whole repo into an AI-navigable encyclopedia (map + per-module entries + link-graph) for huge codebases."
+      "fr": "Indexe un très gros dépôt en encyclopédie navigable par l'IA.",
+      "en": "Indexes a huge repo into an encyclopedia an AI can navigate."
     },
     "ultrasearch": {
-      "fr": "Recherche web multi-moteurs sans clé → rapport Markdown/HTML à sources vérifiées et niveaux de détail (5 modes + recherche approfondie).",
-      "en": "Keyless multi-backend web research → citation-checked, tiered Markdown/HTML report (5 modes + deep-research tier)."
+      "fr": "Recherche web sans clé d'API, livrée en rapport aux sources vérifiées.",
+      "en": "Web research without API keys, delivered as a report with checked citations."
     },
     "ultrasec": {
-      "fr": "Agent d'audit de sécurité multi-fichiers : analyse de teinte source→puits + Trivy/Semgrep/gitleaks/osv, vérifiée de façon adversariale en rapport sourcé.",
-      "en": "Cross-file security-audit agent: source→sink taint + Trivy/Semgrep/gitleaks/osv, adversarially verified into a cited report."
+      "fr": "Agent d'audit de sécurité qui suit les failles entre fichiers et vérifie chaque constat.",
+      "en": "Security audit agent that traces vulnerabilities across files and verifies each finding."
     },
     "construct": {
-      "fr": "Transforme une idée produit en un cahier des charges (SRD/PRD) complet et réalisable (skill d'agent skills.sh).",
-      "en": "Turns a product idea into a grounded, buildable SRD/PRD suite (skills.sh agent skill)."
+      "fr": "Transforme une idée produit en cahier des charges réalisable (SRD/PRD).",
+      "en": "Turns a product idea into buildable specs (SRD/PRD)."
     },
     "reconstruct": {
-      "fr": "Analyse n'importe quel dépôt et génère des PRD de reconstruction pour le rebâtir de zéro.",
-      "en": "Analyzes any repo and generates reconstruction PRDs to rebuild it from scratch."
+      "fr": "Analyse un dépôt et rédige les PRD pour le reconstruire de zéro.",
+      "en": "Analyzes a repo and writes the PRDs to rebuild it from scratch."
     },
     "ultrai18n": {
-      "fr": "Trouve toutes les chaînes lisibles d'un dépôt, les classe, les traduit avec des modèles bon marché et prouve qu'aucune n'a été oubliée : moteur zéro-dépendance, le modèle n'ouvre jamais un fichier source.",
-      "en": "Finds every human-readable string in a repo, classifies it, translates it with cheap models and proves nothing was missed: zero-dependency engine, the model never opens a source file."
+      "fr": "Trouve, traduit et vérifie toutes les chaînes visibles d'un dépôt, avec des modèles bon marché.",
+      "en": "Finds, translates and checks every user-facing string in a repo, with cheap models."
     },
     "ultraprospect": {
-      "fr": "Transforme un lieu en liste de prospects sourcée grâce à OpenStreetMap, aux registres d’entreprises et aux sites web. Sans clé d’API.",
-      "en": "Turn a location into a sourced prospect list using OpenStreetMap, company registers and business websites. No API keys."
+      "fr": "Transforme un lieu en liste de prospects sourcée. Sans clé d'API.",
+      "en": "Turns a location into a sourced prospect list. No API keys."
     },
     "ultraeval": {
-      "fr": "Évalue rigoureusement une skill ou un codebase → constats sourcés (file:line) + backlog de corrections en TDD ; moteur zéro-dépendance avec analyse (hotspots, cycles, churn) et brainstorm.",
-      "en": "Rigorously evaluates a skill or codebase → grounded (file:line) findings + a TDD fix backlog; zero-dep engine with analysis (hotspots, cycles, churn) and brainstorm."
+      "fr": "Évalue une skill ou un codebase et sort des constats sourcés avec un backlog de corrections.",
+      "en": "Evaluates a skill or codebase and returns sourced findings plus a fix backlog."
     },
     "codeindex": {
-      "fr": "Moteur d'indexation de dépôt zéro-dépendance : symboles, imports, graphe de liens inter-fichiers typé et analytics — un seul engine.mjs embarquable, CLI + serveur MCP inclus.",
-      "en": "Zero-dependency repo-indexing engine: symbols, imports, typed cross-file link-graph & analytics — one vendorable engine.mjs, CLI + MCP server included."
+      "fr": "Indexeur de dépôt zéro-dépendance : symboles, imports et graphe de liens, en CLI et serveur MCP.",
+      "en": "Zero-dependency repo indexer: symbols, imports and link graph, as a CLI and MCP server."
     },
     "webindex": {
-      "fr": "Moteur de récupération web zéro-dépendance : transforme une URL ou un fichier en texte propre et citable — HTML, PDF via une échelle à six barreaux finissant en OCR, documents bureautiques, vidéos (YouTube, Vimeo et tout ce que lit yt-dlp) en transcriptions horodatées — et le sert en MCP. Un seul engine.mjs embarquable, CLI + serveur MCP inclus. Le pendant web de codeindex.",
-      "en": "Zero-dependency web-retrieval engine: turns a URL or a file into clean, citable text — HTML, PDFs through a six-rung ladder ending in OCR, office documents, videos (YouTube, Vimeo and anything yt-dlp reads) as timestamped transcripts — and serves it over MCP. One vendorable engine.mjs, CLI + MCP server included. The web-side companion to codeindex."
+      "fr": "Transforme une URL, un document ou une vidéo en texte propre et citable, en CLI et serveur MCP.",
+      "en": "Turns any URL, document or video into clean, citable text, as a CLI and MCP server."
     },
     "feelc": {
-      "fr": "Moteur de règles métier DMN/FEEL natif IA compilé en Go : un LLM écrit les règles, le moteur les prouve et les exécute de façon déterministe (playground WASM).",
-      "en": "AI-native DMN/FEEL business-rules engine in Go: an LLM writes the rules, the engine proves & runs them deterministically (WASM playground)."
+      "fr": "Moteur de règles métier en Go : un LLM écrit les règles, le moteur les prouve et les exécute.",
+      "en": "Business rules engine in Go: an LLM writes the rules, the engine proves and runs them."
     },
     "conforme": {
-      "fr": "Synchronise ta config d'IA de code (règles, skills, agents, serveurs MCP) entre Claude Code, Cursor et d'autres outils (Rust).",
-      "en": "Syncs your AI coding config (rules, skills, agents, MCP servers) across Claude Code, Cursor & more (Rust)."
+      "fr": "Synchronise ta config d'IA de code entre Claude Code, Cursor et d'autres (Rust).",
+      "en": "Syncs your AI coding config across Claude Code, Cursor and more (Rust)."
     },
     "claudfeine": {
-      "fr": "Lance Claude Code (et Codex) « sous caféine » — garde la machine éveillée le temps de la session, puis restaure la veille. Multi-plateforme, zéro-dépendance.",
-      "en": "Runs Claude Code (and Codex) caffeinated — keeps the machine awake for exactly the session, cross-platform & zero-dep."
+      "fr": "Garde la machine éveillée pendant une session Claude Code ou Codex.",
+      "en": "Keeps your machine awake while Claude Code or Codex runs."
     },
     "termrevive": {
-      "fr": "Sauvegarde et restaure vos sessions de terminal après un redémarrage — fenêtres, onglets, splits, dossiers et programmes en cours : Claude Code, Codex, Mistral Vibe, opencode et Kilo reprennent chacun leur session. Ghostty, iTerm2, kitty et Terminal.app sur macOS ; terminaux et agents ajoutables par la communauté. (Rust)",
-      "en": "Saves and restores your terminal sessions across reboots — windows, tabs, splits, working directories and running programs: Claude Code, Codex, Mistral Vibe, opencode and Kilo each resume their own session. Ghostty, iTerm2, kitty and Terminal.app on macOS, with community-pluggable terminals and agents. (Rust)"
+      "fr": "Restaure tes sessions de terminal et agents de code après un redémarrage, sur macOS (Rust).",
+      "en": "Restores your terminal sessions and coding agents after a reboot, on macOS (Rust)."
     },
     "claude-code-switch": {
-      "fr": "Bascule zéro-dépendance entre fournisseurs pour Claude Code (Anthropic, OpenRouter, DeepSeek, Z.AI, Kimi, Qwen…).",
-      "en": "Zero-dependency provider switching for Claude Code (Anthropic, OpenRouter, DeepSeek, Z.AI, Kimi, Qwen…)."
+      "fr": "Bascule Claude Code entre fournisseurs (Anthropic, OpenRouter, DeepSeek, Kimi…).",
+      "en": "Switch Claude Code between providers (Anthropic, OpenRouter, DeepSeek, Kimi…)."
     },
     "codexify": {
-      "fr": "Boîte à outils sidecar pour Codex : profils de modèles, notifications Action Required fiables, sauvegarde de configuration, maintien en éveil et diagnostics (Rust).",
-      "en": "Codex sidecar toolbelt: model profiles, reliable Action Required notifications, config backup, keep-awake, and diagnostics (Rust)."
+      "fr": "Boîte à outils pour Codex : profils de modèles, notifications, sauvegardes (Rust).",
+      "en": "Companion toolbox for Codex: model profiles, notifications, backups (Rust)."
     },
     "git-pilot": {
-      "fr": "Automatisation git par IA : commits intelligents, résolution de conflits et rebase auto (Claude/Codex/OpenAI/Gemini/Mistral). 100% Bash.",
-      "en": "AI-powered git automation: smart commits, conflict resolution & auto-rebase (Claude/Codex/OpenAI/Gemini/Mistral). Pure Bash."
+      "fr": "Automatisation git par IA : commits, conflits et rebase. 100% Bash.",
+      "en": "AI git automation: commits, conflict resolution and rebase. Pure Bash."
     },
     "git-recap": {
-      "fr": "Générateur de récap mensuel des commits : résumés par IA, points clés et liste des commits.",
-      "en": "Monthly commit-recap generator with AI summaries, bullet points and commit lists."
+      "fr": "Récap mensuel des commits avec résumés par IA.",
+      "en": "Monthly commit recap with AI summaries."
     },
     "llm-models": {
-      "fr": "Récupère les derniers modèles LLM depuis les API OpenRouter et models.dev.",
-      "en": "Fetches the latest LLM models from the OpenRouter and models.dev APIs."
+      "fr": "Récupère les derniers modèles LLM depuis OpenRouter et models.dev.",
+      "en": "Fetches the latest LLM models from OpenRouter and models.dev."
     },
     "sift": {
-      "fr": "Dit quelle quantization d'un LLM tient en mémoire et à quelle vitesse elle tournera — avant de la télécharger. Lit les vrais en-têtes GGUF/safetensors par requêtes HTTP Range, mesure la machine et recommande un moteur. Aucune liste de modèles embarquée (Rust).",
-      "en": "Tells you which quantization of an LLM fits and how fast it will run — before you download it. Reads real GGUF/safetensors headers over HTTP range requests, measures your machine and routes to an engine. No bundled model list (Rust)."
+      "fr": "Dit quelle quantization d'un LLM tient sur ta machine et à quelle vitesse, avant téléchargement (Rust).",
+      "en": "Tells you which LLM quantization fits your machine and how fast it runs, before downloading (Rust)."
     },
     "secretgate": {
-      "fr": "Pare-feu local anti-fuite de secrets pour agents de code — masque les identifiants dans les prompts, lectures de fichiers et sorties d'outils avant qu'ils n'atteignent le LLM (Claude Code, Codex, OpenCode). Hooks déterministes, sans proxy.",
-      "en": "Local secrets firewall for coding agents — redacts credentials in prompts, file reads & tool output before they reach the LLM (Claude Code, Codex, OpenCode). Deterministic hooks, no proxy."
+      "fr": "Pare-feu local qui masque tes secrets aux agents de code avant qu'ils n'atteignent le LLM.",
+      "en": "Local firewall that hides your secrets from coding agents before they reach the LLM."
     },
     "andro": {
-      "fr": "Lance des applis Android (mobile & TV) depuis le terminal macOS sur un émulateur jetable et autonome (Apple Silicon, HVF). (Rust)",
-      "en": "Run Android apps (phone & TV) from the macOS CLI on a disposable, self-contained emulator (Apple Silicon, HVF). (Rust)"
+      "fr": "Lance des applis Android depuis le terminal macOS sur un émulateur jetable (Rust).",
+      "en": "Run Android apps from the macOS terminal on a disposable emulator (Rust)."
     },
     "brutifi": {
-      "fr": "Outil de test de sécurité WiFi haute performance en Rust, pour l'éducation et les audits autorisés.",
-      "en": "High-performance WiFi security-testing tool in Rust for educational and authorized audits."
+      "fr": "Outil de test de sécurité WiFi en Rust, pour l'apprentissage et les audits autorisés.",
+      "en": "WiFi security testing tool in Rust, for learning and authorized audits."
     },
     "rshc": {
-      "fr": "Réimplémentation en Rust de SHC : chiffre des scripts shell en binaires compilés.",
-      "en": "Rust reimplementation of SHC: encrypts shell scripts into compiled binaries."
+      "fr": "Réécriture en Rust de SHC : compile des scripts shell en binaires chiffrés.",
+      "en": "Rust rewrite of SHC: compiles shell scripts into encrypted binaries."
     },
     "subtool": {
-      "fr": "CLI tout-en-un pour les sous-titres : télécharger, traduire, convertir, synchroniser, nettoyer, fusionner, corriger, extraire et intégrer.",
-      "en": "All-in-one subtitle CLI: download, translate, convert, sync, clean, merge, fix, extract & embed."
+      "fr": "CLI tout-en-un pour les sous-titres : télécharger, traduire, convertir, synchroniser et plus.",
+      "en": "All-in-one subtitle CLI: download, translate, convert, sync and more."
     },
     "snatch": {
-      "fr": "Téléchargeur de vidéos universel : essaie yt-dlp d'abord, bascule sur l'extraction navigateur (CDP) pour les sites récalcitrants.",
-      "en": "Universal video downloader: yt-dlp first, CDP browser extraction fallback for stubborn sites."
+      "fr": "Téléchargeur de vidéos : yt-dlp d'abord, extraction navigateur pour les sites récalcitrants.",
+      "en": "Video downloader: yt-dlp first, browser extraction for stubborn sites."
     },
     "web-watcher": {
-      "fr": "Script Bash qui surveille des API et sites web : détection de différences, seuils et notifications instantanées.",
-      "en": "Bash watcher for APIs & websites with diff detection, thresholds and instant notifications."
+      "fr": "Script Bash qui surveille API et sites web et prévient en cas de changement.",
+      "en": "Bash script that watches APIs and websites and notifies you on changes."
     },
     "package-checker.sh": {
-      "fr": "Scanne les projets node/bun/deno à la recherche de paquets npm vulnérables via OSV/GHSA (JSON/CSV/PURL/SBOM/SARIF/TRIVY).",
-      "en": "Scans node/bun/deno projects for vulnerable npm packages via OSV/GHSA (JSON/CSV/PURL/SBOM/SARIF/TRIVY)."
+      "fr": "Scanne les projets JS à la recherche de paquets npm vulnérables.",
+      "en": "Scans JS projects for vulnerable npm packages."
     },
     "github-helpers": {
-      "fr": "Boîte à outils de maintenance GitHub : unstar en masse, clone d'org, nettoyage des forks, audit de dépôts, etc.",
-      "en": "GitHub maintenance toolkit: bulk unstar, org clone, fork cleanup, repo audit and more."
+      "fr": "Scripts de maintenance GitHub : unstar en masse, clone d'org, nettoyage des forks, etc.",
+      "en": "GitHub maintenance scripts: bulk unstar, org clone, fork cleanup and more."
     },
     "copyable-pdf": {
-      "fr": "Rend les PDF scannés et photos de documents cherchables et copiables, avec un OCR local (modèles PaddleOCR via RapidOCR).",
-      "en": "Turns scanned PDFs and phone photos into searchable, copyable PDFs with local OCR (PaddleOCR models via RapidOCR)."
+      "fr": "Rend les PDF scannés et photos cherchables et copiables, avec un OCR local.",
+      "en": "Makes scanned PDFs and photos searchable and copyable with local OCR."
     },
     "ratio-master": {
-      "fr": "Outil de ratio torrent qui envoie de vraies requêtes d'annonce HTTP aux trackers BitTorrent.",
-      "en": "Torrent ratio tool that sends real HTTP announce requests to BitTorrent trackers."
+      "fr": "Outil de ratio torrent qui dialogue avec les trackers BitTorrent.",
+      "en": "Torrent ratio tool that talks to BitTorrent trackers."
     },
     "unsleep": {
-      "fr": "Petit exécutable qui empêche la machine de se mettre en veille.",
-      "en": "Tiny executable that prevents the machine from sleeping."
+      "fr": "Petit exécutable qui empêche la mise en veille.",
+      "en": "Tiny executable that keeps the machine awake."
     },
     "calorie-ai-tracker": {
-      "fr": "Suivi de calories par IA dans le navigateur : décris un repas, prends-le en photo ou dicte-le, et un modèle de ton choix estime aliments, portions, calories et macros (sortie structurée, corrigeable à la main ou en langage naturel). Anneau du jour, graphique de la semaine avec moyenne, jours dans l'objectif et série, objectifs proposés par l'IA à partir d'un calcul Mifflin–St Jeor, et un coach qui connaît ta semaine. Ta propre clé via llm-connect (OpenAI, Anthropic, Gemini, Mistral, Ollama…), dictée par le fournisseur ou Whisper sur l'appareil ; données dans IndexedDB, sans compte ni serveur.",
-      "en": "AI calorie tracker in the browser: describe a meal, snap it or say it, and a model of your choice estimates foods, portions, calories and macros (structured output, fixable by hand or in plain words). A daily ring, a weekly chart with average, days on target and streak, goals proposed by the AI from a Mifflin–St Jeor baseline, and a coach that knows your week. Your own key through llm-connect (OpenAI, Anthropic, Gemini, Mistral, Ollama…), voice through your provider or on-device Whisper; data in IndexedDB, no account, no server."
+      "fr": "Suivi de calories par IA : décris, photographie ou dicte un repas, et obtiens calories et macros. Sans compte.",
+      "en": "AI calorie tracker: describe, snap or say a meal and get calories and macros. No account."
     },
     "goodscan": {
-      "fr": "Scanner santé des aliments et des cosmétiques dans le navigateur, à la Yuka mais ouvert et sourcé : scanne un code-barres (caméra, photo ou chiffres) et une note de 0 à 100 explicable ligne par ligne sort des bases ouvertes d'Open Food Facts et d'Open Beauty Facts. Nutri-Score 2023 (calculé par goodscan quand la base n'a pas de note), transformation NOVA, additifs à risque selon l'EFSA ou interdits dans l'UE, ce que dit la science sur chacun (positions officielles et études humaines liées à leur DOI ou PubMed), viande transformée et viande rouge selon le CIRC. Chaque additif et chaque ingrédient cosmétique est vérifié dans les listes officielles (CIRC, classification CLP de l'UE, listes de perturbateurs endocriniens, annexes du règlement cosmétique, interdits au Canada et par la FDA), avec un niveau par ingrédient de la liste INCI. « Mieux choisir » propose de meilleurs produits de la même catégorie. États-Unis, France, Allemagne et monde entier, en anglais, français et allemand ; préférences « pour moi » ; IA facultative avec ta propre clé via llm-connect (explication, questions, lecture d'étiquette ou de liste INCI en photo) ; PWA installable et hors ligne, sans compte ni serveur.",
-      "en": "Food and cosmetics health scanner in the browser, Yuka-style but open and sourced: scan a barcode (camera, photo or digits) and get a 0–100 score you can check line by line, from the open Open Food Facts and Open Beauty Facts databases. The 2023 Nutri-Score (computed by goodscan when the database has none), NOVA processing, additives with an EFSA risk or not authorised in the EU, what science says about each (official positions and human studies linked to their DOI or PubMed), processed and red meat as IARC classifies them. Every additive and cosmetic ingredient is checked against official lists (IARC, the EU CLP classification, EU endocrine-disruptor lists, the Cosmetics Regulation annexes, bans in Canada and by the FDA), with a level for each ingredient of the INCI list. \"Better choices\" suggests better products of the same category. US, France, Germany and worldwide, in English, French and German; \"for you\" preferences; optional AI with your own key through llm-connect (explanations, questions, labels and INCI lists read from a photo); installable offline PWA, no account, no server."
+      "fr": "Scanner ouvert et sourcé d'aliments et cosmétiques, à la Yuka : un code-barres, une note vérifiable.",
+      "en": "Open, sourced food and cosmetics scanner, Yuka-style: scan a barcode, get a score you can check."
     },
     "medoc-ai": {
-      "fr": "Scanne une boîte de médicament (DataMatrix GS1, DataMatrix allemand IFA, codes-barres) et lis sa notice officielle, même hors ligne. Index par pays construit deux fois par jour par une GitHub Action à partir des données ouvertes : France (base publique des médicaments, ANSM, HAS, notices), Allemagne (BfArM, EMA), États-Unis (openFDA), Royaume-Uni (dm+d) ; recherche dans tous les pays ou un seul, ruptures de stock et alertes de sécurité. Armoire à pharmacie avec lot et péremption, traitements avec rappels et export agenda, profils famille. IA avec ta propre clé via llm-connect : résumé clair de la notice, questions avec citations des sections, interactions entre tes médicaments. Données sur l'appareil, pas de compte, pas de serveur.",
-      "en": "Scan a medicine box (GS1 DataMatrix, German IFA DataMatrix, barcodes) and read its official leaflet, offline too. A per-country index built twice a day by a GitHub Action from open data: France (public medicines database, ANSM, HAS, leaflets), Germany (BfArM, EMA), the US (openFDA), the UK (dm+d); search every country or one, shortages and safety alerts. Medicine cabinet with lot and expiry, treatments with reminders and calendar export, family profiles. AI with your own key through llm-connect: plain-language leaflet summary, questions answered with cited sections, interactions between your medicines. Data stays on the device, no account, no server."
+      "fr": "Scanne une boîte de médicament et lis sa notice officielle, même hors ligne, avec IA en option.",
+      "en": "Scan a medicine box and read its official leaflet, even offline, with optional AI."
     },
     "spots": {
-      "fr": "Carnet de lieux sur carte, à la Mapstr, entièrement dans le navigateur : épingle un resto, un café, un bar ou le conseil d'un ami en cherchant, en collant un lien Google Maps, Apple Plans ou OpenStreetMap, ou par un appui long sur la carte. Chaque lieu devient une étiquette à la couleur de son tag, dont la forme dit si tu l'as testé ou mis en favori. Listes partagées par un lien qui contient la liste elle-même, import des lieux enregistrés Google Maps (zip Takeout), carte hors ligne (zones déjà vues ou gardées exprès), synchronisation optionnelle dans un gist secret de ton propre compte GitHub, et IA optionnelle avec ta clé via llm-connect : elle épingle les lieux cités dans un message ou un article, et répond à « un dîner pas cher près d'ici que je n'ai pas testé ? » à partir de tes lieux. OpenFreeMap et Photon, sans clé d'API ; aucun compte, aucun serveur, en français et en anglais.",
-      "en": "A Mapstr-style map notebook of places that lives entirely in the browser: pin a restaurant, a café, a bar or a friend's tip by searching, pasting a Google Maps, Apple Maps or OpenStreetMap link, or pressing and holding the map. Each place becomes a label in its tag's colour, shaped by whether you have tried it or made it a favourite. Lists shared through a link that carries the list itself, Google Maps saved places import (the Takeout zip), offline map (areas already seen or kept on purpose), optional sync to a secret gist on your own GitHub account, and optional AI with your own key through llm-connect: it pins the places a message or an article names, and answers \"a cheap dinner near me I haven't tried?\" from your own places. OpenFreeMap and Photon, no API key; no account, no server, in English and French."
+      "fr": "Carnet de lieux sur carte, à la Mapstr, entièrement dans le navigateur.",
+      "en": "Map notebook for your favorite places, Mapstr-style, entirely in the browser."
     },
     "csv-ai-analyzer": {
-      "fr": "Analyseur de CSV par IA, auto-hébergé et exécuté dans le navigateur.",
-      "en": "Self-hosted, browser-based AI CSV analyzer."
+      "fr": "Analyse des fichiers CSV par IA, dans le navigateur.",
+      "en": "Analyze CSV files with AI, in the browser."
     },
     "db-schema-viewer": {
-      "fr": "Visualiseur de schéma de base de données côté client avec analyse par IA — importez du SQL, visualisez, partagez, exportez, sans backend.",
-      "en": "Client-side DB-schema visualizer with AI analysis — upload SQL, visualize, share, export, no backend."
+      "fr": "Visualise et analyse un schéma de base de données depuis du SQL, dans le navigateur.",
+      "en": "Visualize and analyze a database schema from SQL, in the browser."
     },
     "real-estate-calculator": {
-      "fr": "Calculateur de rentabilité (ROI) immobilière pour évaluer la rentabilité d'un bien locatif.",
-      "en": "Real-estate ROI calculator for rental-property profitability."
+      "fr": "Calculateur de rentabilité locative.",
+      "en": "Rental property ROI calculator."
     },
     "genpass": {
-      "fr": "Générateur de mots de passe et coffre-fort chiffré, 100% dans le navigateur : entropie exacte, phrases secrètes EFF, coffre AES-256-GCM (PBKDF2 600k) avec auto-verrouillage, liens de partage chiffrés et QR — PWA hors-ligne.",
-      "en": "Client-side password generator + encrypted vault PWA: exact entropy, EFF passphrases, auto-locking AES-256-GCM vault (PBKDF2 600k), encrypted share links & QR — offline-first."
+      "fr": "Générateur de mots de passe et coffre-fort chiffré, hors ligne.",
+      "en": "Password generator and encrypted vault that works offline."
     },
     "nook": {
-      "fr": "Notion local-first et chiffré, 100% dans le navigateur : éditeur à blocs, pages imbriquées, wikilinks et backlinks, tags, recherche ⌘K, bases de données (table/kanban/calendrier), historique de versions, carte des liens. Verrouillage par passphrase (Argon2id) avec rotation de clé, et effacement total vérifiable. Aucune requête réseau possible — CSP connect-src 'none', prouvée en CI. PWA hors-ligne.",
-      "en": "Local-first, encrypted Notion in the browser: block editor, nested pages, wikilinks and backlinks, tags, ⌘K search, databases (table/board/calendar), version history, link map. Passphrase locking (Argon2id) that rotates the key, and a wipe you can verify. No network request is possible — CSP connect-src 'none', proven in CI. Offline PWA."
+      "fr": "Notion chiffré et local-first dans le navigateur, sans aucune requête réseau.",
+      "en": "Encrypted, local-first Notion in the browser, with zero network requests."
     },
     "loyalty-card-vault": {
-      "fr": "PWA hors-ligne pour gérer ses cartes de fidélité avec stockage chiffré et scan de codes-barres.",
-      "en": "Offline-first PWA for loyalty cards with encrypted storage and barcode scanning."
+      "fr": "Appli hors ligne et chiffrée pour tes cartes de fidélité.",
+      "en": "Offline app for your loyalty cards, encrypted."
     },
     "omnilingo": {
-      "fr": "Application de bureau d'apprentissage des langues avec tutorat IA multi-fournisseurs.",
-      "en": "Desktop language-learning app with multi-provider AI tutoring."
+      "fr": "Appli de bureau pour apprendre les langues avec un tuteur IA.",
+      "en": "Desktop language learning app with an AI tutor."
     },
     "feedreel": {
-      "fr": "Générateur local de courtes vidéos quotidiennes (Remotion) avec légendes par plateforme + publication optionnelle sur Shorts/TikTok/Reels.",
-      "en": "Local-first daily short-video generator (Remotion) with per-platform captions + opt-in Shorts/TikTok/Reels publishing."
+      "fr": "Génère des vidéos courtes quotidiennes et les publie sur Shorts, TikTok et Reels.",
+      "en": "Generates daily short videos and publishes them to Shorts, TikTok and Reels."
     },
     "binance-historical": {
-      "fr": "Récupère les bougies (klines) historiques depuis l'API Binance.",
-      "en": "Fetch historical klines from the Binance API."
+      "fr": "Récupère les bougies historiques depuis l'API Binance.",
+      "en": "Fetch historical candles from the Binance API."
     },
     "ai-strategy-backtester": {
-      "fr": "Décrivez une stratégie crypto en langage naturel → fichier de stratégie JSON, backtesté sur 50+ indicateurs avec rapports HTML.",
-      "en": "Describe a crypto strategy in plain English → JSON strategy, backtested over 50+ indicators with HTML reports."
+      "fr": "Décris une stratégie crypto en langage naturel et backteste-la.",
+      "en": "Describe a crypto strategy in plain English and backtest it."
     },
     "supertrend": {
       "fr": "Implémentation de l'indicateur SuperTrend.",
-      "en": "Implementation of the SuperTrend indicator."
+      "en": "SuperTrend indicator implementation."
     },
     "crible": {
-      "fr": "Screener fondamental d'actions auto-hébergé — 150k+ titres, zéro clé d'API, scores Piotroski/Altman/Beneish transparents avec traçabilité complète des données, rapide grâce à DuckDB.",
-      "en": "Self-hosted fundamental stock screener — 150k+ equities, zero API keys, transparent Piotroski/Altman/Beneish scores with full data provenance, DuckDB-fast."
+      "fr": "Screener d'actions auto-hébergé aux scores transparents, sans clé d'API.",
+      "en": "Self-hosted stock screener with transparent scores, no API keys."
     },
     "regressio": {
-      "fr": "Bibliothèque TS zéro-dépendance de régression/classification/stats (OLS, Ridge, Lasso, Logistique, KNN, réseau de neurones) avec moteur Rust/WASM.",
-      "en": "Zero-dep TS regression/classification/stats (OLS, Ridge, Lasso, Logistic, KNN, NN) with a Rust/WASM engine."
+      "fr": "Bibliothèque TypeScript zéro-dépendance de régression et stats, moteur Rust/WASM.",
+      "en": "Zero-dependency TypeScript regression and stats library, with a Rust/WASM engine."
     },
     "similarities": {
-      "fr": "Fonctions pour trouver les similarités entre tableaux.",
-      "en": "Functions to find similarities between arrays."
+      "fr": "Trouve les similarités entre tableaux.",
+      "en": "Find similarities between arrays."
     },
     "condorcet-winner": {
-      "fr": "Implémentation de l'algorithme de vote de Condorcet en TypeScript.",
-      "en": "Condorcet vote algorithm in TypeScript."
+      "fr": "Algorithme de vote de Condorcet en TypeScript.",
+      "en": "Condorcet voting algorithm in TypeScript."
     },
     "benford-law": {
-      "fr": "Vérifie si un jeu de données suit la loi de Benford.",
+      "fr": "Vérifie si des données suivent la loi de Benford.",
       "en": "Check whether a dataset follows Benford's law."
     },
     "gaussian-helper": {
@@ -416,72 +416,72 @@
       "en": "Helpers for Gaussian calculations."
     },
     "node-simple-context": {
-      "fr": "Contexte minimaliste pour Node, inspiré de l'API Context de React.",
-      "en": "Minimalist context for Node, inspired by the React Context API."
+      "fr": "Contexte minimaliste pour Node, inspiré de React Context.",
+      "en": "Minimal context for Node, inspired by React Context."
     },
     "react-essentials-functions": {
-      "fr": "Hooks et composants utiles pour React.",
-      "en": "Useful hooks and components for React."
+      "fr": "Hooks et composants React utiles.",
+      "en": "Useful React hooks and components."
     },
     "ts-essentials-functions": {
       "fr": "Fonctions TypeScript essentielles, zéro-dépendance.",
       "en": "Essential zero-dependency TypeScript helpers."
     },
     "rn-date": {
-      "fr": "Correctif zéro-dépendance des problèmes d'analyse de dates en React Native sur Android.",
-      "en": "Zero-dependency fix for date-parsing issues in React Native on Android."
+      "fr": "Corrige l'analyse des dates en React Native sur Android.",
+      "en": "Fixes date parsing in React Native on Android."
     },
     "rn-simple-modal": {
-      "fr": "Modale React Native légère et zéro-dépendance (sans animation).",
-      "en": "Lightweight, zero-dependency React Native modal (no animation)."
+      "fr": "Modale React Native légère.",
+      "en": "Lightweight React Native modal."
     },
     "huge-async-storage": {
-      "fr": "Wrapper d'async-storage pour stocker de grandes quantités de données en React Native.",
-      "en": "async-storage wrapper for storing huge data in React Native."
+      "fr": "Stocke de grandes données dans l'async-storage React Native.",
+      "en": "Store large data in React Native async-storage."
     },
     "insta-who-unfollowed-me": {
-      "fr": "Suivez qui vous a unfollow sur Instagram.",
-      "en": "Track who unfollowed you on Instagram."
+      "fr": "Vois qui t'a unfollow sur Instagram.",
+      "en": "See who unfollowed you on Instagram."
     },
     "release-notes-finder": {
-      "fr": "Trouve les versions d'un paquet npm avec leurs notes de version GitHub.",
-      "en": "Find npm-package versions with their GitHub release notes."
+      "fr": "Trouve les versions d'un paquet npm avec leurs notes de version.",
+      "en": "Find npm package versions with their release notes."
     },
     "api-money-node-sdk": {
-      "fr": "SDK Node non-officiel pour api-money.com.",
+      "fr": "SDK Node non officiel pour api-money.com.",
       "en": "Unofficial Node SDK for api-money.com."
     },
     "github-change-json": {
-      "fr": "Action pour modifier une valeur dans un fichier JSON (ex. package.json).",
-      "en": "Action to change a value in a JSON file (e.g. package.json)."
+      "fr": "GitHub Action pour modifier une valeur dans un fichier JSON.",
+      "en": "GitHub Action to change a value in a JSON file."
     },
     "github-commit-push-file": {
-      "fr": "Action pour committer et pousser un fichier dans un dépôt.",
-      "en": "Action to commit and push a file to a repository."
+      "fr": "GitHub Action pour committer et pousser un fichier.",
+      "en": "GitHub Action to commit and push a file."
     },
     "github-multi-deployments": {
-      "fr": "Action pour gérer les statuts de déploiement sur plusieurs environnements.",
-      "en": "Action to manage deployment statuses across multiple environments."
+      "fr": "GitHub Action pour gérer les déploiements sur plusieurs environnements.",
+      "en": "GitHub Action to manage deployments across environments."
     },
     "typescript-swc-starter": {
-      "fr": "Starter TypeScript + SWC minimaliste générant des paquets CJS et ESM.",
-      "en": "Minimalist TypeScript + SWC starter emitting CJS and ESM packages."
+      "fr": "Starter TypeScript + SWC minimaliste pour paquets CJS et ESM.",
+      "en": "Minimal TypeScript + SWC starter for CJS and ESM packages."
     },
     "typescript-react-lib-swc": {
-      "fr": "Starter TypeScript + SWC minimaliste pour créer des bibliothèques de composants React.",
-      "en": "Minimalist TS + SWC starter for building React component libraries."
+      "fr": "Starter TypeScript + SWC minimaliste pour bibliothèques de composants React.",
+      "en": "Minimal TypeScript + SWC starter for React component libraries."
     },
     "leboncoin-cdp": {
-      "fr": "Scraper Leboncoin indétectable via le Chrome DevTools Protocol et les data routes Next.js — sans Puppeteer, sans détection de bot.",
-      "en": "Undetectable Leboncoin scraper via Chrome DevTools Protocol & Next.js data routes — no Puppeteer, zero bot detection."
+      "fr": "Scraper Leboncoin via le Chrome DevTools Protocol, sans Puppeteer.",
+      "en": "Leboncoin scraper using the Chrome DevTools Protocol, no Puppeteer."
     },
     "awesome-stars": {
-      "fr": "Liste des dépôts que j'ai aimés sur GitHub.",
-      "en": "Curated list of repositories I've liked on GitHub."
+      "fr": "Les dépôts que j'ai aimés sur GitHub.",
+      "en": "Repositories I've starred on GitHub."
     },
     "homebrew-tap": {
-      "fr": "Tap Homebrew pour mes outils CLI (`brew install maxgfr/tap/…`).",
-      "en": "Homebrew tap for my CLI tools (`brew install maxgfr/tap/…`)."
+      "fr": "Tap Homebrew pour mes outils CLI.",
+      "en": "Homebrew tap for my CLI tools."
     },
     "michel-golfier": {
       "fr": "Code source du site d'un écrivain.",
@@ -492,152 +492,152 @@
       "en": "Source of my personal website."
     },
     "today": {
-      "fr": "Todolist du jour, offline-first et privée : rien ne remonte tout seul — ce qui n'est pas fini attend une décision le lendemain, avec son ancienneté affichée. Aucun compte, aucun serveur, zéro requête réseau, prouvé par une CSP et un garde-fou qui casse la CI.",
-      "en": "Offline-first, privacy-first daily to-do: nothing rolls over on its own — unfinished tasks wait for a decision the next morning, with their age shown. No account, no server, zero network requests, proven by a CSP and a build gate that fails CI."
+      "fr": "Todolist du jour où les tâches non finies attendent ta décision. Privée, hors ligne.",
+      "en": "Daily to-do list where unfinished tasks wait for your decision. Private, offline."
     },
     "basilico": {
-      "fr": "Minuteur de concentration Pomodoro local-first (PWA + extension Chrome) : tâches, backlog et plan du jour, comptage des interruptions, overtime et Flowtime, heatmap annuelle, heures productives et précision des estimations, export JSON/CSV/Open Pomodoro — sans compte, sans serveur, sans tracking.",
-      "en": "Local-first Pomodoro focus timer (PWA + Chrome extension): tasks, backlog & day plan, interruption counting, overtime and Flowtime, year heatmap, productive hours and estimate accuracy, JSON/CSV/Open Pomodoro export — no account, no server, no tracking."
+      "fr": "Minuteur Pomodoro avec tâches et stats, en PWA et extension Chrome. Sans tracking.",
+      "en": "Pomodoro timer with tasks and stats, as a PWA and Chrome extension. No tracking."
     },
     "tick": {
-      "fr": "Suite de minuteurs local-first, 100 % dans le navigateur : multi-minuteurs simultanés avec préréglages (œuf, thé, réunion…), chronomètre avec tours, intervalles HIIT/Tabata/EMOM, métronome, horloge mondiale, calculateur de durées, alarmes et grand affichage plein écran — bips Web Audio, notifications, anti-dérive par horloge système, raccourcis clavier, PWA hors-ligne. Sans compte, sans serveur, sans tracking.",
-      "en": "Local-first timer suite, entirely in the browser: multiple simultaneous countdowns with presets (egg, tea, laundry…), stopwatch with laps, HIIT/Tabata/EMOM intervals, metronome, world clock, duration calculator, alarms and a big fullscreen display — Web Audio beeps, notifications, drift-free system-clock math, keyboard shortcuts, offline PWA. No account, no server, no tracking."
+      "fr": "Minuteurs, chrono, intervalles, métronome et alarmes dans le navigateur.",
+      "en": "Timers, stopwatch, intervals, metronome and alarms in the browser."
     },
     "tok": {
-      "fr": "Compteur d'échanges et de score local-first pour le ping-pong, les raquettes de plage, le volley et plus : chaque frappe est comptée au son (AudioWorklet), au mouvement et à la caméra (MediaPipe auto-hébergé, sans télémétrie), les échanges démarrent et finissent seuls, les matchs suivent les règles de chaque sport (tie-breaks compris). Vidéos avec le score incrusté, chapitrées par échange, records et objectifs, Lab de calibration, PWA hors-ligne. Sans compte, sans serveur : rien ne quitte le téléphone.",
-      "en": "Local-first rally and score counter for table tennis, beach rackets, volleyball and more: every hit counted from sound (AudioWorklet), motion and camera (self-hosted MediaPipe, telemetry stripped), rallies start and end on their own, matches follow each sport's rules down to tie-breaks. Recordings with the score burned in, chaptered by rally, records and goals, a calibration Lab, offline PWA. No account, no server: nothing leaves the phone."
+      "fr": "Compte les échanges et le score avec le micro et la caméra du téléphone (ping-pong, volley…).",
+      "en": "Counts rallies and keeps score from your phone's mic and camera (ping-pong, volley…)."
     },
     "skycmd": {
-      "fr": "Modèles de décision « System One » ultra-compacts entraînés de zéro en Rust avec MLX sur Mac : un état et des questions typées en entrée, des probabilités calibrées en sortie, en une seule passe. s3-pico (445k paramètres, 251 Ko ternaire) boucle un bloc partagé avec sorties anticipées calibrées en boucle fermée et joue à quatre jeux, dont un Doom-like, au niveau de l'oracle en direct dans le navigateur via un moteur Rust WebAssembly, en ~50 µs par frame. Installable partout (CLI avec /v1/systemone, npm, wheel Python, llama.cpp/wllama pour s1), avec un tutoriel pas à pas.",
-      "en": "Ultra-small System One decision models trained from scratch in Rust with MLX on a Mac: state + typed questions in, calibrated probabilities out, in one forward pass. s3-pico (445k params, 251 KB ternary) loops one shared block with closed-loop-calibrated early exits and plays four games, including a Doom-like, at oracle level live in the browser through a Rust WebAssembly engine, in about 50 µs per frame. Installable everywhere (CLI with /v1/systemone, npm, Python wheel, llama.cpp/wllama for s1), with a step-by-step tutorial."
+      "fr": "Modèles de décision minuscules entraînés de zéro en Rust, qui jouent en direct dans le navigateur.",
+      "en": "Tiny decision models trained from scratch in Rust, that play games live in the browser."
     },
     "lastdone": {
-      "fr": "Rappels récurrents local-first qu'on pilote en parlant : « j'ai arrosé les plantes », « c'est quand la dernière fois que j'ai détartré la bouilloire ? », « rappelle-moi d'arroser tous les 5 jours ». Un LLM qui tourne dans le navigateur (WebLLM sur WebGPU, Qwen2.5) traduit la phrase en intention JSON contrainte, l'app l'exécute ; parseur FR/EN de secours et bouton « Fait » en un tap. Tableau façon horaire de départs trié par urgence, historique, notifications, export .ics, PWA hors-ligne. Sans compte, sans serveur, sans clé d'API : rien ne quitte l'appareil.",
-      "en": "Local-first recurring reminders you talk to: \"I watered the plants\", \"when did I last descale the kettle?\", \"remind me to water every 5 days\". An in-browser LLM (WebLLM on WebGPU, Qwen2.5) turns the sentence into a schema-constrained JSON intent the app executes; FR/EN rule-parser fallback and a one-tap Done button. Departure-board view ranked by urgency, history, notifications, .ics export, offline PWA. No account, no server, no API key: nothing leaves the device."
+      "fr": "Rappels récurrents qu'on pilote en parlant, grâce à un LLM qui tourne dans le navigateur.",
+      "en": "Recurring reminders you talk to, powered by an LLM running in the browser."
     },
     "bracketeer": {
-      "fr": "Moteur de tournois agnostique : brackets, système suisse, ligues, poules et Elo composés depuis six axes — aucun sport codé en dur. 100 % navigateur, sans serveur ni compte : lien partageable, sync P2P, export ICS, impression et hors-ligne.",
-      "en": "Sport-agnostic tournament engine: brackets, Swiss, leagues, groups and Elo composed from six axes — no sport hardcoded. Entirely in-browser, no server or account: shareable link, P2P live sync, ICS export, printing and offline."
+      "fr": "Moteur de tournois pour tout sport : brackets, ligues, poules, Elo. Dans le navigateur.",
+      "en": "Tournament engine for any sport: brackets, leagues, groups, Elo. In the browser."
     },
     "kanbo": {
-      "fr": "Gestion de projet local-first : kanban, sprints et roadmap dans le navigateur, avec un dépôt git comme seul backend.",
-      "en": "Local-first project management: kanban, sprints and roadmap in your browser, with a git repo as the only backend."
+      "fr": "Kanban, sprints et roadmap local-first, avec un dépôt git comme backend.",
+      "en": "Local-first kanban, sprints and roadmap, with a git repo as backend."
     },
     "terravia": {
-      "fr": "RPG de capture de créatures dans un monde généré procéduralement. Tourne entièrement dans le navigateur — sans serveur ni compte. Le monde se reconstruit depuis une graine, donc une sauvegarde tient en quelques kilo-octets de JSON exportables et réimportables.",
-      "en": "Creature-collecting RPG in a procedurally generated world. Runs entirely in the browser — no server, no account. The whole world rebuilds from a seed, so a save file is a few kilobytes of JSON you can export and re-import."
+      "fr": "RPG de capture de créatures dans un monde procédural, dans le navigateur.",
+      "en": "Creature-collecting RPG in a procedural world, in the browser."
     },
     "versus": {
-      "fr": "114 mini-jeux à deux sur un seul téléphone, face à face : le téléphone à plat sur la table, rouge joue en bas, bleu en haut (moitié retournée). Classiques de plateau, dés, cartes, jeux de balle, visée, réflexes, arènes, runners, physique et courses de puzzles, tous originaux. Aussi contre l'ordinateur (3 niveaux) ou en ligne entre deux téléphones en pair-à-pair (WebRTC, code de salle ou QR). Longueur de match réglable, tournois, 2 contre 2. PWA hors ligne en TypeScript et Canvas 2D, sans compte, sans pub, sans tracking.",
-      "en": "114 two-player mini-games for one phone, played face to face: the phone lies flat on the table, red plays from the bottom, blue from the top (upside-down half). Board classics, dice, cards, ball games, aiming, reflex duels, arenas, runners, physics and puzzle races, all original. Also against the computer (3 levels) or online between two phones, peer to peer (WebRTC, room code or QR). Adjustable match length, tournaments, 2 vs 2. Offline PWA in TypeScript and Canvas 2D; no account, no ads, no tracking."
+      "fr": "114 mini-jeux à deux, face à face sur un seul téléphone.",
+      "en": "114 two-player mini-games, face to face on one phone."
     },
     "unmark": {
-      "fr": "Retire les watermarks dans le navigateur : caractères Unicode invisibles et stéganographie dans le texte (le payload est décodé, pas seulement supprimé), métadonnées C2PA/EXIF/XMP sur 11 formats, et watermarks visibles sur les images — un overlay plat est inversé exactement plutôt que repeint, sinon inpainting Telea ou MI-GAN. Rien n'est uploadé : connect-src 'self' seul, prouvé par un gate CI.",
-      "en": "Strips watermarks in the browser: invisible Unicode and steganography in text (the payload is decoded, not just deleted), C2PA/EXIF/XMP metadata across 11 formats, and visible image watermarks — a flat overlay is inverted exactly rather than painted over, with Telea or MI-GAN inpainting otherwise. Nothing is uploaded: connect-src 'self' alone, proven by a CI gate."
+      "fr": "Retire les watermarks des textes et images, dans le navigateur.",
+      "en": "Removes watermarks from text and images, in the browser."
     },
     "siphon": {
-      "fr": "Téléchargeur de vidéos dans le navigateur : collez un lien, choisissez une qualité, récupérez le fichier — récupération, fusion et conversion se font sur l'appareil (ffmpeg.wasm, OPFS), rien n'est envoyé. Pour les sites qu'une page ne peut pas lire, YouTube en tête, une seule adresse suffit : une instance Invidious/Piped/cobalt, un relais Cloudflare en un clic, un userscript pont, ou votre propre serveur yt-dlp (Docker, avec cookies, SponsorBlock, extraits). Les instances publiques sont mesurées chaque jour et seules celles qui répondent sont proposées. PWA hors-ligne et cible de partage.",
-      "en": "Browser-first video downloader: paste a link, pick a quality, get the file — fetching, merging and converting happen on the device (ffmpeg.wasm, OPFS), nothing is uploaded. For sites a page cannot read, YouTube above all, point it at one thing: an Invidious/Piped/cobalt instance, a one-click Cloudflare relay, a userscript bridge, or your own yt-dlp server (Docker, with cookies, SponsorBlock, clips). Public instances are measured daily and only the ones that answer are offered. Offline PWA and share target."
+      "fr": "Téléchargeur de vidéos dans le navigateur : colle un lien, récupère le fichier.",
+      "en": "Video downloader in the browser: paste a link, get the file."
     },
     "swarmdeck": {
-      "fr": "Des torrents depuis une page web, sur un téléphone comme sur un ordinateur : ajoutez un .torrent ou un magnet, suivez le téléchargement, enregistrez les fichiers sur l'appareil — WebTorrent dans le navigateur, pièces dans l'OPFS — et partagez vos propres fichiers ou dossiers. Sur ordinateur, une liste à côté du torrent ouvert, vue tableau, recherche et filtres, sélection multiple, glisser-déposer n'importe où, raccourcis clavier et enregistrement direct dans un dossier. Éditeur, créateur et vérificateur de .torrent intégrés. Quand l'essaim est hors de portée d'un navigateur (trackers privés, pairs TCP/UDP seulement), le même torrent part vers un vrai client : votre propre serveur (un docker compose, ou Render/Fly/Cloudflare en un clic) ou un service que vous payez déjà (TorBox, put.io, Real-Debrid, AllDebrid). PWA installable, hors-ligne, cible de partage.",
-      "en": "Torrents from a web page, on a phone or a computer: add a .torrent or a magnet, watch it arrive, save the files to the device — WebTorrent in the browser, pieces in OPFS — and share files or folders of your own. On a computer, a list beside the torrent open, a table view, search and filters, several selected at once, drag and drop anywhere, keyboard shortcuts and saving straight into a folder. A built-in .torrent editor, maker and checker. When the swarm is one a browser cannot reach (private trackers, TCP/UDP-only peers), the same torrent goes to a real client: your own server (one docker compose, or one click on Render/Fly/Cloudflare) or a service you already pay for (TorBox, put.io, Real-Debrid, AllDebrid). Installable, offline PWA and share target."
+      "fr": "Télécharge et partage des torrents depuis une page web, sur mobile ou ordinateur.",
+      "en": "Download and share torrents from a web page, on phone or desktop."
     },
     "ultrawatch": {
-      "fr": "Regarde les vidéos pour l'agent — YouTube, Vimeo, Dailymotion et tout ce que lit yt-dlp : une vidéo, une playlist ou une chaîne devient une transcription horodatée et chapitrée, plus les images de ce qui est à l'écran, gardées sur disque et interrogeables ; chaque affirmation cite un [V# mm:ss] vérifié. Local et sans clé : yt-dlp, les sous-titres de la vidéo, whisper en local.",
-      "en": "Watches videos for the agent — YouTube, Vimeo, Dailymotion and anything yt-dlp reads: a video, a playlist or a channel becomes a timestamped, chaptered transcript plus frames of what is on screen, kept on disk and searchable; every claim cites a checked [V# mm:ss] stamp. Local and keyless: yt-dlp, the video's own subtitles, local whisper."
+      "fr": "Permet à un agent de regarder des vidéos : transcriptions et images interrogeables, avec citations.",
+      "en": "Lets an agent watch videos: searchable transcripts and frames, with citations."
     },
     "ultrastock": {
-      "fr": "Copilote d'investissement pour l'agent, pensé pour de l'argent réel — actions et ETF US/Europe (PEA, CTO, assurance-vie), crypto, marchés prédictifs : analyse multi-rôles (analystes, débat haussier/baissier, juge, gestion du risque), screening, valorisation, régime de marché, portefeuille, paper trading, journal des décisions réglées face au marché, backtests sans look-ahead et fiscalité FR/US ; chaque chiffre est une preuve [E#] sourcée, vérifiée avant la réponse. Données publiques sans clé ; ordres réels seulement derrière un risk gate déterministe, des limites à cliquet et un code hors bande que seul l'humain lit.",
-      "en": "Investing copilot for the agent, built for real money — US/European stocks and ETFs (PEA, CTO, assurance-vie), crypto, prediction markets: a multi-role analysis (analysts, bull/bear debate, judge, risk team), screening, valuation, market regime, portfolio, paper trading, a decision journal settled against the market, look-ahead-free backtests and FR/US tax; every figure is a sourced [E#] evidence, checked before the answer. Keyless public data; real orders only behind a deterministic risk gate, ratcheted limits and an out-of-band code only the human reads."
+      "fr": "Copilote d'investissement pour agents : actions, ETF, crypto, chiffres sourcés.",
+      "en": "Investing copilot for agents: stocks, ETFs, crypto, with sourced figures."
     },
     "ephemeral": {
-      "fr": "Présence en temps réel en WebRTC, sans backend : des salles pour les talks (réactions, sondages et questions, avec une clé de présentateur qui signe chaque résultat) et un widget d'une ligne qui affiche lecteurs, réactions et positions de lecture sur n'importe quel site statique. Pair à pair via Trystero et des relais Nostr ; rien n'est stocké.",
-      "en": "Real-time presence over WebRTC with no backend: live rooms for talks (reactions, polls and Q&A, with a presenter key that signs every result) and a one-line widget that shows readers, reactions and reading positions on any static site. Peer to peer through Trystero and Nostr relays; nothing is stored."
+      "fr": "Réactions, sondages et questions en direct en WebRTC, sans backend.",
+      "en": "Live reactions, polls and Q&A over WebRTC, with no backend."
     },
     "murmur": {
-      "fr": "Bulle de chat IA pour n'importe quel site, qui répond à partir de ses propres pages, les cite et renvoie vers la bonne rubrique : une balise script, un mini RAG (BM25) dans le navigateur sur un index statique construit par `murmur index`, et le modèle de ton choix via llm-connect, derrière ton propre proxy ou avec la clé du visiteur, jamais dans la page. Paquet npm modulaire (murmur-rag : rag, indexer, llm, widget), configurateur et bac à sable en français et en anglais, sans backend.",
-      "en": "AI chat bubble for any website that answers from the site's own pages, cites them and links to the right heading: one script tag, a mini RAG (BM25) in the browser over a static index built by `murmur index`, and the model you pick through llm-connect, behind your own proxy or with the visitor's key, never in the page. Modular npm package (murmur-rag: rag, indexer, llm, widget), configurator and playground in English and French, no backend."
+      "fr": "Bulle de chat IA qui répond à partir des pages de ton site. Une balise script.",
+      "en": "AI chat bubble that answers from your site's own pages. One script tag."
     },
     "notabot": {
-      "fr": "Détection de bots open source, sans backend, qui montre tout ce qu'elle voit : une balise script lit ce que le navigateur dit à la page (user agent, client hints, fuseau, écran, GPU, canvas, WebGL, audio, polices, comportement du pointeur et du clavier) et y cherche des contradictions plutôt que de faire cliquer des bus : navigator.webdriver, globales d'automates, fonctions natives réécrites, une iframe neuve et un Web Worker qui répondent autrement que la page, OS et moteur JavaScript qui ne collent pas. Preuve de travail SHA-256 invisible façon ALTCHA, curseur jugé sur la géométrie du geste (ou au clavier) seulement en cas de doute, et second avis d'un petit modèle de votre choix via llm-connect (votre clé, un proxy ou Ollama), qui ne reçoit que des nombres et des valeurs fixes pour qu'un bot ne puisse pas l'embobiner. Paquet npm modulaire, widget <notabot-check> en Shadow DOM, Worker Cloudflare d'exemple qui signe défis et jetons avec un siteverify façon reCAPTCHA, démo en passeport de navigateur, anglais et français. D'après la vidéo de V2F pour overfl0w.",
-      "en": "Open-source bot detection with no backend that shows everything it sees: one script tag reads what the browser tells the page (user agent, client hints, time zone, screen, GPU, canvas, WebGL, audio, fonts, pointer and keyboard behaviour) and looks for contradictions instead of asking for buses: navigator.webdriver, automation globals, rewritten native functions, a fresh iframe and a Web Worker that answer differently from the page, an OS and a JavaScript engine that disagree. An invisible ALTCHA-style SHA-256 proof of work, a slider judged on the geometry of the drag (or the keyboard) only when in doubt, and a second opinion from a small model of your choice through llm-connect (your key, a proxy or Ollama) that only ever receives numbers and fixed values, so a bot cannot talk its way in. Modular npm package, a <notabot-check> Shadow DOM widget, an example Cloudflare Worker that signs puzzles and tokens with a reCAPTCHA-style siteverify, a browser-passport demo, English and French. After V2F's video for overfl0w."
+      "fr": "Détection de bots open source et transparente, sans backend.",
+      "en": "Open source, transparent bot detection with no backend."
     },
     "hush": {
-      "fr": "Messagerie et envoi de fichiers chiffrés de bout en bout, post-quantiques, sans compte : on envoie un lien, on discute, on termine et rien ne reste. Handshake X-Wing (X25519 + ML-KEM-768) transporté par relais Nostr, trackers WebTorrent ou codes QR hors-ligne qui ne voient que du chiffré, puis WebRTC pair à pair (ou relais chiffré) avec ratchet : une clé par message et un nouvel échange post-quantique toutes les 5 minutes, messages rembourrés, 5 emojis pour vérifier. Dépôts façon wormhole : on glisse des fichiers ou des dossiers, on obtient un lien ; ils passent en pair à pair si vous êtes tous deux en ligne, sinon depuis une copie scellée (segments STREAM de 4 Mio, ChaCha20-Poly1305) qui attend sur des serveurs Blossom publics ne voyant que du chiffré, à usage unique ou non, avec mot de passe, ou scellée à l'identité d'un contact ou à la vôtre et signée. Liens à usage unique avec expiration, groupes, messages éphémères, identifiant hush1… auto-certifiant (Ed25519 + ML-DSA-65), contacts et sauvegardes chiffrés (Argon2id). Un seul cœur Rust : WebAssembly pour la PWA, CLI (brew install maxgfr/tap/hush) et apps Android et iOS, aussi en Bluetooth et Wi-Fi.",
-      "en": "Post-quantum, end-to-end encrypted messaging and file drops with no account: send a link, talk, end it and nothing is left. An X-Wing (X25519 + ML-KEM-768) handshake carried by Nostr relays, WebTorrent trackers or offline QR codes that only see ciphertext, then peer-to-peer WebRTC (or an encrypted relay) with a ratchet: a key per message and a fresh post-quantum exchange every 5 minutes, padded messages, 5 emojis to verify. Drops, like wormhole: drop files or folders, get a link; they go peer to peer while you are both online, otherwise from a sealed copy (4 MiB STREAM segments, ChaCha20-Poly1305) waiting on public Blossom servers that only see ciphertext, one-time or not, with a passphrase, or sealed to a contact's identity or your own and signed. Single-use expiring links, groups, disappearing messages, a self-certifying hush1… identifier (Ed25519 + ML-DSA-65), encrypted contacts and backups (Argon2id). One Rust core: WebAssembly for the PWA, a CLI (brew install maxgfr/tap/hush) and the Android and iOS apps, over Bluetooth and Wi-Fi too."
+      "fr": "Messagerie et partage de fichiers chiffrés post-quantiques, sans compte.",
+      "en": "Post-quantum encrypted messaging and file sharing, no account."
     },
     "agora": {
-      "fr": "Sondages et actions communes chiffrés de bout en bout, sans compte ni serveur : une personne réelle, une voix, et personne ne sait qui a voté quoi. On entre dans un groupe par lien d'invitation (la clé reste dans le #fragment), puis on est admis par parrainage de k membres (QR en personne ou 5 emojis à comparer) ou par un ticket aveugle d'organisateur (signature BLS aveugle sur BLS12-381 : il sait qui a reçu un ticket, jamais quelle voix vient de quel ticket). Chaque vote porte une signature d'anneau liable (LSAG sur ristretto255, une image de clé par sondage) : elle prouve qu'il vient d'un membre, une seule fois, sans dire lequel, et on peut changer d'avis jusqu'à la clôture. Actions à seuil (« j'y vais si N autres y vont »), engagements anonymes, motion d'exclusion suivie d'une nouvelle clé de groupe. Événements scellés (XChaCha20-Poly1305) stockés sur des relais Nostr qui ne voient que du chiffré, plus une synchro pair à pair en WebRTC. Chaque appareil vérifie tout et compte lui-même. PWA Bun + Preact, verrou Argon2id, CSP stricte, anglais et français.",
-      "en": "End-to-end encrypted polls and collective actions with no account and no server: one real person, one vote, and nobody knows who voted what. A group is joined from an invitation link (the key stays in the #fragment), then entered by k members vouching (a QR code in person, or 5 emojis to compare) or with an organizer's blind ticket (a blind BLS signature on BLS12-381: they know who got a ticket, never which vote comes from which ticket). Each vote carries a linkable ring signature (LSAG on ristretto255, one key image per poll): it proves it comes from a member, only once, without saying which, and you can change your mind until it closes. Threshold actions (\"I'm in if N others are\"), anonymous pledges, motions to exclude followed by a new group key. Sealed events (XChaCha20-Poly1305) stored on Nostr relays that only see ciphertext, plus peer-to-peer sync over WebRTC. Every device checks everything and counts for itself. Bun + Preact PWA, Argon2id lock, strict CSP, English and French."
+      "fr": "Sondages anonymes et chiffrés : une personne, une voix. Sans serveur.",
+      "en": "Anonymous, encrypted polls: one person, one vote. No server."
     },
     "veil": {
-      "fr": "Salles privées entre navigateurs : chat, fichiers sans limite de taille et appels audio/vidéo, pair à pair et chiffrés de bout en bout. La clé de la salle vit dans le #fragment du lien ; les pairs se trouvent via relais Nostr, trackers WebTorrent ou codes QR hors-ligne, ne voient passer que du chiffré, puis tout circule dans un maillage P2P (sender keys renouvelées à chaque départ, 4 emojis pour vérifier, média chiffré image par image). Fichiers streamés disque à disque, vérifiés en SHA-256, reprise après coupure, avec une salle « fichiers » sans caméra ni micro. PWA installable, CLI Rust (brew install maxgfr/tap/veil) compatible. Sans compte, sans serveur, rien n'est stocké.",
-      "en": "Private rooms between browsers: chat, files of any size and audio/video calls, peer to peer and end-to-end encrypted. The room key lives in the link's #fragment; peers meet through Nostr relays, WebTorrent trackers or offline QR codes that only ever see ciphertext, then everything flows through a P2P mesh (sender keys rotated whenever someone leaves, 4 emojis to verify, media encrypted frame by frame). Files streamed disk to disk, SHA-256 verified, resumable, with a files-only room (no camera or microphone). Installable PWA, plus a compatible Rust CLI (brew install maxgfr/tap/veil). No account, no server, nothing stored."
+      "fr": "Salles privées P2P pour chat, fichiers et appels, chiffrées de bout en bout.",
+      "en": "Private P2P rooms for chat, files and calls, end-to-end encrypted."
     },
     "toolbelt": {
-      "fr": "Une boîte de plus de 100 petits outils qui tournent dans le navigateur, à la it-tools mais pas seulement pour les devs. Côté dev : diff de textes et de fichiers, JSON, YAML, TOML, CSV, XML et SQL (formater, valider à la ligne près, JSON vers TypeScript, Zod, Go, Rust, Kotlin, Java, C#, Python, Swift, Dart, JSON Schema, JSONPath), HTML/SVG vers JSX, Base64, hash, JWT, chiffrement AES, gzip, certificats X.509, UUID, TOTP, regex, cron (explication et constructeur), CIDR, semver, curl vers code, en-têtes HTTP, générateurs CSS (ombres, dégradés, cubic-bezier, clip-path, palettes). Côté quotidien : compteur de mots, TVA, salaire brut/net, prêt immobilier, épargne, pourboire, IMC, conversions de cuisine, chrono, minuteurs, Pomodoro, tirage au sort et Secret Santa, accordeur, métronome, test caméra et micro, images (compression, recadrage, EXIF, favicon). Recherche ⌘K, liens de partage qui portent la saisie dans le #fragment, favoris. CSP stricte sans aucune requête hors du site, PWA hors ligne, en anglais, français et allemand selon le navigateur. Aussi un skill pour agents IA (npx skills add maxgfr/toolbelt) : un CLI Node hors ligne qui fait tourner les outils dans Claude Code, Codex ou Cursor.",
-      "en": "A toolbox of 100+ small utilities that run in the browser, in the spirit of it-tools but not only for developers. For developers: text and file diff, JSON, YAML, TOML, CSV, XML and SQL (format, validate down to the line, JSON to TypeScript, Zod, Go, Rust, Kotlin, Java, C#, Python, Swift, Dart, JSON Schema, JSONPath), HTML/SVG to JSX, Base64, hashes, JWT, AES encryption, gzip, X.509 certificates, UUIDs, TOTP, regex, cron (explained and built), CIDR, semver, curl to code, HTTP headers, CSS generators (shadows, gradients, cubic-bezier, clip-path, palettes). For everyday life: word counter, VAT, gross to net salary, mortgage, savings, tips, BMI, cooking conversions, stopwatch, timers, Pomodoro, random draws and Secret Santa, tuner, metronome, camera and mic test, images (compression, cropping, EXIF, favicon). ⌘K search, share links that carry the input in the #fragment, favorites. Strict CSP with no request outside the site, offline PWA, English, French and German following the browser. Also an agent skill (npx skills add maxgfr/toolbelt): an offline Node CLI that runs the tools from Claude Code, Codex or Cursor."
+      "fr": "Plus de 100 petits outils dans le navigateur, pour les devs et le quotidien.",
+      "en": "100+ small tools in the browser, for devs and everyday life."
     },
     "stepcast": {
-      "fr": "Enregistre ton écran, et l'IA en fait une démo interactive à cliquer, à la Storylane : des captures prises au fil de l'enregistrement (détection des changements d'écran, ou à la demande), puis un modèle de vision choisit les écrans clés et écrit chaque étape (hotspot, infobulle, zoom, flou des données personnelles, remplacement de texte), à partir d'une grille 0–1000 dessinée sur les images. Ta propre clé via llm-connect (Anthropic, OpenAI, Gemini, Mistral, OpenRouter, Ollama…), ou sans clé en copiant-collant dans n'importe quel chat. Mode manuel complet, puis partage par un lien qui contient toute la démo, un Gist, un iframe, ou un export HTML hors ligne, MP4 ou GIF ; les flous sont incrustés dans les pixels avant tout partage. Format JSON documenté (schema.json, llms.txt) pour que des agents écrivent des démos. Frontend uniquement, rien n'est envoyé ailleurs qu'au fournisseur choisi.",
-      "en": "Record your screen, and AI turns it into an interactive click-through demo in the spirit of Storylane: screenshots are taken as you record (screen-change detection, or on demand), then a vision model picks the key screens and writes each step (hotspot, tooltip, zoom, blurred personal data, replaced text) from a 0–1000 grid drawn over the images. Your own key through llm-connect (Anthropic, OpenAI, Gemini, Mistral, OpenRouter, Ollama…), or no key at all by copy-pasting into any chat app. A full manual mode, then share through a link that carries the whole demo, a Gist, an iframe, or an offline HTML, MP4 or GIF export; blurs are baked into the pixels before anything is shared. A documented JSON format (schema.json, llms.txt) lets agents write demos too. Frontend only: nothing goes anywhere but the provider you choose."
+      "fr": "Enregistre ton écran et l'IA en fait une démo interactive.",
+      "en": "Record your screen and AI turns it into an interactive demo."
     },
     "takeone": {
-      "fr": "Enregistre ton écran, ta caméra et ta voix, monte la vidéo en éditant son texte, partage-la sans serveur : une alternative ouverte à Loom et Tella, entièrement dans le navigateur. Chaque source sur sa piste (téléprompteur dans une fenêtre flottante que la capture ne voit pas), transcription au mot près sur l'appareil avec NVIDIA Parakeet (ou Canary, Whisper, ou le modèle de ton fournisseur) sur plusieurs threads, couper des mots coupe la vidéo, mots parasites et silences en un clic. Montage par l'IA avec ta propre clé : le modèle lit ce que tu dis et regarde ton écran, puis place les zooms, les mises en page (caméra seule pour l'intro, écran seul), floute les données perso qu'il voit, coupe les prises ratées et ajoute des chapitres, en une seule étape annulable. Fonds, bulle caméra, sous-titres traduits, suppression du bruit (RNNoise) et normalisation à -16 LUFS. Exports MP4 jusqu'en 4K60, WebM, GIF, SRT/VTT, HTML autonome, et liens pair à pair avec statistiques et réactions en direct. Pas de compte, pas de serveur.",
-      "en": "Record your screen, camera and voice, edit the video by editing its text, and share it without a server: an open, in-browser take on Loom and Tella. Each source on its own track (teleprompter in a floating window the capture does not see), word-timed transcription on the device with NVIDIA Parakeet (or Canary, Whisper, or your provider's model) on several threads; cutting words cuts the video, fillers and pauses go in one click. AI edit with your own key: the model reads what you say and looks at your screen, then places zooms and layouts (camera alone for the intro, screen alone), blurs personal data it sees, cuts retakes and adds chapters, in one undoable step. Backgrounds, camera bubble, translated captions, noise removal (RNNoise) and -16 LUFS loudness. MP4 exports up to 4K60, WebM, GIF, SRT/VTT, a standalone HTML file, and peer-to-peer links with live stats and reactions. No account, no server."
+      "fr": "Enregistre et monte tes vidéos en éditant le texte, à la Loom, dans le navigateur.",
+      "en": "Record and edit videos by editing the text, Loom-style, in the browser."
     },
     "obscura": {
-      "fr": "Studio d'enregistrement léger et privé dans le navigateur, à la OBS : scènes, écran, fenêtre ou onglet, caméra en bulle, texte, images, masques de confidentialité, mixeur audio (réduction de bruit RNNoise sur l'appareil) et transitions, composés en WebGL 2 et encodés en WebCodecs (MP4 ou WebM). L'enregistrement est écrit sur le disque au fil de l'eau (OPFS), donc un onglet fermé ou un crash laisse un fichier lisible. Chiffrement optionnel (Argon2id + AES-256-GCM), page d'enregistrement sans aucun accès réseau (CSP stricte, Trusted Types), PWA hors ligne, live optionnel en WHIP. CLI Rust pour déchiffrer, inspecter et réparer (brew install maxgfr/tap/obscura).",
-      "en": "A light, private recording studio in the browser, in the spirit of OBS: scenes with a screen, window or tab, a camera bubble, text, images and privacy masks, an audio mixer (on-device RNNoise noise reduction) and transitions, composed with WebGL 2 and encoded with WebCodecs (MP4 or WebM). Recordings are written to disk as they are made (OPFS), so a closed tab or a crash leaves a playable file. Optional encryption (Argon2id + AES-256-GCM), a recording page with no network access at all (strict CSP, Trusted Types), offline PWA, optional live streaming over WHIP. A Rust CLI decrypts, inspects and repairs recordings (brew install maxgfr/tap/obscura)."
+      "fr": "Studio d'enregistrement privé dans le navigateur, à la OBS.",
+      "en": "Private recording studio in the browser, OBS-style."
     },
     "slotmatch": {
-      "fr": "Trouver un créneau commun entre plusieurs personnes, fuseaux horaires et règles de panel (« le candidat + 1 ingé + 1 RH », « 2 parmi 4 »). Dispos hebdo peintes sur une grille, exceptions, import .ics (récurrences, fuseaux Outlook) ; créneaux classés avec un score explicable (préférences, équité entre recruteurs, précocité). Heatmap de couverture d'équipe, planificateur de journée d'entretiens sans double réservation, export .ics. Les candidats répondent via un lien : dispos peintes dans leur fuseau, renvoyées dans un lien compressé. Sans compte, sans serveur, tout reste dans le navigateur.",
-      "en": "Find a time that works across people, time zones and panel rules (\"the candidate + 1 engineer + 1 HR\", \"2 out of 4\"). Weekly availability painted on a grid, exceptions, .ics import (recurrences, Outlook zones); slots ranked with an explainable score (preferences, fairness across interviewers, earliness). Team coverage heatmap, interview-day planner with no double-booking, .ics export. Candidates answer through a link: they paint their time in their own zone and send it back in a compressed link. No account, no server, everything stays in the browser."
+      "fr": "Trouve un créneau commun entre plusieurs personnes et fuseaux.",
+      "en": "Find a meeting slot across people and time zones."
     },
     "sealoffice": {
-      "fr": "Éditeur Word, Excel et PowerPoint chiffré qui tourne entièrement dans le navigateur : l'éditeur ibisOffice (Rust/WebAssembly, WebGPU) branché sur un coffre local chiffré avec age (clé X25519 protégée par phrase de passe scrypt). Import et export en .age ou en fichiers Office protégés par mot de passe, aucun serveur, CSP stricte, zéro requête externe, marche hors ligne.",
-      "en": "Encrypted Word, Excel and PowerPoint editor that runs entirely in the browser: the ibisOffice editor (Rust/WebAssembly, WebGPU) on top of a local vault encrypted with age (X25519 key wrapped by an scrypt passphrase). Import and export as .age or password-protected Office files, no server, strict CSP, zero external requests, works offline."
+      "fr": "Éditeur Word, Excel et PowerPoint chiffré dans le navigateur.",
+      "en": "Encrypted Word, Excel and PowerPoint editor in the browser."
     },
     "pdfvault": {
-      "fr": "Boîte à outils PDF et images qui n'envoie jamais vos fichiers : compresser (sans perte, équilibré, fort ou extrême, jamais plus gros que l'original), fusionner, découper, réordonner, pivoter, filigrane, numéros de page, signature visuelle, mot de passe AES-256, OCR vers PDF cherchable, PDF vers Markdown, texte ou EPUB, et compression, conversion ou nettoyage EXIF des images. Un seul moteur Rust compilé en WebAssembly sert le site et la CLI (brew install maxgfr/tap/pdfvault, binaire autonome avec l'OCR intégré), avec une skill d'agent. CSP stricte, zéro requête externe, marche hors ligne, coffre chiffré optionnel (Argon2id + AES-GCM).",
-      "en": "PDF and image toolbox that never uploads your files: compress (lossless, balanced, strong or extreme, never larger than the original), merge, split, reorder, rotate, watermark, page numbers, visual signature, AES-256 passwords, OCR to searchable PDF, PDF to Markdown, text or EPUB, plus image compression, conversion and EXIF stripping. One Rust engine compiled to WebAssembly powers both the site and the CLI (brew install maxgfr/tap/pdfvault, a standalone binary with OCR built in), with an agent skill. Strict CSP, zero external requests, works offline, optional encrypted vault (Argon2id + AES-GCM)."
+      "fr": "Boîte à outils PDF qui n'envoie jamais tes fichiers : compresser, fusionner, signer, OCR…",
+      "en": "PDF toolbox that never uploads your files: compress, merge, sign, OCR…"
     },
     "troupe": {
-      "fr": "Studio auto-hébergé de courtes vidéos IA : un acteur, un script avec une émotion par ligne, un modèle — Veo, Kling ou Seedance avec vos clés, ou votre propre GPU via ComfyUI (LTX-2, Wan 2.2) ou n'importe quel serveur HTTP. Les choix proposés suivent ce que chaque modèle sait faire, les clés sont chiffrées, et tout démarre avec un docker compose up.",
-      "en": "Self-hosted studio for short AI videos: an actor, a script with an emotion per line, a model — Veo, Kling or Seedance with your own keys, or your own GPU through ComfyUI (LTX-2, Wan 2.2) or any HTTP server. Pickers only offer what each model can do, keys are encrypted at rest, and it all starts with one docker compose up."
+      "fr": "Studio auto-hébergé de courtes vidéos IA.",
+      "en": "Self-hosted studio for short AI videos."
     },
     "sealbin": {
-      "fr": "Pastebin chiffré qui tourne entièrement dans le navigateur, dans l'esprit de wastebin. Le texte est compressé puis chiffré en AES-256-GCM avant de quitter la page : le partage se fait soit par un lien autonome (tout le paste vit dans le #fragment, jamais envoyé au serveur), soit par un lien court stocké chiffré sur des relais Nostr, qui appliquent l'expiration et permettent la destruction après lecture. Mot de passe optionnel (argon2id), coloration de plus de 200 langages (Shiki), rendu Markdown assaini, vue brute, téléchargement, QR code, plage de lignes dans l'URL, raccourcis clavier, thèmes clair/sombre. CSP stricte, aucune requête réseau en mode lien, PWA utilisable hors-ligne. Sans compte, sans serveur, hébergé sur GitHub Pages.",
-      "en": "Encrypted pastebin that runs entirely in the browser, in the spirit of wastebin. Text is compressed then encrypted with AES-256-GCM before it leaves the page, and shared either as a self-contained link (the whole paste lives in the #fragment, never sent to the server) or as a short link stored encrypted on Nostr relays, which enforce expiry and allow burn after reading. Optional password (argon2id), highlighting for 200+ languages (Shiki), sanitised Markdown rendering, raw view, download, QR code, line ranges in the URL, keyboard shortcuts, light/dark themes. Strict CSP, zero network requests in link mode, offline-capable PWA. No account, no server, hosted on GitHub Pages."
+      "fr": "Pastebin chiffré dans le navigateur, sans compte.",
+      "en": "Encrypted pastebin in the browser, no account."
     },
     "cursus": {
-      "fr": "Application d'étude local-first pour les étudiants, en PWA sur iPhone, iPad et Mac. On range sa matière par cours (notes Markdown avec maths, PDF, photos), l'IA explique un sujet à partir de ses propres sources avec des citations vérifiées, puis on retient avec des cartes FSRS, des textes à trous, des quiz et « réponds avec tes mots » corrigé par l'IA. Modèle au choix dans le catalogue llm-models, avec sa propre clé, appelé directement depuis le navigateur. Rien ne se perd : un journal immuable se réplique sans conflit vers plusieurs destinations à la fois (S3, Google Drive, Dropbox, CloudKit, dossier local ou iCloud Drive, fichiers .cursus, appareil à proximité en WebRTC), avec chiffrement optionnel par destination et un exercice de restauration qui le prouve. Import et export Anki (.apkg, historique compris). Interface en anglais, allemand et français. Sans compte, sans serveur, hébergée sur GitHub Pages.",
-      "en": "Local-first study app for students, a PWA for iPhone, iPad and Mac. Course material is organised by course (Markdown notes with maths, PDFs, photos); the AI explains a topic from your own sources with checked citations, then you retain it with FSRS flashcards, cloze cards, quizzes and AI-graded “answer in your own words”. Any model from the llm-models catalog, with your own key, called straight from the browser. Nothing gets lost: an immutable log replicates conflict-free to several destinations at once (S3, Google Drive, Dropbox, CloudKit, a local or iCloud Drive folder, .cursus files, a nearby device over WebRTC), with optional per-destination encryption and a restore drill that proves it. Anki import and export (.apkg, review history included). English, German and French UI. No account, no server, hosted on GitHub Pages."
+      "fr": "Appli de révision : explications IA depuis tes sources, flashcards et quiz.",
+      "en": "Study app: AI explanations from your sources, flashcards and quizzes."
     },
     "amphi": {
-      "fr": "Suivre ses cours avec l'IA, dans le navigateur, en PWA hors ligne. On enregistre ou importe ses séances (audio, vidéo, PDF, notes) avec une transcription sur l'appareil ou chez son fournisseur, puis le Studio en tire des résumés et guides de révision, cartes mentales, quiz, flashcards, infographies, diaporamas (PowerPoint, PDF), podcasts et résumés vidéo narrés, tous cités vers leurs sources. Un chat qui cite les passages, une page Progression avec la maîtrise de chaque notion et un tuteur socratique. Découvrir, sur la page Aujourd'hui, part d'un sujet, d'une question, d'un livre ou d'une compétence : la recherche web du fournisseur cartographie les notions et propose des sources vérifiées, puis en fait un sujet, l'ajoute à un cours, creuse une notion, trouve de nouvelles sources, suggère quoi apprendre ensuite et transforme les notions en parcours de séances. Corbeille avec annulation, purgée après 30 jours. Modèle au choix dans le catalogue llm-models avec sa propre clé ; synchro vers son propre dépôt GitHub (chiffrable de bout en bout), dossier local ou zip ; export Anki et vers Cursus ; mode démo. Interface en anglais, français et allemand. Sans compte, sans serveur, hébergée sur GitHub Pages.",
-      "en": "Follow your courses with AI, in the browser, as an offline PWA. Record or import lectures (audio, video, PDFs, notes), transcribed on the device or by your provider, then the Studio makes summaries and study guides, mind maps, quizzes, flashcards, infographics, slide decks (PowerPoint, PDF), podcasts and narrated video summaries, all cited back to their sources. A chat that cites passages, a Progress page with each concept's mastery and a Socratic tutor. Discover, on the Today page, starts from a topic, a question, a book or a skill: the provider's web search maps its concepts and proposes checked sources, then makes it a topic, adds it to a course, digs into a concept, finds new sources, suggests what to learn next and turns the concepts into a path of lessons. A trash with undo, emptied after 30 days. Any model from the llm-models catalog with your own key; sync to your own GitHub repository (optionally end-to-end encrypted), a local folder or a zip; Anki and Cursus export; a demo mode. English, French and German UI. No account, no server, hosted on GitHub Pages."
+      "fr": "Transforme tes cours en résumés, quiz et flashcards avec l'IA.",
+      "en": "Turn your lectures into summaries, quizzes and flashcards with AI."
     },
     "cadence": {
-      "fr": "Carnet d'entraînement local-first pour n'importe quel sport, en PWA pensée pour le téléphone. On crée ses propres disciplines et exercices (y compris en pleine séance), ou on part d'un mode démo au choix (muscu, natation, athlétisme, ou plusieurs) avec ses exercices et programmes (full body débutant, force façon 5/3/1, 1500 m nage, bloc sprinteur 100 m). Séance du jour pré-remplie, saisie rapide série par série avec minuteur de récupération, historique prévu vs réalisé, records, objectifs projetés jusqu'à l'échéance et graphiques (1RM estimé, meilleurs temps, allure, volume hebdo par discipline, calendrier). Modes Normal et Avancé (RPE par série, %1RM, tempo, séries par groupe musculaire). IA optionnelle avec sa propre clé et un modèle du catalogue llm-models : conçoit un programme ou ajuste la semaine suivante, toujours en brouillon modifiable. Export JSON et CSV. Sans compte, sans serveur, hébergée sur GitHub Pages.",
-      "en": "Local-first training log for any sport, a phone-first PWA. Create your own disciplines and exercises (even mid-session), or start from a demo of your choice (gym, swimming, track and field, or several) with its exercises and programs (beginner full body, 5/3/1-style strength, 1500 m swim build, 100 m sprinter block). Today's session pre-filled, fast set-by-set logging with a rest timer, history with planned vs done, records, goals projected to their deadline and charts (estimated 1RM, best times, pace, weekly volume per discipline, training calendar). Normal and Advanced modes (RPE per set, %1RM, tempo, sets per muscle group). Optional AI with your own key and any model from the llm-models catalog: designs a program or adjusts next week, always as an editable draft. JSON and CSV export. No account, no server, hosted on GitHub Pages."
+      "fr": "Carnet d'entraînement pour tout sport, sur téléphone.",
+      "en": "Training log for any sport, on your phone."
     },
     "aparte": {
-      "fr": "Chat IA privé qui tourne entièrement dans le navigateur, en PWA. Ses propres clés (Anthropic, OpenAI, Gemini, Mistral, OpenRouter, Groq et tout endpoint compatible, catalogue llm-models) ou des modèles sur l'appareil (WebLLM, Chrome AI, Ollama, LM Studio), avec réglage de l'effort de raisonnement. Outils avec approbation, serveurs MCP avec OAuth, skills, recherche approfondie aux citations vérifiées, bacs à sable JavaScript et Python (Pyodide), artifacts HTML/SVG/Mermaid, bases de connaissances locales (PDF, DOCX, PPTX), dictée et lecture à voix haute sur l'appareil, génération d'images, Beam, Arena, personnages, imports ChatGPT/Claude/Open WebUI. Tout est chiffré au repos (Argon2id + clé secrète, AES-256-GCM) et synchronisé de bout en bout vers son propre dépôt GitHub, S3/R2 ou un dossier, photos comprises, avec détection de rollback. CSP stricte et Trusted Types, aucun serveur, aucune télémétrie. CLI Rust compatible (agent, outils, MCP, skills, même coffre et même sync). Interface en anglais, français et allemand, hébergée sur GitHub Pages.",
-      "en": "Private AI chat that runs entirely in the browser, as a PWA. Bring your own keys (Anthropic, OpenAI, Gemini, Mistral, OpenRouter, Groq and any compatible endpoint, from the llm-models catalog) or run models on the device (WebLLM, Chrome AI, Ollama, LM Studio), with a reasoning-effort control. Tools with approvals, MCP servers with OAuth, skills, Deep research with checked citations, JavaScript and Python (Pyodide) sandboxes, HTML/SVG/Mermaid artifacts, local knowledge bases (PDF, DOCX, PPTX), on-device dictation and read-aloud, image generation, Beam, Arena, characters, ChatGPT/Claude/Open WebUI imports. Everything is encrypted at rest (Argon2id plus a Secret Key, AES-256-GCM) and synced end to end to your own GitHub repo, S3/R2 or a folder, photos included, with rollback detection. Strict CSP and Trusted Types, no server, no telemetry. A compatible Rust CLI (agent, tools, MCP, skills, same vault and sync). English, French and German UI, hosted on GitHub Pages."
+      "fr": "Chat IA privé et chiffré dans le navigateur, avec tes clés ou des modèles locaux.",
+      "en": "Private, encrypted AI chat in the browser, with your keys or local models."
     },
     "manga-anim": {
-      "fr": "Transforme des planches de manga en vidéo, en local sur Apple Silicon : détection des cases et des bulles (Magi v2), OCR multilingue, voix de synthèse par personnage (Kokoro), sous-titres et mouvements de caméra, animation IA de cases choisies (Wan2.2 via MLX). Import CBZ/EPUB/PDF ou MangaDex, liseuse web pour corriger l'OCR, et une skill d'agent pour tout piloter. (Rust)",
-      "en": "Turns manga pages into videos, locally on Apple Silicon: panel and bubble detection (Magi v2), multilingual OCR, per-character voices (Kokoro), captions and camera moves, AI animation of chosen panels (Wan2.2 via MLX). CBZ/EPUB/PDF or MangaDex import, a web reader to fix OCR, and an agent skill to drive it all. (Rust)"
+      "fr": "Transforme des planches de manga en vidéos narrées, en local sur Apple Silicon (Rust).",
+      "en": "Turns manga pages into narrated videos, locally on Apple Silicon (Rust)."
     },
     "verbatim": {
-      "fr": "Transcrire et monter vidéos et audios sans rien envoyer : NVIDIA Parakeet (25 langues, détectée seule, minutée au mot), Canary ou Whisper tournent dans l'onglet (WebGPU ou WebAssembly, via llm-connect). La transcription se lit comme une tracklist synchronisée au média : le mot joué est souligné, un clic y saute, on corrige sur place. Montage par sélection de mots, par segment, par phrase en français ou en anglais (« supprime de 15:39 à 15:43 et les 5:42 dernières minutes »), hésitations et silences ; aperçu sans les coupes et rendu MP4 exact à l'image dans la page (WebCodecs). Exports TXT, SRT, VTT, Markdown, JSON, CSV ou zip, traductions comprises ; résumé, chapitres, nettoyage et montage décrit par le contenu avec votre propre clé ou un modèle local. Même moteur Rust en CLI (brew install maxgfr/tap/verbatim : Parakeet via ONNX Runtime, coupes ffmpeg, plans IA) et skill pour agents. CSP stricte, hors ligne, anglais et français.",
-      "en": "Transcribe and edit video and audio without uploading anything: NVIDIA Parakeet (25 languages, found by the model, timed to the word), Canary or Whisper run in the tab (WebGPU or WebAssembly, through llm-connect). The transcript reads as a tracklist synced to the media: the playing word is underlined, a click seeks to it, corrections happen in place. Cuts by selected words, by segment, by a phrase in French or English (\"delete 15:39 to 15:43 and the last 5:42\"), hesitations and pauses; preview without the cuts and a frame-exact MP4 rendered in the page (WebCodecs). TXT, SRT, VTT, Markdown, JSON, CSV or zip exports, translations included; summary, chapters, cleanup and edits described by content with your own key or a local model. The same Rust engine as a CLI (brew install maxgfr/tap/verbatim: Parakeet through ONNX Runtime, ffmpeg cuts, AI plans) and an agent skill. Strict CSP, offline, English and French."
+      "fr": "Transcris et monte audio et vidéo dans le navigateur, sans rien envoyer.",
+      "en": "Transcribe and edit audio and video in the browser, nothing uploaded."
     },
     "pixvault": {
-      "fr": "Boîte à outils photo qui n'envoie jamais vos photos : compresser (MozJPEG, OxiPNG, WebP, AVIF, JPEG XL, à une qualité, un poids cible ou sans perte, jamais plus lourd), convertir les HEIC d'iPhone et les RAW, redimensionner, recadrer, retoucher (réglages, filtres, LUT .cube), filigrane, flouter des zones, voir et retirer l'EXIF/GPS sans recompresser, renommer en lot, collages, planches contact, PDF, GIF, favicons, palette et doublons, et des recettes qui enchaînent les étapes. IA sur l'appareil : détourage (BiRefNet, MODNet), agrandissement ×2/×4 (Swin2SR), floutage auto des visages (YuNet), gomme à objets (MI-GAN), légendes et mots-clés (Florence-2, ou votre propre clé via llm-connect). Par lots dans des Web Workers, CSP stricte avec garde anti-réseau en CI, hors ligne, anglais et français.",
-      "en": "Photo toolbox that never uploads your photos: compress (MozJPEG, OxiPNG, WebP, AVIF, JPEG XL, to a quality, a target size or losslessly, never larger), convert iPhone HEIC and camera RAW, resize, crop, retouch (adjustments, filters, .cube LUTs), watermark, blur areas, inspect and strip EXIF/GPS without re-compressing, batch rename, collages, contact sheets, PDFs, GIFs, favicons, palettes and duplicate finding, plus recipes that chain steps. On-device AI: background removal (BiRefNet, MODNet), ×2/×4 upscaling (Swin2SR), automatic face blurring (YuNet), object eraser (MI-GAN), captions and keywords (Florence-2, or your own key through llm-connect). Batches in Web Workers, strict CSP with a no-network CI gate, offline, English and French."
+      "fr": "Boîte à outils photo qui n'envoie jamais tes photos, avec IA sur l'appareil.",
+      "en": "Photo toolbox that never uploads your photos, with on-device AI."
     }
   }
 }

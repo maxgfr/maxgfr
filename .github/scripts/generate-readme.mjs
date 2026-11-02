@@ -54,7 +54,7 @@ function linkLabel(url) {
 function bullet(repo) {
   const d = (CONFIG.descriptions || {})[repo.name];
   const desc = (d && d.en) || repo.description || 'No description.';
-  let line = `- **[${repo.name}](${repo.html_url})** — ${desc.trim()}`;
+  let line = `- **[${repo.name}](${repo.html_url})**: ${desc.trim()}`;
   const hp = (repo.homepage || '').trim();
   if (hp) line += ` · [${linkLabel(hp)}](${hp})`;
   return line;
@@ -73,7 +73,7 @@ function renderProjects(repos) {
     const lines = [];
     for (const name of cat.repos) {
       const r = byName.get(name);
-      if (!r) continue; // repo renamed/removed — silently skip
+      if (!r) continue; // repo renamed/removed: silently skip
       used.add(name);
       lines.push(bullet(r));
     }
