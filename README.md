@@ -67,7 +67,7 @@ engineer.whatIDo();
 </details>
 
 <details>
-<summary><strong>🤖 AI & dev tooling</strong> · 16</summary>
+<summary><strong>🤖 AI & dev tooling</strong> · 17</summary>
 
 - **[feelc](https://github.com/maxgfr/feelc)**: Business rules engine in Go: an LLM writes the rules, the engine proves and runs them. · [demo](https://maxgfr.github.io/feelc/)
 - **[nuee](https://github.com/maxgfr/nuee)**: Turns a group's laptops and phones into a private, short-lived cloud from one link. · [demo](https://maxgfr.github.io/nuee/)
@@ -81,6 +81,7 @@ engineer.whatIDo();
 - **[termrevive](https://github.com/maxgfr/termrevive)**: Restores your terminal sessions and coding agents after a reboot, on macOS (Rust).
 - **[claude-code-switch](https://github.com/maxgfr/claude-code-switch)**: Switch Claude Code between providers (Anthropic, OpenRouter, DeepSeek, Kimi…).
 - **[codexify](https://github.com/maxgfr/codexify)**: Companion toolbox for Codex: model profiles, notifications, backups (Rust).
+- **[harness-action](https://github.com/maxgfr/harness-action)**: Runs a coding agent (OpenCode, Codex, Pi) in GitHub Actions, with any model and any skill.
 - **[git-pilot](https://github.com/maxgfr/git-pilot)**: AI git automation: commits, conflict resolution and rebase. Pure Bash.
 - **[git-recap](https://github.com/maxgfr/git-recap)**: Monthly commit recap with AI summaries.
 - **[llm-models](https://github.com/maxgfr/llm-models)**: Fetches the latest LLM models from OpenRouter and models.dev. · [npm](https://www.npmjs.com/package/llm-models)
