@@ -66,6 +66,7 @@
         "github-helpers",
         "copyable-pdf",
         "manga-anim",
+        "otpx",
         "ratio-master",
         "unsleep"
       ]
@@ -630,6 +631,10 @@
     "manga-anim": {
       "fr": "Transforme des planches de manga en vidéos narrées, en local sur Apple Silicon (Rust).",
       "en": "Turns manga pages into narrated videos, locally on Apple Silicon (Rust)."
+    },
+    "otpx": {
+      "fr": "Tes codes 2FA dans le terminal et le navigateur, chiffrés et synchronisés (Rust).",
+      "en": "Your 2FA codes in the terminal and the browser, encrypted and synced (Rust)."
     },
     "verbatim": {
       "fr": "Transcris et monte audio et vidéo dans le navigateur, sans rien envoyer.",
