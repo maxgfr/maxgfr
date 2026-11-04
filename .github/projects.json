@@ -46,7 +46,6 @@
         "termrevive",
         "claude-code-switch",
         "codexify",
-        "harness-action",
         "git-pilot",
         "git-recap",
         "llm-models",
@@ -164,6 +163,7 @@
       "title_fr": "⚙️ GitHub Actions",
       "title_en": "⚙️ GitHub Actions",
       "repos": [
+        "harness-action",
         "github-change-json",
         "github-commit-push-file",
         "github-multi-deployments"
