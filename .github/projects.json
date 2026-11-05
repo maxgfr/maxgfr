@@ -90,6 +90,7 @@
         "hush",
         "agora",
         "obscura",
+        "nubes",
         "stepcast",
         "takeone",
         "toolbelt",
@@ -592,6 +593,10 @@
     "obscura": {
       "fr": "Studio d'enregistrement privé dans le navigateur, à la OBS.",
       "en": "Private recording studio in the browser, OBS-style."
+    },
+    "nubes": {
+      "fr": "Ton cloud perso dans un dépôt GitHub : glisse tes fichiers, synchronise tes dossiers.",
+      "en": "Your own cloud in a GitHub repo: drop files anywhere, sync folders."
     },
     "slotmatch": {
       "fr": "Trouve un créneau commun entre plusieurs personnes et fuseaux.",
