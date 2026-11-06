@@ -223,4 +223,11 @@ engineer.whatIDo();
 - **[maxgfr.github.io](https://github.com/maxgfr/maxgfr.github.io)**: Source of my personal website. · [demo](https://maxgfr.github.io/)
 
 </details>
+
+<details>
+<summary><strong>🆕 Uncategorized</strong> · 1</summary>
+
+- **[devkit](https://github.com/maxgfr/devkit)**: Chrome extension for web developers: cache & site data, page inspection (JSON-LD, headers, Web Vitals…), request rules, utilities and AI analysis with your own model · [demo](https://maxgfr.github.io/devkit/)
+
+</details>
 <!-- PROJECTS:END -->
