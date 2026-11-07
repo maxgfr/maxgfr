@@ -160,6 +160,13 @@ engineer.whatIDo();
 </details>
 
 <details>
+<summary><strong>🔌 Chrome extensions</strong> · 1</summary>
+
+- **[devkit](https://github.com/maxgfr/devkit)**: Chrome extension for web developers: cache & site data, page inspection (JSON-LD, headers, Web Vitals…), request rules and AI analysis with your own model. · [demo](https://maxgfr.github.io/devkit/)
+
+</details>
+
+<details>
 <summary><strong>🎮 Games</strong> · 2</summary>
 
 - **[terravia](https://github.com/maxgfr/terravia)**: Creature-collecting RPG in a procedural world, in the browser. · [demo](https://maxgfr.github.io/terravia)
@@ -221,13 +228,6 @@ engineer.whatIDo();
 - **[homebrew-tap](https://github.com/maxgfr/homebrew-tap)**: Homebrew tap for my CLI tools.
 - **[michel-golfier](https://github.com/maxgfr/michel-golfier)**: Source of a writer's website. · [site](https://www.michelgolfier.fr)
 - **[maxgfr.github.io](https://github.com/maxgfr/maxgfr.github.io)**: Source of my personal website. · [demo](https://maxgfr.github.io/)
-
-</details>
-
-<details>
-<summary><strong>🆕 Uncategorized</strong> · 1</summary>
-
-- **[devkit](https://github.com/maxgfr/devkit)**: Chrome extension for web developers: cache & site data, page inspection (JSON-LD, headers, Web Vitals…), request rules, utilities and AI analysis with your own model · [demo](https://maxgfr.github.io/devkit/)
 
 </details>
 <!-- PROJECTS:END -->

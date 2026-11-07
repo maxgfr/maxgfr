@@ -124,6 +124,13 @@
       ]
     },
     {
+      "title_fr": "🔌 Extensions Chrome",
+      "title_en": "🔌 Chrome extensions",
+      "repos": [
+        "devkit"
+      ]
+    },
+    {
       "title_fr": "🎮 Jeux",
       "title_en": "🎮 Games",
       "repos": [
@@ -190,6 +197,10 @@
     }
   ],
   "descriptions": {
+    "devkit": {
+      "fr": "Extension Chrome pour devs web : cache et données de site, inspection de page (JSON-LD, en-têtes, Web Vitals…), règles de requêtes et analyse IA avec ton propre modèle.",
+      "en": "Chrome extension for web developers: cache & site data, page inspection (JSON-LD, headers, Web Vitals…), request rules and AI analysis with your own model."
+    },
     "nuee": {
       "fr": "Transforme les appareils d'un groupe de confiance en cloud privé et éphémère, à partir d'un lien.",
       "en": "Turns a group's laptops and phones into a private, short-lived cloud from one link."
