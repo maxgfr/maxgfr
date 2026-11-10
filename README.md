@@ -170,7 +170,7 @@ engineer.whatIDo();
 <summary><strong>🎮 Games</strong> · 2</summary>
 
 - **[terravia](https://github.com/maxgfr/terravia)**: Creature-collecting RPG in a procedural world, in the browser. · [demo](https://maxgfr.github.io/terravia)
-- **[versus](https://github.com/maxgfr/versus)**: 114 two-player mini-games, face to face on one phone. · [demo](https://maxgfr.github.io/versus/)
+- **[versus](https://github.com/maxgfr/versus)**: 100+ two-player mini-games, face to face on one phone. · [demo](https://maxgfr.github.io/versus/)
 
 </details>
 
