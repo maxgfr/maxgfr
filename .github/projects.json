@@ -21,6 +21,7 @@
         "ultraindex",
         "ultrasearch",
         "ultrasec",
+        "ultraguard",
         "ultrai18n",
         "ultraprospect",
         "ultrawatch",
@@ -669,6 +670,10 @@
     "starsmith": {
       "fr": "Transforme tes stars GitHub en awesome list triée par IA, avec un site de recherche.",
       "en": "Turns your GitHub stars into an awesome list sorted by AI, with a searchable site."
+    },
+    "ultraguard": {
+      "fr": "Antivirus IA qui vérifie si les dernières attaques t'ont touché, sur GitHub, ta machine et ton cloud.",
+      "en": "AI antivirus that checks whether the latest attacks hit your GitHub, machine or cloud."
     }
   }
 }
