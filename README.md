@@ -225,7 +225,7 @@ engineer.whatIDo();
 <details>
 <summary><strong>🧩 Other</strong> · 4</summary>
 
-- **[awesome-stars](https://github.com/maxgfr/awesome-stars)**: My GitHub stars, sorted and rebuilt daily by starsmith.
+- **[awesome-stars](https://github.com/maxgfr/awesome-stars)**: My GitHub stars, sorted and rebuilt daily by starsmith. · [demo](https://maxgfr.github.io/awesome-stars/)
 - **[homebrew-tap](https://github.com/maxgfr/homebrew-tap)**: Homebrew tap for my CLI tools.
 - **[michel-golfier](https://github.com/maxgfr/michel-golfier)**: Source of a writer's website. · [site](https://www.michelgolfier.fr)
 - **[maxgfr.github.io](https://github.com/maxgfr/maxgfr.github.io)**: Source of my personal website. · [demo](https://maxgfr.github.io/)
