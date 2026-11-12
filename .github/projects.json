@@ -172,6 +172,7 @@
       "title_en": "⚙️ GitHub Actions",
       "repos": [
         "harness-action",
+        "starsmith",
         "github-change-json",
         "github-commit-push-file",
         "github-multi-deployments"
@@ -490,8 +491,8 @@
       "en": "Leboncoin scraper using the Chrome DevTools Protocol, no Puppeteer."
     },
     "awesome-stars": {
-      "fr": "Les dépôts que j'ai aimés sur GitHub.",
-      "en": "Repositories I've starred on GitHub."
+      "fr": "Mes stars GitHub, triées et mises à jour chaque jour par starsmith.",
+      "en": "My GitHub stars, sorted and rebuilt daily by starsmith."
     },
     "homebrew-tap": {
       "fr": "Tap Homebrew pour mes outils CLI.",
@@ -664,6 +665,10 @@
     "harness-action": {
       "fr": "Lance un agent de code (OpenCode, Codex, Pi, OpenClaw) dans GitHub Actions, avec le modèle et les skills de ton choix.",
       "en": "Runs a coding agent (OpenCode, Codex, Pi, OpenClaw) in GitHub Actions, with any model and any skill."
+    },
+    "starsmith": {
+      "fr": "Transforme tes stars GitHub en awesome list triée par IA, avec un site de recherche.",
+      "en": "Turns your GitHub stars into an awesome list sorted by AI, with a searchable site."
     }
   }
 }
