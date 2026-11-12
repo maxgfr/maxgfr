@@ -49,13 +49,14 @@ engineer.whatIDo();
 
 <!-- PROJECTS:START -->
 <details>
-<summary><strong>🪄 Agent skills</strong> · 12</summary>
+<summary><strong>🪄 Agent skills</strong> · 13</summary>
 
 - **[skills](https://github.com/maxgfr/skills)**: My agent skills, which change how an agent works. Install with `npx skills add maxgfr/skills`. · [site](https://www.skills.sh/maxgfr/skills)
 - **[ultradoc](https://github.com/maxgfr/ultradoc)**: Sourced Q&A and reference docs for any open source project, from its code, issues and PRs.
 - **[ultraindex](https://github.com/maxgfr/ultraindex)**: Indexes a huge repo into an encyclopedia an AI can navigate.
 - **[ultrasearch](https://github.com/maxgfr/ultrasearch)**: Web research without API keys, delivered as a report with checked citations.
 - **[ultrasec](https://github.com/maxgfr/ultrasec)**: Security audit agent that traces vulnerabilities across files and verifies each finding.
+- **[ultraguard](https://github.com/maxgfr/ultraguard)**: AI antivirus that checks whether the latest attacks hit your GitHub, machine or cloud. · [site](https://www.skills.sh/maxgfr/ultraguard)
 - **[ultrai18n](https://github.com/maxgfr/ultrai18n)**: Finds, translates and checks every user-facing string in a repo, with cheap models.
 - **[ultraprospect](https://github.com/maxgfr/ultraprospect)**: Turns a location into a sourced prospect list. No API keys.
 - **[ultrawatch](https://github.com/maxgfr/ultrawatch)**: Lets an agent watch videos: searchable transcripts and frames, with citations.
@@ -229,6 +230,13 @@ engineer.whatIDo();
 - **[homebrew-tap](https://github.com/maxgfr/homebrew-tap)**: Homebrew tap for my CLI tools.
 - **[michel-golfier](https://github.com/maxgfr/michel-golfier)**: Source of a writer's website. · [site](https://www.michelgolfier.fr)
 - **[maxgfr.github.io](https://github.com/maxgfr/maxgfr.github.io)**: Source of my personal website. · [demo](https://maxgfr.github.io/)
+
+</details>
+
+<details>
+<summary><strong>🆕 Uncategorized</strong> · 1</summary>
+
+- **[regie](https://github.com/maxgfr/regie)**: A control room for watching several streams at once: Twitch, YouTube, Kick, TikTok side by side, one on air, delays lined up, chats merged, sound away from ads. Static, anonymous. · [demo](https://maxgfr.github.io/regie/)
 
 </details>
 <!-- PROJECTS:END -->
