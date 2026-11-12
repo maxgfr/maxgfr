@@ -109,7 +109,7 @@ engineer.whatIDo();
 </details>
 
 <details>
-<summary><strong>🌐 Web apps & PWAs</strong> · 46</summary>
+<summary><strong>🌐 Web apps & PWAs</strong> · 47</summary>
 
 - **[today](https://github.com/maxgfr/today)**: Daily to-do list where unfinished tasks wait for your decision. Private, offline. · [demo](https://maxgfr.github.io/today)
 - **[nook](https://github.com/maxgfr/nook)**: Encrypted, local-first Notion in the browser, with zero network requests. · [demo](https://maxgfr.github.io/nook/)
@@ -119,6 +119,7 @@ engineer.whatIDo();
 - **[tok](https://github.com/maxgfr/tok)**: Counts rallies and keeps score from your phone's mic and camera (ping-pong, volley…). · [demo](https://maxgfr.github.io/tok/)
 - **[lastdone](https://github.com/maxgfr/lastdone)**: Recurring reminders you talk to, powered by an LLM running in the browser. · [demo](https://maxgfr.github.io/lastdone/)
 - **[bracketeer](https://github.com/maxgfr/bracketeer)**: Tournament engine for any sport: brackets, leagues, groups, Elo. In the browser. · [demo](https://maxgfr.github.io/bracketeer)
+- **[regie](https://github.com/maxgfr/regie)**: Watch several streams at once (Twitch, YouTube, Kick…), no account. · [demo](https://maxgfr.github.io/regie/)
 - **[ephemeral](https://github.com/maxgfr/ephemeral)**: Live reactions, polls and Q&A over WebRTC, with no backend. · [demo](https://maxgfr.github.io/ephemeral/)
 - **[murmur](https://github.com/maxgfr/murmur)**: AI chat bubble that answers from your site's own pages. One script tag. · [demo](https://maxgfr.github.io/murmur/)
 - **[notabot](https://github.com/maxgfr/notabot)**: Open source, transparent bot detection with no backend. · [demo](https://maxgfr.github.io/notabot/)
@@ -230,13 +231,6 @@ engineer.whatIDo();
 - **[homebrew-tap](https://github.com/maxgfr/homebrew-tap)**: Homebrew tap for my CLI tools.
 - **[michel-golfier](https://github.com/maxgfr/michel-golfier)**: Source of a writer's website. · [site](https://www.michelgolfier.fr)
 - **[maxgfr.github.io](https://github.com/maxgfr/maxgfr.github.io)**: Source of my personal website. · [demo](https://maxgfr.github.io/)
-
-</details>
-
-<details>
-<summary><strong>🆕 Uncategorized</strong> · 1</summary>
-
-- **[regie](https://github.com/maxgfr/regie)**: A control room for watching several streams at once: Twitch, YouTube, Kick, TikTok side by side, one on air, delays lined up, chats merged, sound away from ads. Static, anonymous. · [demo](https://maxgfr.github.io/regie/)
 
 </details>
 <!-- PROJECTS:END -->

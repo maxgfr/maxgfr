@@ -84,6 +84,7 @@
         "tok",
         "lastdone",
         "bracketeer",
+        "regie",
         "ephemeral",
         "murmur",
         "notabot",
@@ -674,6 +675,10 @@
     "ultraguard": {
       "fr": "Antivirus IA qui vérifie si les dernières attaques t'ont touché, sur GitHub, ta machine et ton cloud.",
       "en": "AI antivirus that checks whether the latest attacks hit your GitHub, machine or cloud."
+    },
+    "regie": {
+      "fr": "Regarde plusieurs streams à la fois (Twitch, YouTube, Kick…), sans compte.",
+      "en": "Watch several streams at once (Twitch, YouTube, Kick…), no account."
     }
   }
 }
