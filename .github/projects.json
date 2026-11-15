@@ -100,6 +100,7 @@
         "goodscan",
         "medoc-ai",
         "spots",
+        "ways",
         "sealbin",
         "cursus",
         "amphi",
@@ -363,6 +364,10 @@
     "spots": {
       "fr": "Carnet de lieux sur carte, à la Mapstr, entièrement dans le navigateur.",
       "en": "Map notebook for your favorite places, Mapstr-style, entirely in the browser."
+    },
+    "ways": {
+      "fr": "Carte pour se déplacer, à la Google Maps, sur données ouvertes : transports, vélo, à pied, même hors ligne.",
+      "en": "Map to get around, Google Maps-style, on open data: transit, bike, walking, even offline."
     },
     "csv-ai-analyzer": {
       "fr": "Analyse des fichiers CSV par IA, dans le navigateur.",

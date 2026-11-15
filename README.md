@@ -109,7 +109,7 @@ engineer.whatIDo();
 </details>
 
 <details>
-<summary><strong>🌐 Web apps & PWAs</strong> · 47</summary>
+<summary><strong>🌐 Web apps & PWAs</strong> · 48</summary>
 
 - **[today](https://github.com/maxgfr/today)**: Daily to-do list where unfinished tasks wait for your decision. Private, offline. · [demo](https://maxgfr.github.io/today)
 - **[nook](https://github.com/maxgfr/nook)**: Encrypted, local-first Notion in the browser, with zero network requests. · [demo](https://maxgfr.github.io/nook/)
@@ -135,6 +135,7 @@ engineer.whatIDo();
 - **[goodscan](https://github.com/maxgfr/goodscan)**: Open, sourced food and cosmetics scanner, Yuka-style: scan a barcode, get a score you can check. · [demo](https://maxgfr.github.io/goodscan/)
 - **[medoc-ai](https://github.com/maxgfr/medoc-ai)**: Scan a medicine box and read its official leaflet, even offline, with optional AI. · [demo](https://maxgfr.github.io/medoc-ai/)
 - **[spots](https://github.com/maxgfr/spots)**: Map notebook for your favorite places, Mapstr-style, entirely in the browser. · [demo](https://maxgfr.github.io/spots/)
+- **[ways](https://github.com/maxgfr/ways)**: Map to get around, Google Maps-style, on open data: transit, bike, walking, even offline. · [demo](https://maxgfr.github.io/ways/)
 - **[sealbin](https://github.com/maxgfr/sealbin)**: Encrypted pastebin in the browser, no account. · [demo](https://maxgfr.github.io/sealbin/)
 - **[cursus](https://github.com/maxgfr/cursus)**: Study app: AI explanations from your sources, flashcards and quizzes. · [demo](https://maxgfr.github.io/cursus/)
 - **[amphi](https://github.com/maxgfr/amphi)**: Turn your lectures into summaries, quizzes and flashcards with AI. · [demo](https://maxgfr.github.io/amphi/)
