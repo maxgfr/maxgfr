@@ -76,6 +76,7 @@
       "title_fr": "🌐 Applications web & PWA",
       "title_en": "🌐 Web apps & PWAs",
       "repos": [
+        "eau",
         "today",
         "nook",
         "basilico",
@@ -684,6 +685,10 @@
     "regie": {
       "fr": "Regarde plusieurs streams à la fois (Twitch, YouTube, Kick…), sans compte.",
       "en": "Watch several streams at once (Twitch, YouTube, Kick…), no account."
+    },
+    "eau": {
+      "fr": "Rappels d'hydratation fluides et sonores au rythme de ton corps, sans compte ni pistage.",
+      "en": "Fluid, acoustic hydration reminders tuned to your body's rhythm, no account, no tracking."
     }
   }
 }
