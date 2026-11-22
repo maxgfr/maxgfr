@@ -76,6 +76,7 @@
       "title_fr": "🌐 Applications web & PWA",
       "title_en": "🌐 Web apps & PWAs",
       "repos": [
+        "apercura",
         "eau",
         "today",
         "nook",
@@ -689,6 +690,10 @@
     "eau": {
       "fr": "Rappels d'hydratation fluides et sonores au rythme de ton corps, sans compte ni pistage.",
       "en": "Fluid, acoustic hydration reminders tuned to your body's rhythm, no account, no tracking."
+    },
+    "apercura": {
+      "fr": "Une page et la prise de RDV gratuites pour chaque soignant de France, open source.",
+      "en": "A free page and free booking for every health practitioner in France, open source."
     }
   }
 }

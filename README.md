@@ -109,8 +109,9 @@ engineer.whatIDo();
 </details>
 
 <details>
-<summary><strong>🌐 Web apps & PWAs</strong> · 49</summary>
+<summary><strong>🌐 Web apps & PWAs</strong> · 50</summary>
 
+- **[apercura](https://github.com/maxgfr/apercura)**: A free page and free booking for every health practitioner in France, open source.
 - **[eau](https://github.com/maxgfr/eau)**: Fluid, acoustic hydration reminders tuned to your body's rhythm, no account, no tracking. · [demo](https://maxgfr.github.io/eau/)
 - **[today](https://github.com/maxgfr/today)**: Daily to-do list where unfinished tasks wait for your decision. Private, offline. · [demo](https://maxgfr.github.io/today)
 - **[nook](https://github.com/maxgfr/nook)**: Encrypted, local-first Notion in the browser, with zero network requests. · [demo](https://maxgfr.github.io/nook/)
@@ -233,13 +234,6 @@ engineer.whatIDo();
 - **[homebrew-tap](https://github.com/maxgfr/homebrew-tap)**: Homebrew tap for my CLI tools.
 - **[michel-golfier](https://github.com/maxgfr/michel-golfier)**: Source of a writer's website. · [site](https://www.michelgolfier.fr)
 - **[maxgfr.github.io](https://github.com/maxgfr/maxgfr.github.io)**: Source of my personal website. · [demo](https://maxgfr.github.io/)
-
-</details>
-
-<details>
-<summary><strong>🆕 Uncategorized</strong> · 1</summary>
-
-- **[apercura](https://github.com/maxgfr/apercura)**: The open directory and free booking tool for every health practitioner in France. Open source, HDS-hosted, self-hostable.
 
 </details>
 <!-- PROJECTS:END -->
