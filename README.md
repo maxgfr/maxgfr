@@ -111,7 +111,7 @@ engineer.whatIDo();
 <details>
 <summary><strong>🌐 Web apps & PWAs</strong> · 50</summary>
 
-- **[apercura](https://github.com/maxgfr/apercura)**: A free page and free booking for every health practitioner in France, open source.
+- **[apercura](https://github.com/maxgfr/apercura)**: The open directory and free booking for every health practitioner in France.
 - **[eau](https://github.com/maxgfr/eau)**: Fluid, acoustic hydration reminders tuned to your body's rhythm, no account, no tracking. · [demo](https://maxgfr.github.io/eau/)
 - **[today](https://github.com/maxgfr/today)**: Daily to-do list where unfinished tasks wait for your decision. Private, offline. · [demo](https://maxgfr.github.io/today)
 - **[nook](https://github.com/maxgfr/nook)**: Encrypted, local-first Notion in the browser, with zero network requests. · [demo](https://maxgfr.github.io/nook/)
