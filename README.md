@@ -90,7 +90,7 @@ engineer.whatIDo();
 </details>
 
 <details>
-<summary><strong>🛠️ CLIs & system tools</strong> · 13</summary>
+<summary><strong>🛠️ CLIs & system tools</strong> · 14</summary>
 
 - **[andro](https://github.com/maxgfr/andro)**: Run Android apps from the macOS terminal on a disposable emulator (Rust).
 - **[brutifi](https://github.com/maxgfr/brutifi)**: WiFi security testing tool in Rust, for learning and authorized audits.
@@ -105,11 +105,12 @@ engineer.whatIDo();
 - **[otpx](https://github.com/maxgfr/otpx)**: Your 2FA codes in the terminal and the browser, encrypted and synced (Rust). · [demo](https://maxgfr.github.io/otpx/)
 - **[ratio-master](https://github.com/maxgfr/ratio-master)**: Torrent ratio tool that talks to BitTorrent trackers.
 - **[unsleep](https://github.com/maxgfr/unsleep)**: Tiny executable that keeps the machine awake. · [npm](https://www.npmjs.com/package/unsleep)
+- **[leboncoin-cdp](https://github.com/maxgfr/leboncoin-cdp)**: Publish and manage your Leboncoin listings from markdown, without bot detection.
 
 </details>
 
 <details>
-<summary><strong>🌐 Web apps & PWAs</strong> · 49</summary>
+<summary><strong>🌐 Web apps & PWAs</strong> · 48</summary>
 
 - **[apercura](https://github.com/maxgfr/apercura)**: The open directory and free booking for every health practitioner.
 - **[today](https://github.com/maxgfr/today)**: Daily to-do list where unfinished tasks wait for your decision. Private, offline. · [demo](https://maxgfr.github.io/today)
@@ -154,7 +155,6 @@ engineer.whatIDo();
 - **[omnilingo](https://github.com/maxgfr/omnilingo)**: Desktop language learning app with an AI tutor.
 - **[feedreel](https://github.com/maxgfr/feedreel)**: Generates daily short videos and publishes them to Shorts, TikTok and Reels.
 - **[troupe](https://github.com/maxgfr/troupe)**: Self-hosted studio for short AI videos. · [demo](https://maxgfr.github.io/troupe/)
-- **[leboncoin-cdp](https://github.com/maxgfr/leboncoin-cdp)**: Leboncoin scraper using the Chrome DevTools Protocol, no Puppeteer.
 - **[release-notes-finder](https://github.com/maxgfr/release-notes-finder)**: Find npm package versions with their release notes. · [demo](https://maxgfr.github.io/release-notes-finder)
 - **[kanbo](https://github.com/maxgfr/kanbo)**: Local-first kanban, sprints and roadmap, with a git repo as backend. · [demo](https://maxgfr.github.io/kanbo/)
 - **[unmark](https://github.com/maxgfr/unmark)**: Removes watermarks from text and images, in the browser. · [demo](https://maxgfr.github.io/unmark/)
