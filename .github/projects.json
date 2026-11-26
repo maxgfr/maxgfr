@@ -1,8 +1,7 @@
 {
   "_comment": "SINGLE SOURCE OF TRUTH for both the profile README (maxgfr/maxgfr) and the website projects page (maxgfr.github.io). Edit ONLY this file. The README generator reads it locally; the website generator fetches it from this repo via the GitHub API. Bilingual: category titles have title_fr/title_en; each description is { fr, en }. 'exclude' is applied everywhere; 'excludeFromSite' is additionally removed from the website only. Any owned public repo not listed appears under the fallback category using its GitHub description.",
   "exclude": [
-    "maxgfr",
-    "ultra11y"
+    "maxgfr"
   ],
   "excludeFromSite": [
     "maxgfr.github.io"
@@ -77,7 +76,6 @@
       "title_fr": "🌐 Applications web & PWA",
       "title_en": "🌐 Web apps & PWAs",
       "repos": [
-        "apercura",
         "eau",
         "today",
         "nook",
@@ -690,10 +688,6 @@
     "eau": {
       "fr": "Rappels d'hydratation fluides et sonores au rythme de ton corps, sans compte ni pistage.",
       "en": "Fluid, acoustic hydration reminders tuned to your body's rhythm, no account, no tracking."
-    },
-    "apercura": {
-      "fr": "L'annuaire ouvert et la prise de RDV gratuite pour chaque soignant.",
-      "en": "The open directory and free booking for every health practitioner."
     }
   }
 }
