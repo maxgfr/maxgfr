@@ -234,4 +234,11 @@ engineer.whatIDo();
 - **[maxgfr.github.io](https://github.com/maxgfr/maxgfr.github.io)**: Source of my personal website. · [demo](https://maxgfr.github.io/)
 
 </details>
+
+<details>
+<summary><strong>🆕 Uncategorized</strong> · 1</summary>
+
+- **[ultraview](https://github.com/maxgfr/ultraview)**: See your app instead of reading its code: an interactive, cited map of a repository for the business and for developers — capabilities, systems, data, flows, saved questions and every change your agent makes. The visual layer over ultraindex. A skills.sh agent skill.
+
+</details>
 <!-- PROJECTS:END -->
