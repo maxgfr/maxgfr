@@ -29,40 +29,17 @@ async function allOwnedRepos() {
     out.push(...batch);
     if (batch.length < 100) break;
   }
-  // still owned by this account. GitHub can keep transferred repositories in
-  // this endpoint temporarily, even with type=owner, so verify the owner
-  // returned by the API as well.
-  return out.filter((r) => r.owner?.login.toLowerCase() === USER.toLowerCase() && isListed(r));
-}
-
-// public, non-fork, non-archived, not explicitly excluded.
-function isListed(r) {
-  return !r.private && !r.fork && !r.archived && !(CONFIG.exclude || []).includes(r.name);
-}
-
-// Repos owned elsewhere (e.g. transferred to an organization) that should still
-// be shown, listed by full name in projects.json "external". A failed fetch only
-// skips that repo, so one bad entry never breaks the run.
-async function externalRepos() {
-  const out = [];
-  for (const fullName of CONFIG.external || []) {
-    try {
-      const r = await gh(`/repos/${fullName}`);
-      if (isListed(r)) out.push(r);
-      else console.warn(`Skipping external repo ${fullName}: private, fork, archived or excluded.`);
-    } catch (e) {
-      console.warn(`Skipping external repo ${fullName}: ${e.message}`);
-    }
-  }
-  return out;
-}
-
-// Owned + external, deduplicated by full name (owned wins).
-async function allRepos() {
-  const owned = await allOwnedRepos();
-  const seen = new Set(owned.map((r) => r.full_name.toLowerCase()));
-  const extra = (await externalRepos()).filter((r) => !seen.has(r.full_name.toLowerCase()));
-  return [...owned, ...extra];
+  // public, still owned by this account, non-fork, non-archived, not explicitly excluded.
+  // GitHub can keep transferred repositories in this endpoint temporarily, even
+  // with type=owner, so verify the owner returned by the API as well.
+  return out.filter(
+    (r) =>
+      r.owner?.login.toLowerCase() === USER.toLowerCase() &&
+      !r.private &&
+      !r.fork &&
+      !r.archived &&
+      !(CONFIG.exclude || []).includes(r.name)
+  );
 }
 
 function linkLabel(url) {
@@ -119,7 +96,7 @@ function replaceBlock(text, name, content) {
 }
 
 async function main() {
-  const repos = await allRepos();
+  const repos = await allOwnedRepos();
   const projects = renderProjects(repos);
 
   let readme = readFileSync(README_PATH, 'utf8');

@@ -110,9 +110,8 @@ engineer.whatIDo();
 </details>
 
 <details>
-<summary><strong>🌐 Web apps & PWAs</strong> · 48</summary>
+<summary><strong>🌐 Web apps & PWAs</strong> · 47</summary>
 
-- **[apercura](https://github.com/apercura-org/apercura)**: Open directory of health practitioners across Europe, with free booking. · [site](https://apercura.org)
 - **[today](https://github.com/maxgfr/today)**: Daily to-do list where unfinished tasks wait for your decision. Private, offline. · [demo](https://maxgfr.github.io/today)
 - **[nook](https://github.com/maxgfr/nook)**: Encrypted, local-first Notion in the browser, with zero network requests. · [demo](https://maxgfr.github.io/nook/)
 - **[basilico](https://github.com/maxgfr/basilico)**: Pomodoro timer with tasks and stats, as a PWA and Chrome extension. No tracking. · [demo](https://maxgfr.github.io/basilico/)
