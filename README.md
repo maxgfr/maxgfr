@@ -49,11 +49,12 @@ engineer.whatIDo();
 
 <!-- PROJECTS:START -->
 <details>
-<summary><strong>🪄 Agent skills</strong> · 13</summary>
+<summary><strong>🪄 Agent skills</strong> · 14</summary>
 
 - **[skills](https://github.com/maxgfr/skills)**: My agent skills, which change how an agent works. Install with `npx skills add maxgfr/skills`. · [site](https://www.skills.sh/maxgfr/skills)
 - **[ultradoc](https://github.com/maxgfr/ultradoc)**: Sourced Q&A and reference docs for any open source project, from its code, issues and PRs.
 - **[ultraindex](https://github.com/maxgfr/ultraindex)**: Indexes a huge repo into an encyclopedia an AI can navigate.
+- **[ultraview](https://github.com/maxgfr/ultraview)**: See your app instead of reading its code: a cited, interactive map.
 - **[ultrasearch](https://github.com/maxgfr/ultrasearch)**: Web research without API keys, delivered as a report with checked citations.
 - **[ultrasec](https://github.com/maxgfr/ultrasec)**: Security audit agent that traces vulnerabilities across files and verifies each finding.
 - **[ultraguard](https://github.com/maxgfr/ultraguard)**: AI antivirus that checks whether the latest attacks hit your GitHub, machine or cloud.
@@ -232,13 +233,6 @@ engineer.whatIDo();
 - **[homebrew-tap](https://github.com/maxgfr/homebrew-tap)**: Homebrew tap for my CLI tools.
 - **[michel-golfier](https://github.com/maxgfr/michel-golfier)**: Source of a writer's website. · [site](https://www.michelgolfier.fr)
 - **[maxgfr.github.io](https://github.com/maxgfr/maxgfr.github.io)**: Source of my personal website. · [demo](https://maxgfr.github.io/)
-
-</details>
-
-<details>
-<summary><strong>🆕 Uncategorized</strong> · 1</summary>
-
-- **[ultraview](https://github.com/maxgfr/ultraview)**: See your app instead of reading its code: an interactive, cited map of a repository for the business and for developers — capabilities, systems, data, flows, saved questions and every change your agent makes. The visual layer over ultraindex. A skills.sh agent skill.
 
 </details>
 <!-- PROJECTS:END -->

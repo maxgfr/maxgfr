@@ -18,6 +18,7 @@
         "skills",
         "ultradoc",
         "ultraindex",
+        "ultraview",
         "ultrasearch",
         "ultrasec",
         "ultraguard",
@@ -224,6 +225,10 @@
     "ultraindex": {
       "fr": "Indexe un très gros dépôt en encyclopédie navigable par l'IA.",
       "en": "Indexes a huge repo into an encyclopedia an AI can navigate."
+    },
+    "ultraview": {
+      "fr": "Vois ton app au lieu de lire son code : une carte interactive et sourcée.",
+      "en": "See your app instead of reading its code: a cited, interactive map."
     },
     "ultrasearch": {
       "fr": "Recherche web sans clé d'API, livrée en rapport aux sources vérifiées.",
