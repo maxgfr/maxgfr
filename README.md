@@ -54,7 +54,7 @@ engineer.whatIDo();
 - **[skills](https://github.com/maxgfr/skills)**: My agent skills, which change how an agent works. Install with `npx skills add maxgfr/skills`. · [site](https://www.skills.sh/maxgfr/skills)
 - **[ultradoc](https://github.com/maxgfr/ultradoc)**: Sourced Q&A and reference docs for any open source project, from its code, issues and PRs.
 - **[ultraindex](https://github.com/maxgfr/ultraindex)**: Indexes a huge repo into an encyclopedia an AI can navigate.
-- **[ultraview](https://github.com/maxgfr/ultraview)**: See your app instead of reading its code: a cited, interactive map.
+- **[ultraview](https://github.com/maxgfr/ultraview)**: See your app instead of reading its code: a cited map you can question.
 - **[ultrasearch](https://github.com/maxgfr/ultrasearch)**: Web research without API keys, delivered as a report with checked citations.
 - **[ultrasec](https://github.com/maxgfr/ultrasec)**: Security audit agent that traces vulnerabilities across files and verifies each finding.
 - **[ultraguard](https://github.com/maxgfr/ultraguard)**: AI antivirus that checks whether the latest attacks hit your GitHub, machine or cloud.
